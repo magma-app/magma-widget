@@ -165,6 +165,7 @@ class MagmaWidget extends HTMLElement
                 width: 3rem;
                 font-size: 2rem;
                 cursor: pointer;
+                padding-left: 3px;
             }
 
             div.magma-modal button.magma-close:hover,
