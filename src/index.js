@@ -75,14 +75,14 @@ class MagmaWidget extends HTMLElement
         $style.textContent = `
             button.magma-contact {
                 background-color: #D2EEEE;
-                border: 3px solid #D2EEEE;
+                border: none;
                 color: #0A6E77;
                 text-transform: uppercase;
                 border-radius: 1em;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                padding-right: 12px;
+                padding: 0 12px 0 7px;
                 font-weight: bold;
                 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.07), 0px 1px 2px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
@@ -99,20 +99,16 @@ class MagmaWidget extends HTMLElement
                 right: 3rem;
             }
 
-            button.magma-contact:hover img {
-                border-color: #D2EEEE;
-            }
-
             button.magma-contact img {
                 border-radius: 50%;
-                border: 3px solid;
-                transform: scale(1.2);
+
             }
 
             button.magma-contact img:nth-child(1) {
                 margin-left: -14px;
                 z-index: 3;
                 height: 28px;
+                border: 4px solid #0A6E77;
             }
 
             button.magma-contact img:nth-child(2) {
@@ -120,6 +116,7 @@ class MagmaWidget extends HTMLElement
                 margin-right: 10px;
                 height: 20px;
                 z-index: 2;
+                border: 3px solid #0A6E77;
             }
 
             div.magma-modal {
@@ -174,7 +171,7 @@ class MagmaWidget extends HTMLElement
             div.magma-modal button.magma-close:active,
             div.magma-modal button.magma-close:focus {
                 background-color: #D8DEDE;
-                color: #F8F9F8;
+                color: #617F80;
             }
         `
         this.$shadow.appendChild($style)
