@@ -28,9 +28,9 @@ class MagmaWidget extends HTMLElement
     }
 
     iframe() {
-        const identifier = this.getAttribute('identifier')
+        const identifier = this.getAttribute('identifier') || 'aW9huE6'
         this.$iframe = document.createElement('iframe')
-        this.$iframe.src = `https://example.com/?id=${identifier}`
+        this.$iframe.src = `https://v2.candidate.magma.app/welcome/${identifier}`
         this.$iframe.loading = 'lazy'
         this.$modal.appendChild(this.$iframe)
     }
