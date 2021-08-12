@@ -73,7 +73,13 @@ class MagmaWidget extends HTMLElement
     style() {
         let $style = document.createElement('style')
         $style.textContent = `
+            @font-face {
+                font-family: 'Sofia Pro';
+                src: local('Sofia Pro'), url('https://v2.candidate.magma.app/assets/SofiaPro-Regular.7f7ecd11.woff2') format('woff2');
+            }
+
             button.magma-contact {
+                --magma-ripple-color: rgba(2, 52, 54, .3);
                 background-color: #D2EEEE;
                 border: none;
                 color: #0A6E77;
@@ -109,6 +115,10 @@ class MagmaWidget extends HTMLElement
                 z-index: 3;
                 height: 28px;
                 border: 4px solid #0A6E77;
+            }
+
+            button.magma-contact:hover img:nth-child(1) {
+                animation: ripple 1.5s linear infinite;
             }
 
             button.magma-contact img:nth-child(2) {
@@ -173,6 +183,21 @@ class MagmaWidget extends HTMLElement
             div.magma-modal button.magma-close:focus {
                 background-color: #D8DEDE;
                 color: #617F80;
+            }
+
+            @keyframes ripple {
+                0% {
+                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                    -0px 0 0 0px var(--magma-ripple-color),
+                    -0px 0 0 .5px var(--magma-ripple-color),
+                    -0px 0 0 1px var(--magma-ripple-color);
+                }
+                100% {
+                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                    -0px 0 0 3px var(--magma-ripple-color),
+                    -0px 0 0 6px var(--magma-ripple-color),
+                    -0px 0 0 9px var(--magma-ripple-color);
+                }
             }
         `
         this.$shadow.appendChild($style)
