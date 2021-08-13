@@ -80,7 +80,7 @@ class MagmaWidget extends HTMLElement
     font() {
         this.$link = document.createElement('link')
 		this.$link.rel = "stylesheet"
-		this.$link.href = "http://fonts.cdnfonts.com/css/sofia-pro"
+		this.$link.href = "https://fonts.cdnfonts.com/css/sofia-pro"
 		this.head = document.getElementsByTagName('head')
 		this.head[0].appendChild(this.$link)
     }
