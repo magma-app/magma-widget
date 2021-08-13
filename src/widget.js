@@ -94,7 +94,7 @@ class MagmaWidget extends HTMLElement
                 border: none;
                 color: #0A6E77;
                 text-transform: uppercase;
-                border-radius: 1em;
+                border-radius: 9999px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
