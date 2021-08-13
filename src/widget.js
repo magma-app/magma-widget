@@ -92,6 +92,9 @@ class MagmaWidget extends HTMLElement
 				font-family: "Sofia Pro";
 				font-style: normal;
 				font-weight: 900;
+                font-size: 12px;
+                line-height: 12px;
+                letter-spacing: 0.1em;
                 --magma-ripple-color: rgba(2, 52, 54, .3);
                 background-color: #D2EEEE;
                 border: none;
