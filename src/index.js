@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 class MagmaWidget extends HTMLElement
 {
@@ -9,6 +9,7 @@ class MagmaWidget extends HTMLElement
     constructor() {
         super()
         this.$shadow = this.attachShadow({ mode: 'open' })
+        this.font()
         this.style()
     }
 
@@ -68,17 +69,29 @@ class MagmaWidget extends HTMLElement
         this.$button.appendChild($span)
 
         this.$shadow.appendChild(this.$button)
+		
+		// this.$link = document.createElement('link')
+		// this.$link.rel = "stylesheet"
+		// this.$link.href = "http://fonts.cdnfonts.com/css/sofia-pro"
+		// this.head = document.getElementsByTagName('head');
+		// this.head[0].appendChild(this.$link)
+    }
+
+    font() {
+        this.$link = document.createElement('link')
+		this.$link.rel = "stylesheet"
+		this.$link.href = "http://fonts.cdnfonts.com/css/sofia-pro"
+		this.head = document.getElementsByTagName('head')
+		this.head[0].appendChild(this.$link)
     }
 
     style() {
         let $style = document.createElement('style')
         $style.textContent = `
-            @font-face {
-                font-family: 'Sofia Pro';
-                src: local('Sofia Pro'), url('https://v2.candidate.magma.app/assets/SofiaPro-Regular.7f7ecd11.woff2') format('woff2');
-            }
-
             button.magma-contact {
+				font-family: "Sofia Pro";
+				font-style: normal;
+				font-weight: 900;
                 --magma-ripple-color: rgba(2, 52, 54, .3);
                 background-color: #D2EEEE;
                 border: none;
@@ -89,7 +102,6 @@ class MagmaWidget extends HTMLElement
                 flex-direction: row;
                 align-items: center;
                 padding: 0 12px 0 7px;
-                font-weight: bold;
                 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05), 0px 2px 4px rgba(0, 0, 0, 0.07), 0px 1px 2px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
             }
