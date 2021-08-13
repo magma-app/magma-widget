@@ -69,12 +69,6 @@ class MagmaWidget extends HTMLElement
         this.$button.appendChild($span)
 
         this.$shadow.appendChild(this.$button)
-		
-		// this.$link = document.createElement('link')
-		// this.$link.rel = "stylesheet"
-		// this.$link.href = "http://fonts.cdnfonts.com/css/sofia-pro"
-		// this.head = document.getElementsByTagName('head');
-		// this.head[0].appendChild(this.$link)
     }
 
     font() {
