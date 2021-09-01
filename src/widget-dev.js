@@ -1,6 +1,6 @@
 'use strict';
 
-const CANDIDATE_PAGE_URL = 'https://v2.candidate.magma.app'
+const CANDIDATE_PAGE_URL = 'http://localhost:3000'
 
 class MagmaWidget extends HTMLElement
 {
