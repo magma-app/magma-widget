@@ -4,7 +4,7 @@ This repository contains all the scripts for the widget(s)
 
 ## integrate the widget to any website
 
-1. at the end of the <head> tag (just before </head>) add the following line:
+1. at the end of the \<head> tag (just before \</head>) add the following line:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget/src/widget.min.js" type="text/javascript"></script>
 ```
