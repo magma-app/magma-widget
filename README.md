@@ -4,6 +4,7 @@ Magma enables campuses to attract top new students by leveraging their communiti
 
 # Magma-widget
 This repository contains all the instructions for the widget(s) integration.
+![Button-presentation](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction6.png)
 
 ## Integrate the widget to any website
 1. at the end of the \<head> tag (just before \</head>) add the following line:
@@ -24,6 +25,10 @@ To find YOUR identifier, please refer to the information provided during the set
 <magma-widget identifier="identifier_we_have_provided_you"></magma-widget>
 ```
 ![Identifier-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction3.png)
+
+4. it's done! You now have a button accessible by your website's visitors :)
+![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5.png)
+![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
 
 
 ## Credits
