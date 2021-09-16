@@ -5,7 +5,7 @@ Magma enables campuses to attract top new students by leveraging their communiti
 # Magma-widget
 This repository contains all the scripts for the widget(s)
 
-## Integrate the widget (BUTTON-MODE) to any website
+## Integrate the widget to any website
 1. at the end of the \<head> tag (just before \</head>) add the following line:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget/src/widget.min.js" type="text/javascript"></script>
