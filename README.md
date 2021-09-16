@@ -1,6 +1,6 @@
 ![Logo of Magma](https://magma-assets.s3.eu-west-3.amazonaws.com/banner_magma.png)
 
-Magma enables campuses to attract top new students by leveraging their communities' network through a referral program app. http://magma.app
+Magma enables campuses to attract top new students by leveraging their communities' network through a referral program app. https://magma.app
 
 # Magma-widget
 This repository contains all the instructions for the widget(s) integration.
