@@ -3,7 +3,7 @@
 Magma enables campuses to attract top new students by leveraging their communities' network through a referral program app. http://magma.app
 
 # Magma-widget
-This repository contains all the scripts for the widget(s)
+This repository contains all the instructions for the widget(s) integration.
 
 ## Integrate the widget to any website
 1. at the end of the \<head> tag (just before \</head>) add the following line:
