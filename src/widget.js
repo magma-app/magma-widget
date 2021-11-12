@@ -1,6 +1,6 @@
 'use strict';
 
-const CANDIDATE_PAGE_URL = 'https://v2.candidate.magma.app'
+const CANDIDATE_PAGE_URL = 'https://candidate.magma.app'
 
 class MagmaWidget extends HTMLElement
 {
@@ -53,7 +53,10 @@ class MagmaWidget extends HTMLElement
         if (this.hasAttribute('fab')) {
             this.$button.classList.add('fab')
         }
-        this.$button.onclick = event => this.$modal.classList.add('show')
+        this.$button.onclick = event => {
+            this.$iframe.contentWindow.postMessage('onClickButtonWidgetMagma', CANDIDATE_PAGE_URL);
+            return this.$modal.classList.add('show')
+        }
 
         let $img1 = document.createElement('img')
         $img1.loading = 'lazy'

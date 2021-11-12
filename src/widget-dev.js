@@ -53,7 +53,10 @@ class MagmaWidget extends HTMLElement
         if (this.hasAttribute('fab')) {
             this.$button.classList.add('fab')
         }
-        this.$button.onclick = event => this.$modal.classList.add('show')
+        this.$button.onclick = event => {
+            this.$iframe.contentWindow.postMessage('onClickButtonWidgetMagma', CANDIDATE_PAGE_URL);
+            return this.$modal.classList.add('show')
+        }
 
         let $img1 = document.createElement('img')
         $img1.loading = 'lazy'
@@ -83,6 +86,7 @@ class MagmaWidget extends HTMLElement
 
     style() {
         let $style = document.createElement('style')
+
         $style.textContent = `
             button.magma-contact {
 				font-family: "Sofia Pro";
@@ -128,9 +132,6 @@ class MagmaWidget extends HTMLElement
                 border: 4px solid #0A6E77;
             }
 
-            button.magma-contact:hover img:nth-child(1) {
-                animation: ripple 1.5s linear infinite;
-            }
 
             button.magma-contact img:nth-child(2) {
                 margin-left: -7px;
