@@ -19,6 +19,15 @@ This repository contains all the instructions for the widget(s) integration.
 ```
 ![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2.png)
 
+💡 If you want to use the widget with a chatbot behaviour, add **"fab"** as shown below
+```html
+<magma-widget identifier="xxxx" fab></magma-widget>
+```
+![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2-fab.PNG)
+
+Then, add the line just before the end of the body tag. \
+⚠️ Be careful, do not add the line into a div, as precised into the above screenshot.
+
 3. replace "xxxxx" with "identifier_we_have_provided_you". 
 To find YOUR identifier, please refer to the information provided during the setup with Magma.
 ```html
