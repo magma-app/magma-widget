@@ -143,7 +143,7 @@ class MagmaWidget extends HTMLElement
 
             div.magma-modal {
                 position: fixed;
-                z-index: 50;
+                z-index: 9999;
                 top: 0;
                 left: 0;
                 right: 0;
