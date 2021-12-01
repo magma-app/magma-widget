@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testing Magma Widget</title>
 
-    <script src="../src/widget.js" type="text/javascript"></script>
+    <script src="../src/widget-dev.js" type="text/javascript"></script>
 </head>
-<body>
-    <magma-widget identifier="aW9huE6"></magma-widget>
-</body>
+    <body>
+        <magma-widget identifier="xxxx"></magma-widget> <!-- option 1: by default -->
+
+        <magma-widget identifier="xxxx" fab></magma-widget> <!-- option 2: fixed bottom right -->
+
+        <magma-widget identifier="xxxx" name="My custom button"></magma-widget> <!-- option 3: custom name -->
+
+        <magma-widget identifier="xxxx" name-fr="Mon boutton personnalisé" name-en="My custom name"></magma-widget> <!-- option 4: custom name english/french -->
+    </body>
 </html>
