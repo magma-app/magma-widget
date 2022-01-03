@@ -19,15 +19,6 @@ This repository contains all the instructions for the widget(s) integration.
 ```
 ![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2.png)
 
-💡 If you want to use the widget with a chatbot behaviour, add **"fab"** as shown below
-```html
-<magma-widget identifier="xxxx" fab></magma-widget>
-```
-![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2-fab.PNG)
-
-Then, add the line just before the end of the body tag. \
-⚠️ Be careful, do not add the line into a div, as precised into the above screenshot.
-
 3. replace "xxxxx" with "identifier_we_have_provided_you". 
 To find YOUR identifier, please refer to the information provided during the setup with Magma.
 ```html
@@ -38,6 +29,32 @@ To find YOUR identifier, please refer to the information provided during the set
 4. it's done! You now have a button accessible by your website's visitors :)
 ![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5.png)
 ![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
+
+## More options
+### Chatbot behaviour
+💡 If you want to use the widget with a chatbot behaviour, add **"fab"** as shown below
+```html
+<magma-widget identifier="xxxx" fab></magma-widget>
+```
+![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2-fab.PNG)
+
+Then, add the line just before the end of the body tag. \
+⚠️ Be careful, do not add the line into a div, as precised into the above screenshot.
+![fab-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-option-1.png)
+
+### Change button label
+You can change the default label for the button by adding the **name** attribute as shown in the example below
+```html
+<magma-widget identifier="xxxx" name="My custom label"></magma-widget>
+```
+You can also manage the language by adding special attributes **name**-*"the language local"*.
+For now we support french (fr) and english (en). See example below
+```html
+<magma-widget identifier="xxxx" name-fr="Mon label personnalisé" name-en="My custom label"></magma-widget>
+```
+The language dynamically displayed in the button will depend on the user's language.
+![label-language-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-option-label-language.png)
+
 
 
 ## Credits
