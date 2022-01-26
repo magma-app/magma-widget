@@ -209,7 +209,10 @@ class MagmaWidget extends HTMLElement {
 
             div.magma-modal button.magma-close .magma-close-text {
                 font-size: 2rem;
+                font-family: Arial;
                 align-self: center;
+                padding-top: 3px;
+                padding-left: 1px;
             }
 
             @keyframes ripple {
