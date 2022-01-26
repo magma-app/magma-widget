@@ -2,9 +2,8 @@
 
 const CANDIDATE_PAGE_URL = 'https://staging.candidate.magma.app'
 
-class MagmaWidget extends HTMLElement
-{
-    static get tag() {
+class MagmaWidget extends HTMLElement {
+    static get tag () {
         return 'magma-widget'
     }
 
@@ -15,12 +14,12 @@ class MagmaWidget extends HTMLElement
         this.style()
     }
 
-    connectedCallback() {
+    connectedCallback () {
         this.modal()
         this.button()
     }
 
-    modal() {
+    modal () {
         this.$modal = document.createElement('div')
         this.$modal.className = 'magma-modal'
 
@@ -30,7 +29,7 @@ class MagmaWidget extends HTMLElement
         this.$shadow.appendChild(this.$modal)
     }
 
-    iframe() {
+    iframe () {
         const identifier = this.getAttribute('identifier') || '9431f5d2-87af-4bb7-a785-2391c1f2923f'
         this.$iframe = document.createElement('iframe')
         this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true`
@@ -38,16 +37,16 @@ class MagmaWidget extends HTMLElement
         this.$modal.appendChild(this.$iframe)
     }
 
-    closeModalButton() {
+    closeModalButton () {
         let $closeModalButton = document.createElement('button')
         $closeModalButton.className = 'magma-close'
         $closeModalButton.onclick = event => this.$modal.classList.remove('show')
-        $closeModalButton.innerHTML = '<i>&times;</i>'
+        $closeModalButton.innerHTML = '<div class="magma-close-text">&times;</div>'
 
         this.$modal.appendChild($closeModalButton)
     }
 
-    button() {
+    button () {
         this.$button = document.createElement('button')
         this.$button.className = 'magma-contact'
         if (this.hasAttribute('fab')) {
@@ -69,7 +68,7 @@ class MagmaWidget extends HTMLElement
         let $span = document.createElement('span')
         if (this.hasAttribute('name')) {
             $span.innerText = this.getAttribute('name')
-        } else if (this.hasAttribute('name-fr') && navigator.language.includes('fr')){
+        } else if (this.hasAttribute('name-fr') && navigator.language.includes('fr')) {
             $span.innerText = this.getAttribute('name-fr')
         } else if (this.hasAttribute('name-en')) {
             $span.innerText = this.getAttribute('name-en')
@@ -84,15 +83,15 @@ class MagmaWidget extends HTMLElement
         this.$shadow.appendChild(this.$button)
     }
 
-    font() {
+    font () {
         this.$link = document.createElement('link')
-		this.$link.rel = "stylesheet"
-		this.$link.href = "https://fonts.cdnfonts.com/css/sofia-pro"
-		this.head = document.getElementsByTagName('head')
-		this.head[0].appendChild(this.$link)
+        this.$link.rel = "stylesheet"
+        this.$link.href = "https://fonts.cdnfonts.com/css/sofia-pro"
+        this.head = document.getElementsByTagName('head')
+        this.head[0].appendChild(this.$link)
     }
 
-    style() {
+    style () {
         let $style = document.createElement('style')
 
         $style.textContent = `
@@ -193,9 +192,11 @@ class MagmaWidget extends HTMLElement
                 outline: none;
                 height: 3rem;
                 width: 3rem;
-                font-size: 2rem;
                 cursor: pointer;
                 padding-left: 3px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             div.magma-modal button.magma-close:hover,
@@ -203,6 +204,14 @@ class MagmaWidget extends HTMLElement
             div.magma-modal button.magma-close:focus {
                 background-color: #D8DEDE;
                 color: #617F80;
+            }
+
+            div.magma-modal button.magma-close .magma-close-text {
+                font-size: 2rem;
+                font-family: Arial;
+                align-self: center;
+                padding-top: 3px;
+                padding-left: 1px;
             }
 
             @keyframes ripple {
