@@ -12,6 +12,16 @@ const moreCss = {
             height: 36px;
             position: relative;
         }
+    `,
+    magma: `
+        button.magma-contact {
+            background: #d2eeee;
+            color: #0a6e77;
+            z-index: 10000;
+            border-radius: 2px;
+            height: 90px;
+            position: relative;
+        }
     `
 }
 
