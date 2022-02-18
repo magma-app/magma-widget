@@ -4,19 +4,15 @@ const CANDIDATE_PAGE_URL = 'https://staging.candidate.magma.app'
 
 const moreCss = {
     ifria: `
-    button.magma-contact img:nth-child(2) {
-        margin-right: 0;
-    }
-    button.magma-contact {
-        background: #d2eeee;
-        color: #0a6e77;
-        z-index: 1;
-        border-radius: 45px;
-        margin-left: -55px;
-        padding: 12px 12px 12px 55px;
-        align-self: center;
-    }
-`
+        button.magma-contact {
+            background: #d2eeee;
+            color: #0a6e77;
+            z-index: 1;
+            border-radius: 45px;
+            height: 36px;
+            position: relative;
+        }
+    `
 }
 
 class MagmaWidget extends HTMLElement {
