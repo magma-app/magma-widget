@@ -2,6 +2,23 @@
 
 const CANDIDATE_PAGE_URL = 'http://localhost:3000'
 
+const moreCss = {
+    ifria: `
+    button.magma-contact img:nth-child(2) {
+        margin-right: 0;
+    }
+    button.magma-contact {
+        background: #d2eeee;
+        color: #0a6e77;
+        z-index: 1;
+        border-radius: 45px;
+        margin-left: -55px;
+        padding: 12px 12px 12px 55px;
+        align-self: center;
+    }
+`
+}
+
 class MagmaWidget extends HTMLElement {
     static get tag () {
         return 'magma-widget'
@@ -76,6 +93,9 @@ class MagmaWidget extends HTMLElement {
         } else {
             $span.innerText = navigator.language.includes('fr') ? 'Parle à un étudiant' : 'Talk with a student'
         }
+        if (this.getAttribute('custom-css-name')) {
+            this.style(moreCss[this.getAttribute('custom-css-name')])
+        }
 
         this.$button.appendChild($img1)
         this.$button.appendChild($img2)
@@ -92,7 +112,7 @@ class MagmaWidget extends HTMLElement {
         this.head[0].appendChild(this.$link)
     }
 
-    style () {
+    style (cssToAdd) {
         let $style = document.createElement('style')
 
         $style.textContent = `
@@ -229,7 +249,8 @@ class MagmaWidget extends HTMLElement {
                     -0px 0 0 9px var(--magma-ripple-color);
                 }
             }
-        `
+        ${cssToAdd || ''}
+            `
         this.$shadow.appendChild($style)
     }
 }
