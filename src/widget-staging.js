@@ -38,6 +38,7 @@ const moreCss = {
             font-style: normal;
             font-weight: bold;
             font-size: 14px;
+            margin: auto;
         }
         button.magma-contact:hover {
             background-color: transparent;
