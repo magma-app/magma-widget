@@ -35,7 +35,7 @@ To find YOUR identifier, please refer to the information provided during the set
 ![Identifier-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction3.png)
 
 4. it's done! You now have a button accessible by your website's visitors :)
-<!-- ![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5.png) -->
+![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5.png)
 ![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
 
 ## More options
@@ -52,7 +52,7 @@ To find YOUR identifier, please refer to the information provided during the set
 
 Then, add the line just before the end of the body tag. \
 ⚠️ Be careful, do not add the line into a div, as precised into the above screenshot.
-<!-- ![fab-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-option-1.png) -->
+![fab-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-option-1.png)
 
 ### Change button label
 
