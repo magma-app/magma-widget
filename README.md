@@ -12,7 +12,7 @@ This repository contains all the instructions for the widget(s) integration.
 1. at the end of the \<head> tag (just before \</head>) add the following line:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget/src/widget.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget.min.js" type="text/javascript"></script>
 ```
 
 ![Head-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction1.png)
