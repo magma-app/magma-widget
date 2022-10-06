@@ -32,7 +32,7 @@ This repository contains all the instructions for the widget(s) integration.
 ![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2.png)
 
 3. replace "xxxxx" with "identifier_we_have_provided_you".
-To find YOUR organization identifier, please refer to the information provided during the setup with Magma. ⚠️ If you have setup your campaign:
+To find YOUR organization identifier, please refer to the information provided during the setup with Magma.
 ```html
 <magma-widget identifier="identifier_we_have_provided_you"></magma-widget>
 ```
