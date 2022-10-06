@@ -76,9 +76,9 @@ class MagmaWidget extends HTMLElement {
 
   iframe() {
     const identifier =
-      this.getAttribute("identifier") || "64d97aed-bb40-40a6-b206-aef6edd499a6";
+      this.getAttribute("identifier") || "1bda19df-b67e-4273-8871-4824e4e486a0";
     this.$iframe = document.createElement("iframe");
-    this.$iframe.src = `${CANDIDATE_PAGE_URL}/helpee-signup/${identifier}?widget=true`;
+    this.$iframe.src = `${CANDIDATE_PAGE_URL}/helpee-campaigns/${identifier}?widget=true`;
     this.$iframe.loading = "lazy";
     this.$modal.appendChild(this.$iframe);
   }

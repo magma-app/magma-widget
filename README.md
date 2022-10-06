@@ -11,8 +11,14 @@ This repository contains all the instructions for the widget(s) integration.
 
 1. at the end of the \<head> tag (just before \</head>) add the following line:
 
+ ⚠️ If you have setup your campaign:
+> - **before September 2022**
 ```html
 <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget.min.js" type="text/javascript"></script>
+```
+> - **after September 2022**, your identifier is your campaign identifier.
+```html
+<script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget-v3.min.js" type="text/javascript"></script>
 ```
 
 ![Head-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction1.png)
@@ -26,10 +32,7 @@ This repository contains all the instructions for the widget(s) integration.
 ![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2.png)
 
 3. replace "xxxxx" with "identifier_we_have_provided_you".
-To find YOUR identifier, please refer to the information provided during the setup with Magma. ⚠️ If you have setup your campaign:
-> - **before September 2022**, your identifier is your organization identifier.
-> - **after September 2022**, your identifier is your campaign identifier.
-
+To find YOUR organization identifier, please refer to the information provided during the setup with Magma. ⚠️ If you have setup your campaign:
 ```html
 <magma-widget identifier="identifier_we_have_provided_you"></magma-widget>
 ```
