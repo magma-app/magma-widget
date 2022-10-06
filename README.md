@@ -12,11 +12,11 @@ This repository contains all the instructions for the widget(s) integration.
 1. at the end of the \<head> tag (just before \</head>) add the following line:
 
  ⚠️ If you have setup your campaign:
-> - **before September 2022**
+> - **Before September 2022**
 ```html
 <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget.min.js" type="text/javascript"></script>
 ```
-> - **after September 2022**, your identifier is your campaign identifier.
+> - **After September 2022**
 ```html
 <script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget-v3.min.js" type="text/javascript"></script>
 ```
