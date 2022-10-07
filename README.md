@@ -9,9 +9,10 @@ This repository contains all the instructions for the widget(s) integration.
 # Table of Contents
 1. [How integrate the widget (after September 2022)](#current-version)
 2. [More options](#more-options)
-2. [[Legacy] how integrate the widget (before September 2022)](#Legacy-version)
-<br>
-## Integrate the widget on any website  <a name="current-version"></a>
+3. [[Legacy] how integrate the widget (before September 2022)](#Legacy-version)
+4. [Credits](#credits)
+
+## 1. Integrate the widget on any website  <a name="current-version"></a>
 
 1. at the end of the `<head>` tag (just before `\</head>`) add the following line:
 
@@ -45,14 +46,12 @@ To find YOUR organization/campaign identifier, please refer to the information o
 <magma-widget identifier-campaign="YOUR_IDENTIFIER"></magma-widget>
 ```
 ![Identifier-step](https://magma-assets.s3.eu-west-3.amazonaws.com/v3+final+identifier.png)
-<br>
 
 4. it's done! You now have a button accessible by your website's visitors :)
 ![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5-exemple.png)
 ![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
 
-<br>
-## More options <a name="more-options"></a>
+## 2. More options <a name="more-options"></a>
 
 ### Chatbot behavior
 
@@ -84,7 +83,7 @@ For now we support french (fr) and english (en). See example below
 ```
 
 
-## [Legacy] how integrate the widget (before September 2022) <a name="Legacy-version"></a>
+## 3. [Legacy] how integrate the widget (before September 2022) <a name="Legacy-version"></a>
 
 1. at the end of the `<head>` tag (just before `\</head>`) add the following line:
 
@@ -113,6 +112,6 @@ For now we support french (fr) and english (en). See example below
 ![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5-exemple.png)
 ![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
 
-## Credits
+## 4. Credits <a name="credits"></a>
 
 Magma's widget tool is owned and maintained by Magma S.A.S. If you have any problems, you can contact us directly to [hi@magma.app](mailto:hi@magma.app) or chat with us on [Magma](https://www.magma.app/).
