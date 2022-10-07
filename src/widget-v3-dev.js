@@ -1,6 +1,6 @@
 "use strict";
 
-const CANDIDATE_PAGE_URL = "https://staging.dashboard.magma.app";
+const HELPEE_SIGN_UP_BASE_URL = "http://localhost:3000";
 
 const moreCss = {
   ifria: `
@@ -75,10 +75,13 @@ class MagmaWidget extends HTMLElement {
   }
 
   iframe() {
-    const identifier =
-      this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
+    const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
+    const identifierCampaign = this.getAttribute("identifier-campaign") || "";
+
     this.$iframe = document.createElement("iframe");
-    this.$iframe.src = `${CANDIDATE_PAGE_URL}/campaign-sign-up-form/${identifier}?widget=true`;
+    this.$iframe.src = identifierCampaign ?
+      `${HELPEE_SIGN_UP_BASE_URL}/helpee-signup/${identifierCampaign}?widget=true`
+      : `${HELPEE_SIGN_UP_BASE_URL}/helpee-campaigns/${identifierOrganization}?widget=true`;
     this.$iframe.loading = "lazy";
     this.$modal.appendChild(this.$iframe);
   }
@@ -101,7 +104,7 @@ class MagmaWidget extends HTMLElement {
     this.$button.onclick = (event) => {
       this.$iframe.contentWindow.postMessage(
         "onClickButtonWidgetMagma",
-        CANDIDATE_PAGE_URL
+        HELPEE_SIGN_UP_BASE_URL
       );
       return this.$modal.classList.add("show");
     };
