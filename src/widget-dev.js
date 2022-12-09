@@ -76,13 +76,28 @@ class MagmaWidget extends HTMLElement {
     this.$shadow.appendChild(this.$modal);
   }
 
+  getOrigin() {
+    return window.location.origin;
+  }
+
+  getReferrer() {
+      return document.referrer;
+  }
+
   iframe() {
     const identifier =
       this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
-    this.$iframe = document.createElement("iframe");
-    this.$iframe.src = `${CANDIDATE_PAGE_URL}/campaign-sign-up-form/${identifier}?widget=true`;
-    this.$iframe.loading = "lazy";
-    this.$modal.appendChild(this.$iframe);
+
+    const source = this.getAttribute("source") || "";
+
+    console.log('referrer', this.getReferrer());
+    console.log('origin', this.getOrigin());
+
+
+    this.$iframe = document.createElement('iframe')
+    this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true${source ? `&source=${source}` : ""}`
+    this.$iframe.loading = 'lazy'
+    this.$modal.appendChild(this.$iframe)
   }
 
   closeModalButton() {
