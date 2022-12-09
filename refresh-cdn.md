@@ -7,3 +7,4 @@ https://purge.jsdelivr.net/gh/magma-app/magma-widget@latest/src/{{FILENAME}}.min
 examples: 
 * https://purge.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget-v3.min.js
 * https://purge.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget.min.js
+* https://purge.jsdelivr.net/gh/magma-app/magma-widget/src/widget.min.js
