@@ -1,6 +1,6 @@
 "use strict";
 
-console.log('widget-v3.js loaded');
+console.log('widget-v3.js loaded 2');
 
 const HELPEE_SIGN_UP_BASE_URL = "https://v3.magma.app";
 
