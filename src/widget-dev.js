@@ -77,21 +77,26 @@ class MagmaWidget extends HTMLElement {
   }
 
   getOrigin() {
-    return window.location.origin;
+    const origin = window?.location?.origin;
+    if (!origin) return null;
+
+    return new URL(origin)?.hostname;
   }
 
   getReferrer() {
-      return document.referrer;
+    const referrer = document?.referrer;
+    if (!referrer) return null;
+
+    return new URL(referrer)?.hostname;
   }
 
   iframe() {
     const identifier =
       this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
 
-    const source = this.getAttribute("source") || "";
+    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
 
-    console.log('referrer', this.getReferrer());
-    console.log('origin', this.getOrigin());
+    console.log('MagmaWidget | source', source);
 
 
     this.$iframe = document.createElement('iframe')

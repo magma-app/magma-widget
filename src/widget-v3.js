@@ -1,7 +1,5 @@
 "use strict";
 
-console.log('widget-v3.js loaded 3');
-
 const HELPEE_SIGN_UP_BASE_URL = "https://v3.magma.app";
 
 const moreCss = {
@@ -77,20 +75,25 @@ class MagmaWidget extends HTMLElement {
   }
 
   getOrigin() {
-    return window.location.origin;
+    const origin = window?.location?.origin;
+    if (!origin) return null;
+
+    return new URL(origin)?.hostname;
   }
 
   getReferrer() {
-    return document.referrer;
+    const referrer = document?.referrer;
+    if (!referrer) return null;
+
+    return new URL(referrer)?.hostname;
   }
 
   iframe() {
     const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
     const identifierCampaign = this.getAttribute("identifier-campaign") || "";
-    const source = this.getAttribute("source") || "";
+    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
 
-    console.log('referrer', this.getReferrer());
-    console.log('origin', this.getOrigin());
+    console.log('MagmaWidget | source', source);
 
     this.$iframe = document.createElement("iframe");
     this.$iframe.src = identifierCampaign ?
