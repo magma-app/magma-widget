@@ -1,7 +1,5 @@
 "use strict";
 
-console.log('widget-staging.js loaded');
-
 const CANDIDATE_PAGE_URL = "https://staging.dashboard.magma.app";
 
 const moreCss = {
@@ -93,7 +91,7 @@ class MagmaWidget extends HTMLElement {
   iframe() {
     const identifier =
       this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
-    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
+    const source = this.getAttribute("source") || getReferrer() || getOrigin() || "";
 
     console.log('MagmaWidget | source', source);
 

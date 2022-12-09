@@ -91,7 +91,7 @@ class MagmaWidget extends HTMLElement {
   iframe() {
     const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
     const identifierCampaign = this.getAttribute("identifier-campaign") || "";
-    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
+    const source = this.getAttribute("source") || getReferrer() || getOrigin() || "";
 
     console.log('MagmaWidget | source', source);
 

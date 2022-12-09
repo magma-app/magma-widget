@@ -1,7 +1,5 @@
 "use strict";
 
-console.log('widget-dev.js loaded');
-
 const CANDIDATE_PAGE_URL = "http://localhost:3000";
 
 const moreCss = {
@@ -94,7 +92,7 @@ class MagmaWidget extends HTMLElement {
     const identifier =
       this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
 
-    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
+    const source = this.getAttribute("source") || getReferrer() || getOrigin() || "";
 
     console.log('MagmaWidget | source', source);
 

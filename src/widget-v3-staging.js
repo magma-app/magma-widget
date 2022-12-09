@@ -1,7 +1,5 @@
 "use strict";
 
-console.log('widget-v3-staging.js loaded');
-
 const HELPEE_SIGN_UP_BASE_URL = "https://staging-v3.dashboard.magma.app";
 
 const moreCss = {
@@ -93,7 +91,7 @@ class MagmaWidget extends HTMLElement {
   iframe() {
     const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
     const identifierCampaign = this.getAttribute("identifier-campaign") || "";
-    const source = this.getAttribute("source") || getReferer() || getOrigin() || "";
+    const source = this.getAttribute("source") || getReferrer() || getOrigin() || "";
 
     console.log('MagmaWidget | source', source);
 
