@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('widget-v3-dev.js loaded');
+
 const HELPEE_SIGN_UP_BASE_URL = "http://localhost:3000";
 
 const moreCss = {

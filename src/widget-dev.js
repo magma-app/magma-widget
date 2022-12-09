@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('widget-dev.js loaded');
+
 const CANDIDATE_PAGE_URL = "http://localhost:3000";
 
 const moreCss = {

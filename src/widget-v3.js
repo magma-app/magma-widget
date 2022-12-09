@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('widget-v3.js loaded');
+
 const HELPEE_SIGN_UP_BASE_URL = "https://v3.magma.app";
 
 const moreCss = {
@@ -74,7 +76,6 @@ class MagmaWidget extends HTMLElement {
     this.$shadow.appendChild(this.$modal);
   }
 
-  // get where the user come from
   getOrigin() {
     return window.location.origin;
   }

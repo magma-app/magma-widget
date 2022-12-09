@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('widget-staging.js loaded');
+
 const CANDIDATE_PAGE_URL = "https://staging.dashboard.magma.app";
 
 const moreCss = {

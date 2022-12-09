@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('widget-v3-staging.js loaded');
+
 const HELPEE_SIGN_UP_BASE_URL = "https://staging-v3.dashboard.magma.app";
 
 const moreCss = {

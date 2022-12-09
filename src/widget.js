@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('widget.js loaded');
+
 const CANDIDATE_PAGE_URL = 'https://candidate.magma.app'
 
 const moreCss = {
