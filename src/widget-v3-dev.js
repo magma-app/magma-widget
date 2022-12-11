@@ -267,7 +267,7 @@ class MagmaWidget extends HTMLElement {
 
             @media screen and (min-width: 768px) {
               div.magma-modal div.magma-close {
-                  margin: 136px auto 0;
+                  margin: 116px auto 0;
                   padding-right: 20px;
                   right: 0;
                   left: 0;
@@ -277,6 +277,7 @@ class MagmaWidget extends HTMLElement {
 
             div.magma-modal div.magma-close .magma-close-text {
                 font-size: 24px;
+                line-height: 24px;
                 font-family: Arial;
                 align-self: center;
                 border-radius: 100%;
@@ -285,6 +286,8 @@ class MagmaWidget extends HTMLElement {
                 border: none;
                 outline: none;
                 cursor: pointer;
+                background-color: white;
+                border-radius: 100%;
             }
 
             @keyframes ripple {
