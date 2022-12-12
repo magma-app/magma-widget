@@ -196,9 +196,9 @@ class MagmaWidget extends HTMLElement {
 
     $style.textContent = `
             button.magma-contact {
-				font-family: "Sofia Pro";
-				font-style: normal;
-				font-weight: 900;
+                font-family: "Sofia Pro";
+                font-style: normal;
+                font-weight: 900;
                 font-size: 12px;
                 line-height: 12px;
                 letter-spacing: 0.1em;
@@ -273,9 +273,9 @@ class MagmaWidget extends HTMLElement {
 
             @media screen and (min-width: 768px) {
                 div.magma-modal > iframe {
-                  max-height: 654px;
-                  margin: 132px auto 0;
-                  min-width: 600px;
+                    max-height: 654px;
+                    margin: 132px auto 0;
+                    min-width: 600px;
                 }
             }
 
@@ -291,12 +291,12 @@ class MagmaWidget extends HTMLElement {
             }
 
             @media screen and (min-width: 768px) {
-              div.magma-modal div.magma-close {
-                  margin: 116px auto 0;
-                  padding-right: 20px;
-                  right: 0;
-                  left: 0;
-                  min-width: 600px;
+                div.magma-modal div.magma-close {
+                    margin: 116px auto 0;
+                    padding-right: 20px;
+                    right: 0;
+                    left: 0;
+                    min-width: 600px;
                 }
             }
 
@@ -317,16 +317,16 @@ class MagmaWidget extends HTMLElement {
 
             @keyframes ripple {
                 0% {
-                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
-                    -0px 0 0 0px var(--magma-ripple-color),
-                    -0px 0 0 .5px var(--magma-ripple-color),
-                    -0px 0 0 1px var(--magma-ripple-color);
+                    box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                      -0px 0 0 0px var(--magma-ripple-color),
+                      -0px 0 0 .5px var(--magma-ripple-color),
+                      -0px 0 0 1px var(--magma-ripple-color);
                 }
                 100% {
-                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
-                    -0px 0 0 3px var(--magma-ripple-color),
-                    -0px 0 0 6px var(--magma-ripple-color),
-                    -0px 0 0 9px var(--magma-ripple-color);
+                    box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                      -0px 0 0 3px var(--magma-ripple-color),
+                      -0px 0 0 6px var(--magma-ripple-color),
+                      -0px 0 0 9px var(--magma-ripple-color);
                 }
             }
         ${cssToAdd || ""}
