@@ -97,6 +97,8 @@ class MagmaWidget extends HTMLElement {
       this.getOrigin() ||
       "";
 
+    console.log("MagmaWidget | source", source);
+
     this.$iframe = document.createElement("iframe");
     this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true${
       source ? `&source=${source}` : ""
