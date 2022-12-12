@@ -74,14 +74,31 @@ class MagmaWidget extends HTMLElement {
     this.$shadow.appendChild(this.$modal);
   }
 
+  getOrigin() {
+    const origin = window?.location?.origin;
+    if (!origin) return null;
+
+    return new URL(origin)?.hostname;
+  }
+
+  getReferrer() {
+    const referrer = document?.referrer;
+    if (!referrer) return null;
+
+    return new URL(referrer)?.hostname;
+  }
+
   iframe() {
     const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
     const identifierCampaign = this.getAttribute("identifier-campaign") || "";
+    const source = this.getAttribute("source") || this.getReferrer() || this.getOrigin() || "";
+
+    console.log('MagmaWidget | source', source);
 
     this.$iframe = document.createElement("iframe");
     this.$iframe.src = identifierCampaign ?
-      `${HELPEE_SIGN_UP_BASE_URL}/helpee-signup/${identifierCampaign}?widget=true`
-      : `${HELPEE_SIGN_UP_BASE_URL}/helpee-campaigns/${identifierOrganization}?widget=true`;
+      `${HELPEE_SIGN_UP_BASE_URL}/helpee-signup/${identifierCampaign}?widget=true${source ? `&source=${source}` : ""}`
+      : `${HELPEE_SIGN_UP_BASE_URL}/helpee-campaigns/${identifierOrganization}?widget=true${source ? `&source=${source}` : ""}`;
     this.$iframe.loading = "lazy";
     this.$modal.appendChild(this.$iframe);
   }

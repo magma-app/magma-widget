@@ -74,10 +74,29 @@ class MagmaWidget extends HTMLElement {
         this.$shadow.appendChild(this.$modal)
     }
 
+    getOrigin() {
+        const origin = window?.location?.origin;
+        if (!origin) return null;
+
+        return new URL(origin)?.hostname;
+      }
+
+      getReferrer() {
+        const referrer = document?.referrer;
+        if (!referrer) return null;
+
+        return new URL(referrer)?.hostname;
+    }
+
     iframe () {
         const identifier = this.getAttribute('identifier') || '9431f5d2-87af-4bb7-a785-2391c1f2923f'
+        const source = this.getAttribute("source") || this.getReferrer() || this.getOrigin() || "";
+
+        console.log('MagmaWidget | source', source);
+
+
         this.$iframe = document.createElement('iframe')
-        this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true`
+        this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true${source ? `&source=${source}` : ""}`
         this.$iframe.loading = 'lazy'
         this.$modal.appendChild(this.$iframe)
     }

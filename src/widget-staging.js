@@ -74,11 +74,33 @@ class MagmaWidget extends HTMLElement {
     this.$shadow.appendChild(this.$modal);
   }
 
+  getOrigin() {
+    const origin = window?.location?.origin;
+    if (!origin) return null;
+
+    return new URL(origin)?.hostname;
+  }
+
+  getReferrer() {
+    const referrer = document?.referrer;
+    if (!referrer) return null;
+
+    return new URL(referrer)?.hostname;
+  }
+
   iframe() {
     const identifier =
       this.getAttribute("identifier") || "09cf9a9f-ea02-464b-8074-accf44400c74";
+    const source =
+      this.getAttribute("source") ||
+      this.getReferrer() ||
+      this.getOrigin() ||
+      "";
+
     this.$iframe = document.createElement("iframe");
-    this.$iframe.src = `${CANDIDATE_PAGE_URL}/campaign-sign-up-form/${identifier}?widget=true`;
+    this.$iframe.src = `${CANDIDATE_PAGE_URL}/w/${identifier}?widget=true${
+      source ? `&source=${source}` : ""
+    }`;
     this.$iframe.loading = "lazy";
     this.$modal.appendChild(this.$iframe);
   }

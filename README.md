@@ -9,7 +9,6 @@ This repository contains all the instructions for the widget(s) integration.
 # Table of Contents
 1. [How integrate the widget (after September 2022)](#current-version)
 2. [More options](#more-options)
-3. [[Legacy] how integrate the widget (before September 2022)](#Legacy-version)
 4. [Credits](#credits)
 
 ## 1. Integrate the widget on any website  <a name="current-version"></a>
@@ -82,36 +81,15 @@ For now we support french (fr) and english (en). See example below
 <magma-widget identifier="xxxx" name-fr="Mon label personnalisé" name-en="My custom label"></magma-widget>
 ```
 
+### Add source (utm)
 
-## 3. [Legacy] how integrate the widget (before September 2022) <a name="Legacy-version"></a>
-
-1. at the end of the `<head>` tag (just before `\</head>`) add the following line:
-
-```html
-<script src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget.min.js" type="text/javascript"></script>
-```
-
-![Head-step](https://magma-assets.s3.eu-west-3.amazonaws.com/script+head+legacy.png)
-
-2. where you want to embed the widget, add the following line.
+You can add a utm if you need by adding an attribute **source**
 
 ```html
-<magma-widget identifier="xxxx"></magma-widget>
+<magma-widget identifier="xxxx" source="my-utm"></magma-widget>
 ```
+By adding a source, you will be able to track where your helpees come from and you will get the information directly on your Magma admin dashboard.
 
-![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/v2+with+identifier.png)
-
-3. replace "xxxxx" with the identifier provided during the setup with Magma. If you can't find it, please contact us.
-```html
-<magma-widget identifier="YOUR_IDENTIFIER"></magma-widget>
-```
-
-![Identifier-step](https://magma-assets.s3.eu-west-3.amazonaws.com/v3+with+identifier.png)
-
-4. it's done! You now have a button accessible by your website's visitors :)
-![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5-exemple.png)
-![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
-
-## 4. Credits <a name="credits"></a>
+## 3. Credits <a name="credits"></a>
 
 Magma's widget tool is owned and maintained by Magma S.A.S. If you have any problems, you can contact us directly to [hi@magma.app](mailto:hi@magma.app) or chat with us on [Magma](https://www.magma.app/).
