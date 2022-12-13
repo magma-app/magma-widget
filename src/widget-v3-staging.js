@@ -70,6 +70,7 @@ class MagmaWidget extends HTMLElement {
 
     this.iframe();
     this.closeModalButton();
+    this.closeModalOutside();
 
     this.$shadow.appendChild(this.$modal);
   }
@@ -126,6 +127,14 @@ class MagmaWidget extends HTMLElement {
     $closeModalWrapper.appendChild($closeModalButton);
 
     this.$modal.appendChild($closeModalWrapper);
+  }
+
+  closeModalOutside() {
+    this.$modal.onclick = (event) => {
+      if (event.target === this.$modal) {
+        this.$modal.classList.remove("show");
+      }
+    };
   }
 
   button() {
