@@ -70,6 +70,7 @@ class MagmaWidget extends HTMLElement {
 
     this.iframe();
     this.closeModalButton();
+    this.closeModalOutside();
 
     this.$shadow.appendChild(this.$modal);
   }
@@ -86,30 +87,54 @@ class MagmaWidget extends HTMLElement {
     if (!referrer) return null;
 
     return new URL(referrer)?.hostname;
-}
+  }
 
   iframe() {
-    const identifierOrganization = this.getAttribute("identifier-organization") || this.getAttribute("identifier") || "";
+    const identifierOrganization =
+      this.getAttribute("identifier-organization") ||
+      this.getAttribute("identifier") ||
+      "";
     const identifierCampaign = this.getAttribute("identifier-campaign") || "";
-    const source = this.getAttribute("source") || this.getReferrer() || this.getOrigin() || "";
+    const source =
+      this.getAttribute("source") ||
+      this.getReferrer() ||
+      this.getOrigin() ||
+      "";
 
-    console.log('MagmaWidget | source', source);
+    console.log("MagmaWidget | source", source);
 
     this.$iframe = document.createElement("iframe");
-    this.$iframe.src = identifierCampaign ?
-      `${HELPEE_SIGN_UP_BASE_URL}/helpee-signup/${identifierCampaign}?widget=true${source ? `&source=${source}` : ""}`
-      : `${HELPEE_SIGN_UP_BASE_URL}/helpee-campaigns/${identifierOrganization}?widget=true${source ? `&source=${source}` : ""}`;
+    this.$iframe.src = identifierCampaign
+      ? `${HELPEE_SIGN_UP_BASE_URL}/helpee-signup/${identifierCampaign}?widget=true${
+          source ? `&source=${source}` : ""
+        }`
+      : `${HELPEE_SIGN_UP_BASE_URL}/helpee-campaigns/${identifierOrganization}?widget=true${
+          source ? `&source=${source}` : ""
+        }`;
     this.$iframe.loading = "lazy";
     this.$modal.appendChild(this.$iframe);
   }
 
   closeModalButton() {
+    let $closeModalWrapper = document.createElement("div");
     let $closeModalButton = document.createElement("button");
-    $closeModalButton.className = "magma-close";
-    $closeModalButton.onclick = (event) => this.$modal.classList.remove("show");
-    $closeModalButton.innerHTML = '<div class="magma-close-text">&times;</div>';
 
-    this.$modal.appendChild($closeModalButton);
+    $closeModalWrapper.className = "magma-close";
+    $closeModalButton.className = "magma-close-text";
+    $closeModalButton.innerHTML = "&times;";
+
+    $closeModalButton.onclick = (event) => this.$modal.classList.remove("show");
+    $closeModalWrapper.appendChild($closeModalButton);
+
+    this.$modal.appendChild($closeModalWrapper);
+  }
+
+  closeModalOutside() {
+    this.$modal.onclick = (event) => {
+      if (event.target === this.$modal) {
+        this.$modal.classList.remove("show");
+      }
+    };
   }
 
   button() {
@@ -180,9 +205,9 @@ class MagmaWidget extends HTMLElement {
 
     $style.textContent = `
             button.magma-contact {
-				font-family: "Sofia Pro";
-				font-style: normal;
-				font-weight: 900;
+                font-family: "Sofia Pro";
+                font-style: normal;
+                font-weight: 900;
                 font-size: 12px;
                 line-height: 12px;
                 letter-spacing: 0.1em;
@@ -239,77 +264,78 @@ class MagmaWidget extends HTMLElement {
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background-color: #16222299;
+                background-color: rgba(14, 16, 20, 0.7);;
                 display: none;
                 flex-direction: column;
-
-                --magma-modal-padding-x: 1rem;
-                --magma-modal-padding-y: 1rem;
-                padding: var(--magma-modal-padding-x) var(--magma-modal-padding-y);
             }
 
             div.magma-modal.show {
                 display: flex;
             }
 
-            @media screen and (min-width: 968px) {
-                div.magma-modal {
-                    --magma-modal-padding-x: 2rem;
-                    --magma-modal-padding-y: 4rem;
+            div.magma-modal > iframe {
+                flex: 1;
+                border-radius: 15px;
+                border: none;
+                margin: 16px;
+            }
+
+            @media screen and (min-width: 768px) {
+                div.magma-modal > iframe {
+                    max-height: 654px;
+                    margin: 132px auto 0;
+                    min-width: 600px;
                 }
             }
 
-            div.magma-modal > iframe {
-                flex: 1;
-                border-radius: 2rem;
-                border: none;
-            }
-
-            div.magma-modal button.magma-close {
+            div.magma-modal div.magma-close {
                 position: absolute;
-                top: calc(var(--magma-modal-padding-x) + 2rem);
-                right: calc(var(--magma-modal-padding-y) + 2rem);
-                border-radius: 100%;
-                background-color: #F8F9F8;
-                color: #D8DEDE;
-                border: none;
-                outline: none;
-                height: 3rem;
-                width: 3rem;
-                cursor: pointer;
-                padding-left: 3px;
+                top: 36px;
+                right: 36px;
+                height: 24px;
+                width: 24px;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: flex-end;
             }
 
-            div.magma-modal button.magma-close:hover,
-            div.magma-modal button.magma-close:active,
-            div.magma-modal button.magma-close:focus {
-                background-color: #D8DEDE;
-                color: #617F80;
+            @media screen and (min-width: 768px) {
+                div.magma-modal div.magma-close {
+                    margin: 116px auto 0;
+                    padding-right: 20px;
+                    right: 0;
+                    left: 0;
+                    min-width: 600px;
+                }
             }
 
-            div.magma-modal button.magma-close .magma-close-text {
-                font-size: 2rem;
+            div.magma-modal div.magma-close .magma-close-text {
+                font-size: 24px;
+                line-height: 24px;
                 font-family: Arial;
                 align-self: center;
-                padding-top: 3px;
-                padding-left: 1px;
+                border-radius: 100%;
+                background-color: transparent;
+                color: #5F6C85;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                background-color: white;
+                border-radius: 100%;
             }
 
             @keyframes ripple {
                 0% {
-                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
-                    -0px 0 0 0px var(--magma-ripple-color),
-                    -0px 0 0 .5px var(--magma-ripple-color),
-                    -0px 0 0 1px var(--magma-ripple-color);
+                    box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                      -0px 0 0 0px var(--magma-ripple-color),
+                      -0px 0 0 .5px var(--magma-ripple-color),
+                      -0px 0 0 1px var(--magma-ripple-color);
                 }
                 100% {
-                  box-shadow: -0px 0 0 0 var(--magma-ripple-color),
-                    -0px 0 0 3px var(--magma-ripple-color),
-                    -0px 0 0 6px var(--magma-ripple-color),
-                    -0px 0 0 9px var(--magma-ripple-color);
+                    box-shadow: -0px 0 0 0 var(--magma-ripple-color),
+                      -0px 0 0 3px var(--magma-ripple-color),
+                      -0px 0 0 6px var(--magma-ripple-color),
+                      -0px 0 0 9px var(--magma-ripple-color);
                 }
             }
         ${cssToAdd || ""}
