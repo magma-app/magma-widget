@@ -205,6 +205,7 @@ class MagmaWidget extends HTMLElement {
 
     $style.textContent = `
             button.magma-contact {
+                z-index:10000;
                 font-family: "Sofia Pro";
                 font-style: normal;
                 font-weight: 900;
