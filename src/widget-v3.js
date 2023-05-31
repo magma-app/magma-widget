@@ -68,13 +68,15 @@ class MagmaWidget extends HTMLElement {
 
   addEventListenersToTriggers() {
     const triggers = document.querySelectorAll(
-      `button[magma-trigger-id="${this.$triggerId}"]`
+      `[magma-trigger-id="${this.$triggerId}"]`
     );
 
     for (const trigger of triggers) {
-      trigger.addEventListener("click", () => {
-        this.openModal();
-      });
+      if (trigger.tagName.toLowerCase() !== "magma-widget") {
+        trigger.addEventListener("click", () => {
+          this.openModal();
+        });
+      }
     }
   }
 
@@ -183,7 +185,9 @@ class MagmaWidget extends HTMLElement {
     $closeModalButton.className = "magma-close-text";
     $closeModalButton.innerHTML = "&times;";
 
-    $closeModalButton.onclick = (event) => this.$modal.classList.remove("show");
+    $closeModalButton.onclick = (event) => {
+      this.$modal.classList.remove("show");
+    };
     $closeModalWrapper.appendChild($closeModalButton);
 
     this.$modal.appendChild($closeModalWrapper);
