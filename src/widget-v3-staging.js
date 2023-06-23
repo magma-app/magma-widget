@@ -148,6 +148,8 @@ class MagmaWidget extends HTMLElement {
 
     const source =
       this.getAttribute("source") ||
+      this.getAttribute("utm_source") ||
+      this.getAttribute("utm_medium") ||
       this.getReferrer() ||
       this.getOrigin() ||
       "";
