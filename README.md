@@ -13,7 +13,7 @@ This repository contains all the instructions for the widget(s) integration.
 
 ## 1. Integrate the widget on any website <a name="current-version"></a>
 
-1. at the end of the `<head>` tag (just before `\</head>`) add the following line:
+1. at the end of the `<head>` tag (just before `</head>`) add the following line:
 
 ```html
 <script
