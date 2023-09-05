@@ -63,7 +63,7 @@ If you have set only one campaign on your admin dashboard or if you want to dire
 
 💡 If you want to trigger the widget using a custom HTML tag element (button, link, div, etc.), follow the following steps:
 
-1. at the end of the `<head>` tag (just before `\</head>`) add the following line:
+1. at the end of the `<head>` tag (just before `</head>`) add the following line:
 
 ```html
 <script
