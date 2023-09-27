@@ -319,7 +319,7 @@ class MagmaWidget extends HTMLElement {
 
       @media screen and (min-width: 768px) {
           div.magma-modal > iframe {
-              max-height: 654px;
+              max-height: 700px;
               margin: 132px auto 0;
               min-width: 600px;
           }
@@ -357,7 +357,6 @@ class MagmaWidget extends HTMLElement {
           border: none;
           outline: none;
           cursor: pointer;
-          background-color: white;
           border-radius: 100%;
       }
 
