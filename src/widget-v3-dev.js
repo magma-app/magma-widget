@@ -17,7 +17,7 @@ const customCss = {
         button.magma-contact {
             background: #d2eeee;
             color: #0a6e77;
-            z-index: 10000;
+            z-index:100000000000;
             border-radius: 2px;
             height: 90px;
             position: relative;
@@ -237,7 +237,7 @@ class MagmaWidget extends HTMLElement {
 
     $style.textContent = `
       button.magma-contact {
-          z-index:10000;
+        z-index:100000000000;
           font-family: "Sofia Pro";
           font-style: normal;
           font-weight: 900;
@@ -296,7 +296,7 @@ class MagmaWidget extends HTMLElement {
 
       div.magma-modal {
           position: fixed;
-          z-index: 9999;
+          z-index: 999999999999;
           top: 0;
           left: 0;
           right: 0;
