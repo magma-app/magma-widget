@@ -1,14 +1,13 @@
-![Logo of Magma](https://magma-assets.s3.eu-west-3.amazonaws.com/banner_magma.png)
+![Logo of Magma](public/logo.png)
 
 # Magma widget
 
 This repository contains all the instructions for the widget(s) integration.
-![Button-presentation](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-image.png)
 
 # Table of Contents
 
-1. [How integrate the widget (after September 2022)](#current-version)
-2. [More options](#more-options)
+1. [How integrate the widget (after January 2023)](#current-version)
+2. [Implementing the block integration](#block)
 3. [Credits](#credits)
 
 ## 1. Integrate the widget on any website <a name="current-version"></a>
@@ -17,135 +16,114 @@ This repository contains all the instructions for the widget(s) integration.
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget-v3.min.js"
-  type="text/javascript"
+  src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget/initializer.js"
+  async
 ></script>
 ```
 
-![Head-step](https://magma-assets.s3.eu-west-3.amazonaws.com/script+head+v3.png)
-
-2. where you want to embed the widget, add one of the 2 following lines.
+2. at the begining of your `<body>` tag, add one of the 2 following lines.
 
 If you have set multiple campaigns on your admin dashboard, you should add the following line
 
 ```html
-<magma-widget identifier-organization="xxxx"></magma-widget>
+<script>
+  window.magma_app = [
+    {
+      type: "organizationUuid",
+      uuid: "xxxx",
+      integrationUuid: "xxxx",
+    },
+  ];
+</script>
 ```
 
 If you have set only one campaign on your admin dashboard or if you want to directly redirect to a campaign, you should add the following line
 
 ```html
-<magma-widget identifier-campaign="xxxx"></magma-widget>
+<script>
+  window.magma_app = [
+    {
+      type: "campaignUuid",
+      uuid: "xxxx",
+      integrationUuid: "xxxx",
+    },
+  ];
+</script>
 ```
 
-![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/v3+with+identifier.png)
-
-3. replace "xxxxx" with the organization identifier or the campaign identifier
-   To find YOUR organization/campaign identifier, please refer to the information on you admin dashboard. If you can't find it, please contact us.
+3. replace "xxxxx" with the organization uuid or the campaign uuid
+   > To find YOUR organization/campaign uuid and your integration uuid, please refer to the information on you admin dashboard. If you can't find it, please contact us.
 
 ```html
-<magma-widget identifier-organization="YOUR_IDENTIFIER"></magma-widget>
+<script>
+  window.magma_app = [
+    {
+      type: "organizationUuid",
+      uuid: "YOUR_ORGANIZATION_UUID",
+      integrationUuid: "YOUR_INTEGRATION_UUID",
+    },
+  ];
+</script>
 ```
 
 ```html
-<magma-widget identifier-campaign="YOUR_IDENTIFIER"></magma-widget>
+<script>
+  window.magma_app = [
+    {
+      type: "campaignUuid",
+      uuid: "YOUR_CAMPAIGN_UUID",
+      integrationUuid: "YOUR_INTEGRATION_UUID",
+    },
+  ];
+</script>
 ```
 
-![Identifier-step](https://magma-assets.s3.eu-west-3.amazonaws.com/v3+final+identifier.png)
-
-4. it's done! You now have a button accessible by your website's visitors :)
-   ![Button-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction5-exemple.png)
-   ![Window-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction4.png)
-
-## 2. More options <a name="more-options"></a>
-
-### Buttonless behaviour
-
-💡 If you want to trigger the widget using a custom HTML tag element (button, link, div, etc.), follow the following steps:
-
-1. at the end of the `<head>` tag (just before `</head>`) add the following line:
+4. you want to add different multiple widgets on the same page, by doing the following:
 
 ```html
-<script
-  src="https://cdn.jsdelivr.net/gh/magma-app/magma-widget@latest/src/widget-v3.min.js"
-  type="text/javascript"
-></script>
+<script>
+  window.magma_app = [
+    {
+      type: "campaignUuid",
+      uuid: "YOUR_CAMPAIGN_UUID",
+      integrationUuid: "FIRST_INTEGRATION_UUID",
+    },
+    {
+      type: "campaignUuid",
+      uuid: "YOUR_CAMPAIGN_UUID",
+      integrationUuid: "SECOND_INTEGRATION_UUID",
+    },
+    {
+      type: "campaignUuid",
+      uuid: "YOUR_CAMPAIGN_UUID",
+      integrationUuid: "THIRD_INTEGRATION_UUID",
+    },
+    // and so on...
+  ];
+</script>
 ```
 
-2. add **magma-trigger-id="custom-button"** to the HTML tag of your choice as shown here (in this example a button):
+4. it's done! Now your campaigns are accessible to your website's visitors :)
+
+## 2. Implementing the block integration <a name="block"></a>
+
+![Block Integration](public/block.png)
+
+For embedding the Magma Widget, you'll need to designate a specific area of your webpage. This area is marked by a container element, such as a `div`, with a specific `id` attributed to it. Follow the steps below:
+
+1. Inside your `<body>` HTML tag, where you want the block integration to appear, insert an empty `div` element with the `id="magma-widget_block"`
 
 ```html
-<button magma-trigger-id="custom-button">
-  click here to trigger the widget
-</button>
+<div id="magma-app_block" style="width: 100%; height: 350px;"></div>
 ```
 
-3. add one of the 2 following lines (after your custom HTML tag element):
+2. Ensure that this `div` is not nested within other elements that might restrict its size or visibility.
 
-- If you have set multiple campaigns on your admin dashboard, you should add the following line
+3. The widget is designed to be responsive, adapting to the size of its container `div`. It is recommended to set an appropriate width and height to suit the layout of your page.
 
-```html
-<magma-widget
-  identifier-organization="xxxx"
-  magma-trigger-id="custom-button"
-  magma-hidden
-></magma-widget>
-```
+> Responsiveness: a breakpoint is set at 768px width; the widget UI will adjust for optimal display on mobile devices versus larger screens as follows:
 
-- If you have set only one campaign on your admin dashboard or if you want to directly redirect to a campaign, you should add the following line
-
-```html
-<magma-widget
-  identifier-campaign="xxxx"
-  magma-trigger-id="custom-button"
-  magma-hidden
-></magma-widget>
-```
-
-4. don't forget to replace "xxxxx" with the organization identifier or the campaign identifier we've provided you with.
-
-### Chatbot behavior
-
-💡 If you want to use the widget with a chatbot behavior, add **"fab"** as shown below
-
-```html
-<magma-widget identifier="xxxx" fab></magma-widget>
-```
-
-![Line-step](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-instruction2-fab.PNG)
-
-Then, add the line just before the end of the body tag. \
-⚠️ Be careful, do not add the line into a div, as precised into the above screenshot.
-![fab-result](https://magma-assets.s3.eu-west-3.amazonaws.com/widget-option-1-exemple.png)
-
-### Change button label
-
-You can change the default label for the button by adding the **name** attribute as shown in the example below
-
-```html
-<magma-widget identifier="xxxx" name="My custom label"></magma-widget>
-```
-
-You can also manage the language by adding special attributes **name**-_"the language local"_.
-For now we support french (fr) and english (en). See example below
-
-```html
-<magma-widget
-  identifier="xxxx"
-  name-fr="Mon label personnalisé"
-  name-en="My custom label"
-></magma-widget>
-```
-
-### Add source (utm)
-
-You can add a utm if you need by adding an attribute **source**
-
-```html
-<magma-widget identifier="xxxx" source="my-utm"></magma-widget>
-```
-
-By adding a source, you will be able to track where your helpees come from and you will get the information directly on your Magma admin dashboard.
+> ![Block Mobile Integration](public/block_mobile.png)
 
 ## 3. Credits <a name="credits"></a>
 
