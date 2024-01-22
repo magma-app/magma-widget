@@ -6,7 +6,7 @@ This repository contains all the instructions for the widget(s) integration.
 
 # Table of Contents
 
-1. [How integrate the widget (after January 2023)](#current-version)
+1. [How integrate the widget (after January 2024)](#current-version)
 2. [Implementing the block integration](#block)
 3. [Credits](#credits)
 
@@ -23,7 +23,7 @@ This repository contains all the instructions for the widget(s) integration.
 
 2. at the begining of your `<body>` tag, add one of the 2 following lines.
 
-If you have set multiple campaigns on your admin dashboard, you should add the following line
+If you want to let the candidate choose the campaign he wants to join, you should use the following line
 
 ```html
 <script>
@@ -37,7 +37,7 @@ If you have set multiple campaigns on your admin dashboard, you should add the f
 </script>
 ```
 
-If you have set only one campaign on your admin dashboard or if you want to directly redirect to a campaign, you should add the following line
+If you have set only one campaign on your [admin dashboard](https://admin.magma.app/) or if you want to directly redirect to a campaign, you should add the following line
 
 ```html
 <script>
@@ -52,7 +52,23 @@ If you have set only one campaign on your admin dashboard or if you want to dire
 ```
 
 3. replace "xxxxx" with the organization uuid or the campaign uuid
-   > To find YOUR organization/campaign uuid and your integration uuid, please refer to the information on you admin dashboard. If you can't find it, please contact us.
+   > To find YOUR organization/campaign uuid and your integration uuid, please refer to the information on you [admin dashboard](https://admin.magma.app/). If you can't find it, please contact us directly to [hi@magma.app](mailto:hi@magma.app) or chat with us on [Magma](https://www.magma.app/).
+
+- Sign-in to specific campaign (`type: "campaignUuid"`)
+
+```html
+<script>
+  window.magma_app = [
+    {
+      type: "campaignUuid",
+      uuid: "YOUR_CAMPAIGN_UUID",
+      integrationUuid: "YOUR_INTEGRATION_UUID",
+    },
+  ];
+</script>
+```
+
+- Let the candidate choose which campaign to sign into (`type: "organizationUuid"`)
 
 ```html
 <script>
@@ -66,18 +82,6 @@ If you have set only one campaign on your admin dashboard or if you want to dire
 </script>
 ```
 
-```html
-<script>
-  window.magma_app = [
-    {
-      type: "campaignUuid",
-      uuid: "YOUR_CAMPAIGN_UUID",
-      integrationUuid: "YOUR_INTEGRATION_UUID",
-    },
-  ];
-</script>
-```
-
 4. you want to add different multiple widgets on the same page, by doing the following:
 
 ```html
@@ -85,17 +89,17 @@ If you have set only one campaign on your admin dashboard or if you want to dire
   window.magma_app = [
     {
       type: "campaignUuid",
-      uuid: "YOUR_CAMPAIGN_UUID",
+      uuid: "FIRST_CAMPAIGN_UUID",
       integrationUuid: "FIRST_INTEGRATION_UUID",
     },
     {
       type: "campaignUuid",
-      uuid: "YOUR_CAMPAIGN_UUID",
+      uuid: "SECOND_CAMPAIGN_UUID",
       integrationUuid: "SECOND_INTEGRATION_UUID",
     },
     {
-      type: "campaignUuid",
-      uuid: "YOUR_CAMPAIGN_UUID",
+      type: "organizationUuid",
+      uuid: "YOUR_ORGANIZATION_UUID",
       integrationUuid: "THIRD_INTEGRATION_UUID",
     },
     // and so on...
