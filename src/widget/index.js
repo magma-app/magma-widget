@@ -1,63 +1,62 @@
 (function() {
             'use strict';
-            function magma_0x01212d() {
-  const magma_0x06a96a = ["crossOrigin", "anonymous", "4686890GOgDLc", "createElement", "relList", "addedNodes", "childList", "1266MtrQJH", "supports", "7097072MgGqqD", "tagName", "836253tVECll", "omit", "type", "2KaDoOv", "7385ymlzBB", "438141glfjNf", "credentials", "same-origin", "link", "integrity", 'link[rel="modulepreload"]', "observe", "8RoCUNo", "modulepreload", "9aIoyCC", "href", "533829gLpwxt", "4587090nhiYxt", "LINK", "referrerPolicy", "rel", "querySelectorAll"];
-  magma_0x01212d = function() {
-    return magma_0x06a96a;
+            function magma_0x868df1() {
+  const magma_0xd248ed = ["rel", "link", "LINK", 'link[rel="modulepreload"]', "observe", "2837LKFYFC", "2635038nxLmzW", "427415YKSXyr", "querySelectorAll", "164IQimRG", "include", "type", "integrity", "use-credentials", "34870mesoar", "credentials", "18ZrxCuh", "childList", "anonymous", "1172025gfvRMH", "6kZsfJl", "155372BhlWpW", "3141632GrqDYx", "modulepreload", "1639umBuVt", "referrerPolicy", "tagName", "supports", "createElement"];
+  magma_0x868df1 = function() {
+    return magma_0xd248ed;
   };
-  return magma_0x01212d();
+  return magma_0x868df1();
 }
-function magma_0x844a54(magma_0x6c35fa2, magma_0xa73680) {
-  const magma_0xc411a3 = magma_0x01212d();
-  return magma_0x844a54 = function(magma_0xdb6544, magma_0xe969f6) {
-    magma_0xdb6544 = magma_0xdb6544 - 319;
-    let magma_0xb30a9b = magma_0xc411a3[magma_0xdb6544];
-    return magma_0xb30a9b;
-  }, magma_0x844a54(magma_0x6c35fa2, magma_0xa73680);
+function magma_0x4890cd(magma_0x5d789a2, magma_0xf5df43) {
+  const magma_0xd6146a = magma_0x868df1();
+  return magma_0x4890cd = function(magma_0x2f208d, magma_0xb4dcfd) {
+    magma_0x2f208d = magma_0x2f208d - 309;
+    let magma_0xa4b36d = magma_0xd6146a[magma_0x2f208d];
+    return magma_0xa4b36d;
+  }, magma_0x4890cd(magma_0x5d789a2, magma_0xf5df43);
 }
-(function(magma_0x6acec7, magma_0x4fbaab) {
-  const magma_0xc035c5 = magma_0x844a54, magma_0xd987d7 = magma_0x6acec7();
+(function(magma_0x6e7df1, magma_0xe6c0e7) {
+  const magma_0x7c52a3 = magma_0x4890cd, magma_0xe6df1f = magma_0x6e7df1();
   while (!![]) {
     try {
-      const magma_0x7abe27 = -parseInt(magma_0xc035c5(345)) / 1 * (-parseInt(magma_0xc035c5(348)) / 2) + -parseInt(magma_0xc035c5(328)) / 3 * (-parseInt(magma_0xc035c5(324)) / 4) + -parseInt(magma_0xc035c5(336)) / 5 + parseInt(magma_0xc035c5(341)) / 6 * (parseInt(magma_0xc035c5(349)) / 7) + -parseInt(magma_0xc035c5(343)) / 8 * (-parseInt(magma_0xc035c5(326)) / 9) + -parseInt(magma_0xc035c5(329)) / 10 + -parseInt(magma_0xc035c5(350)) / 11;
-      if (magma_0x7abe27 === magma_0x4fbaab) break;
-      else magma_0xd987d7["push"](magma_0xd987d7["shift"]());
-    } catch (magma_0x5c8e1c) {
-      magma_0xd987d7["push"](magma_0xd987d7["shift"]());
+      const magma_0x9055c4 = parseInt(magma_0x7c52a3(316)) / 1 * (parseInt(magma_0x7c52a3(320)) / 2) + parseInt(magma_0x7c52a3(327)) / 3 * (-parseInt(magma_0x7c52a3(332)) / 4) + -parseInt(magma_0x7c52a3(318)) / 5 * (parseInt(magma_0x7c52a3(331)) / 6) + parseInt(magma_0x7c52a3(317)) / 7 + -parseInt(magma_0x7c52a3(333)) / 8 + -parseInt(magma_0x7c52a3(330)) / 9 + parseInt(magma_0x7c52a3(325)) / 10 * (parseInt(magma_0x7c52a3(335)) / 11);
+      if (magma_0x9055c4 === magma_0xe6c0e7) break;
+      else magma_0xe6df1f["push"](magma_0xe6df1f["shift"]());
+    } catch (magma_0x7e7b3c) {
+      magma_0xe6df1f["push"](magma_0xe6df1f["shift"]());
     }
   }
-})(magma_0x01212d, 865960), (function magma_0x6c35fa() {
-  const magma_0xac4c90 = magma_0x844a54, magma_0xa73680 = document[magma_0xac4c90(337)](magma_0xac4c90(320))[magma_0xac4c90(338)];
-  if (magma_0xa73680 && magma_0xa73680[magma_0xac4c90(342)] && magma_0xa73680["supports"](magma_0xac4c90(325))) return;
-  for (const magma_0xe969f6 of document[magma_0xac4c90(333)](magma_0xac4c90(322))) {
-    magma_0xdb6544(magma_0xe969f6);
+})(magma_0x868df1, 287161), (function magma_0x5d789a() {
+  const magma_0x663a0b = magma_0x4890cd, magma_0xf5df43 = document[magma_0x663a0b(310)](magma_0x663a0b(312))["relList"];
+  if (magma_0xf5df43 && magma_0xf5df43[magma_0x663a0b(309)] && magma_0xf5df43["supports"](magma_0x663a0b(334))) return;
+  for (const magma_0xb4dcfd of document[magma_0x663a0b(319)](magma_0x663a0b(314))) {
+    magma_0x2f208d(magma_0xb4dcfd);
   }
-  new MutationObserver((magma_0xb30a9b) => {
-    const magma_0x25f351 = magma_0xac4c90;
-    for (const magma_0xf8a353 of magma_0xb30a9b) {
-      if (magma_0xf8a353[magma_0x25f351(347)] !== magma_0x25f351(340)) continue;
-      for (const magma_0x0a856a of magma_0xf8a353[magma_0x25f351(339)]) {
-        if (magma_0x0a856a[magma_0x25f351(344)] === magma_0x25f351(330) && magma_0x0a856a[magma_0x25f351(332)] === "modulepreload") magma_0xdb6544(magma_0x0a856a);
+  new MutationObserver((magma_0xa4b36d) => {
+    const magma_0xd1ed3a = magma_0x663a0b;
+    for (const magma_0x9162ce of magma_0xa4b36d) {
+      if (magma_0x9162ce[magma_0xd1ed3a(322)] !== magma_0xd1ed3a(328)) continue;
+      for (const magma_0xbe3acf of magma_0x9162ce["addedNodes"]) {
+        if (magma_0xbe3acf[magma_0xd1ed3a(337)] === magma_0xd1ed3a(313) && magma_0xbe3acf[magma_0xd1ed3a(311)] === "modulepreload") magma_0x2f208d(magma_0xbe3acf);
       }
     }
-  })[magma_0xac4c90(323)](document, { "childList": !![], "subtree": !![] });
-  function magma_0xc411a3(magma_0x8c9f21) {
-    const magma_0x684561 = magma_0xac4c90, magma_0x0f8c79 = {};
-    if (magma_0x8c9f21[magma_0x684561(321)]) magma_0x0f8c79["integrity"] = magma_0x8c9f21[magma_0x684561(321)];
-    if (magma_0x8c9f21[magma_0x684561(331)]) magma_0x0f8c79[magma_0x684561(331)] = magma_0x8c9f21["referrerPolicy"];
-    if (magma_0x8c9f21[magma_0x684561(334)] === "use-credentials") magma_0x0f8c79[magma_0x684561(351)] = "include";
+  })[magma_0x663a0b(315)](document, { "childList": !![], "subtree": !![] });
+  function magma_0xd6146a(magma_0x7c8446) {
+    const magma_0x772765 = magma_0x663a0b, magma_0x1bde1e = {};
+    if (magma_0x7c8446[magma_0x772765(323)]) magma_0x1bde1e[magma_0x772765(323)] = magma_0x7c8446[magma_0x772765(323)];
+    if (magma_0x7c8446[magma_0x772765(336)]) magma_0x1bde1e[magma_0x772765(336)] = magma_0x7c8446[magma_0x772765(336)];
+    if (magma_0x7c8446["crossOrigin"] === magma_0x772765(324)) magma_0x1bde1e[magma_0x772765(326)] = magma_0x772765(321);
     else {
-      if (magma_0x8c9f21[magma_0x684561(334)] === magma_0x684561(335)) magma_0x0f8c79[magma_0x684561(351)] = magma_0x684561(346);
-      else magma_0x0f8c79[magma_0x684561(351)] = magma_0x684561(319);
+      if (magma_0x7c8446["crossOrigin"] === magma_0x772765(329)) magma_0x1bde1e[magma_0x772765(326)] = "omit";
+      else magma_0x1bde1e[magma_0x772765(326)] = "same-origin";
     }
-    return magma_0x0f8c79;
+    return magma_0x1bde1e;
   }
-  function magma_0xdb6544(magma_0xbbf6cb) {
-    const magma_0xf54fa2 = magma_0xac4c90;
-    if (magma_0xbbf6cb["ep"]) return;
-    magma_0xbbf6cb["ep"] = !![];
-    const magma_0xb28ab2 = magma_0xc411a3(magma_0xbbf6cb);
-    fetch(magma_0xbbf6cb[magma_0xf54fa2(327)], magma_0xb28ab2);
+  function magma_0x2f208d(magma_0xb5febf) {
+    if (magma_0xb5febf["ep"]) return;
+    magma_0xb5febf["ep"] = !![];
+    const magma_0x267197 = magma_0xd6146a(magma_0xb5febf);
+    fetch(magma_0xb5febf["href"], magma_0x267197);
   }
 })();
 /**
@@ -7489,15 +7488,15 @@ const _sfc_main$e = /* @__PURE__ */ defineComponent({
   setup(__props) {
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
-      var _a;
+      var _a, _b, _c;
       return openBlock(), createElementBlock("button", {
         class: "mgm-button",
         onClick: _cache[0] || (_cache[0] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
-      }, toDisplayString((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.title), 1);
+      }, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1);
     };
   }
 });
-const Button = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-7c722d60"]]);
+const Button = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-a64608d0"]]);
 const _hoisted_1$6 = {
   key: 0,
   class: "mgm-card"
@@ -7670,7 +7669,7 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
     });
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
-      var _a;
+      var _a, _b, _c;
       return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$5, [
         createBaseVNode("div", {
           class: "mgm-close",
@@ -7713,13 +7712,13 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
             }), 128)),
             createBaseVNode("div", _hoisted_4$2, "+" + toDisplayString(helpersCount.value), 1)
           ]),
-          createBaseVNode("span", _hoisted_5$2, toDisplayString((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.title), 1)
+          createBaseVNode("span", _hoisted_5$2, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1)
         ])
       ])) : createCommentVNode("", true);
     };
   }
 });
-const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-e541490b"]]);
+const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-f2457d5a"]]);
 function useFixedElements(bannerTopOffset, index) {
   const fixedElements = ref([]);
   const moovedFixedElements = ref([]);
@@ -8509,13 +8508,16 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const { sendEvent } = useSendingEvent();
     const loading = ref(true);
     const blockAlreadyMounted = ref(false);
-    const computeIntegrationStyles = (brandBg) => {
+    const computeIntegrationStyles = (widget) => {
+      var _a, _b;
+      const brandBg = ((_a = widget.customStyles) == null ? void 0 : _a.brandBg) || widget.primaryColor;
       const hex = brandBg.replace("#", "");
       const c_r = parseInt(hex.substring(0, 2), 16);
       const c_g = parseInt(hex.substring(2, 4), 16);
       const c_b = parseInt(hex.substring(4, 6), 16);
       const brightness = (c_r * 299 + c_g * 587 + c_b * 114) / 1e3;
-      const brandColor = brightness > 155 ? "#1C1F27" : "#FFFFFF";
+      const autoColor = brightness > 155 ? "#1C1F27" : "#FFFFFF";
+      const brandColor = ((_b = widget.customStyles) == null ? void 0 : _b.brandColor) || autoColor;
       return `--brand-bg: ${brandBg}; --brand-color: ${brandColor}`;
     };
     const mountBlockIntegration = (index) => {
@@ -8591,7 +8593,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       fetchedWidgets.forEach((widget, index) => {
         var _a, _b;
         if (widget) {
-          globalStore.addWidget({ ...widget, autoPopup: window.magma_app[index].autoPopup });
+          globalStore.addWidget({
+            ...widget,
+            autoPopup: window.magma_app[index].autoPopup,
+            customStyles: window.magma_app[index].customStyles
+          });
           if (((_a = widget.integration) == null ? void 0 : _a.type) === "block" && blockAlreadyMounted.value)
             console.warn("You can only mount one block integration per page");
           if (((_b = widget.integration) == null ? void 0 : _b.type) === "block") {
@@ -8652,7 +8658,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
           var _a, _b, _c, _d, _e;
           return openBlock(), createElementBlock("div", {
             key: index,
-            style: normalizeStyle(computeIntegrationStyles(widget.primaryColor))
+            style: normalizeStyle(computeIntegrationStyles(widget))
           }, [
             !loading.value && ((_a = widget.integration) == null ? void 0 : _a.type) === "widget" ? (openBlock(), createBlock(_sfc_main$b, {
               key: 0,
@@ -8677,4 +8683,4 @@ app.use(createPinia());
 app.use(F);
 app.mount("#magma-app");
 
-          })();/* Version: v4.0.17 */
+          })();/* Version: v4.0.18 */

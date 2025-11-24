@@ -205,7 +205,7 @@
   color: var(--color-foreground-default, #5f6c85);
 }
 
-.mgm-button[data-v-7c722d60] {
+.mgm-button[data-v-a64608d0] {
   display: flex;
   padding: 14px 24px;
   justify-content: center;
@@ -222,7 +222,7 @@
   font-weight: 500;
   line-height: 20px;
 }
-.mgm-button[data-v-7c722d60]:hover {
+.mgm-button[data-v-a64608d0]:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -289,7 +289,7 @@
 }
 }
 
-.mgm-banner[data-v-e541490b] {
+.mgm-banner[data-v-f2457d5a] {
   position: relative;
   display: flex;
   width: 100%;
@@ -302,7 +302,7 @@
   background: var(--brand-bg, #444ce7);
   box-shadow: 0px 1px 2px 0px rgba(28, 31, 39, 0.05);
 }
-.mgm-content[data-v-e541490b] {
+.mgm-content[data-v-f2457d5a] {
   display: flex;
   padding: var(--spacer-0, 0px);
   justify-content: center;
@@ -310,10 +310,10 @@
   gap: var(--spacer-4, 16px);
   flex: 1 0 0;
 }
-.mgm-content[data-v-e541490b]:hover {
+.mgm-content[data-v-f2457d5a]:hover {
   cursor: pointer;
 }
-.mgm-count[data-v-e541490b] {
+.mgm-count[data-v-f2457d5a] {
   position: relative;
   display: flex;
   justify-content: center;
@@ -326,17 +326,17 @@
   font-weight: 600;
   line-height: 14px;
 }
-.mgm-close[data-v-e541490b] {
+.mgm-close[data-v-f2457d5a] {
   display: flex;
   align-items: center;
   position: absolute;
   width: 32px;
   right: 0px;
 }
-.mgm-close[data-v-e541490b]:hover {
+.mgm-close[data-v-f2457d5a]:hover {
   cursor: pointer;
 }
-.mgm-avatar_container[data-v-e541490b] {
+.mgm-avatar_container[data-v-f2457d5a] {
   position: relative;
   display: flex;
   align-items: center;
@@ -345,15 +345,15 @@
   min-width: 72px;
   margin-right: 8px;
 }
-.mgm-avatar[data-v-e541490b],
-.mgm-count[data-v-e541490b] {
+.mgm-avatar[data-v-f2457d5a],
+.mgm-count[data-v-f2457d5a] {
   border: 2px solid white;
   border-radius: 50%;
   width: 32px;
   height: 32px;
   margin-right: -8px;
 }
-.mgm-title[data-v-e541490b] {
+.mgm-title[data-v-f2457d5a] {
   color: var(--brand-color, #fff);
   padding-right: 10px;
   font-size: 14px;
@@ -361,7 +361,7 @@
   font-weight: 500;
   line-height: 20px;
 }
-.mgm-badge[data-v-e541490b] {
+.mgm-badge[data-v-f2457d5a] {
   position: absolute;
   width: 14px;
   height: 14px;
@@ -372,7 +372,7 @@
   left: -5px;
 }
 @media (max-width: 768px) {
-.mgm-banner[data-v-e541490b] {
+.mgm-banner[data-v-f2457d5a] {
     padding: var(--spacer-2, 8px) var(--spacer-8, 32px);
 }
 }
