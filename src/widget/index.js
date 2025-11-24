@@ -1,65 +1,65 @@
 (function() {
             'use strict';
-            function magma_0x7e0411(magma_0x0b776c2, magma_0x2343d6) {
-  const magma_0x306094 = magma_0xcd963b();
-  return magma_0x7e0411 = function(magma_0x026d00, magma_0x6a5509) {
-    magma_0x026d00 = magma_0x026d00 - 105;
-    let magma_0x080427 = magma_0x306094[magma_0x026d00];
-    return magma_0x080427;
-  }, magma_0x7e0411(magma_0x0b776c2, magma_0x2343d6);
+            function magma_0x01212d() {
+  const magma_0x06a96a = ["crossOrigin", "anonymous", "4686890GOgDLc", "createElement", "relList", "addedNodes", "childList", "1266MtrQJH", "supports", "7097072MgGqqD", "tagName", "836253tVECll", "omit", "type", "2KaDoOv", "7385ymlzBB", "438141glfjNf", "credentials", "same-origin", "link", "integrity", 'link[rel="modulepreload"]', "observe", "8RoCUNo", "modulepreload", "9aIoyCC", "href", "533829gLpwxt", "4587090nhiYxt", "LINK", "referrerPolicy", "rel", "querySelectorAll"];
+  magma_0x01212d = function() {
+    return magma_0x06a96a;
+  };
+  return magma_0x01212d();
 }
-(function(magma_0x3177d4, magma_0xac90d9) {
-  const magma_0xb1f950 = magma_0x7e0411, magma_0x5cfbbf = magma_0x3177d4();
+function magma_0x844a54(magma_0x6c35fa2, magma_0xa73680) {
+  const magma_0xc411a3 = magma_0x01212d();
+  return magma_0x844a54 = function(magma_0xdb6544, magma_0xe969f6) {
+    magma_0xdb6544 = magma_0xdb6544 - 319;
+    let magma_0xb30a9b = magma_0xc411a3[magma_0xdb6544];
+    return magma_0xb30a9b;
+  }, magma_0x844a54(magma_0x6c35fa2, magma_0xa73680);
+}
+(function(magma_0x6acec7, magma_0x4fbaab) {
+  const magma_0xc035c5 = magma_0x844a54, magma_0xd987d7 = magma_0x6acec7();
   while (!![]) {
     try {
-      const magma_0xb2c0cb = parseInt(magma_0xb1f950(118)) / 1 * (parseInt(magma_0xb1f950(134)) / 2) + parseInt(magma_0xb1f950(112)) / 3 + parseInt(magma_0xb1f950(126)) / 4 + -parseInt(magma_0xb1f950(110)) / 5 + parseInt(magma_0xb1f950(135)) / 6 + parseInt(magma_0xb1f950(114)) / 7 + -parseInt(magma_0xb1f950(106)) / 8;
-      if (magma_0xb2c0cb === magma_0xac90d9) break;
-      else magma_0x5cfbbf["push"](magma_0x5cfbbf["shift"]());
-    } catch (magma_0x039484) {
-      magma_0x5cfbbf["push"](magma_0x5cfbbf["shift"]());
+      const magma_0x7abe27 = -parseInt(magma_0xc035c5(345)) / 1 * (-parseInt(magma_0xc035c5(348)) / 2) + -parseInt(magma_0xc035c5(328)) / 3 * (-parseInt(magma_0xc035c5(324)) / 4) + -parseInt(magma_0xc035c5(336)) / 5 + parseInt(magma_0xc035c5(341)) / 6 * (parseInt(magma_0xc035c5(349)) / 7) + -parseInt(magma_0xc035c5(343)) / 8 * (-parseInt(magma_0xc035c5(326)) / 9) + -parseInt(magma_0xc035c5(329)) / 10 + -parseInt(magma_0xc035c5(350)) / 11;
+      if (magma_0x7abe27 === magma_0x4fbaab) break;
+      else magma_0xd987d7["push"](magma_0xd987d7["shift"]());
+    } catch (magma_0x5c8e1c) {
+      magma_0xd987d7["push"](magma_0xd987d7["shift"]());
     }
   }
-})(magma_0xcd963b, 914246), (function magma_0x0b776c() {
-  const magma_0xe8c653 = magma_0x7e0411, magma_0x2343d6 = document[magma_0xe8c653(133)](magma_0xe8c653(119))["relList"];
-  if (magma_0x2343d6 && magma_0x2343d6[magma_0xe8c653(111)] && magma_0x2343d6[magma_0xe8c653(111)](magma_0xe8c653(125))) return;
-  for (const magma_0x6a5509 of document[magma_0xe8c653(117)](magma_0xe8c653(108))) {
-    magma_0x026d00(magma_0x6a5509);
+})(magma_0x01212d, 865960), (function magma_0x6c35fa() {
+  const magma_0xac4c90 = magma_0x844a54, magma_0xa73680 = document[magma_0xac4c90(337)](magma_0xac4c90(320))[magma_0xac4c90(338)];
+  if (magma_0xa73680 && magma_0xa73680[magma_0xac4c90(342)] && magma_0xa73680["supports"](magma_0xac4c90(325))) return;
+  for (const magma_0xe969f6 of document[magma_0xac4c90(333)](magma_0xac4c90(322))) {
+    magma_0xdb6544(magma_0xe969f6);
   }
-  new MutationObserver((magma_0x080427) => {
-    const magma_0x092594 = magma_0xe8c653;
-    for (const magma_0x1a6c20 of magma_0x080427) {
-      if (magma_0x1a6c20[magma_0x092594(115)] !== magma_0x092594(130)) continue;
-      for (const magma_0x04aeaa of magma_0x1a6c20[magma_0x092594(109)]) {
-        if (magma_0x04aeaa[magma_0x092594(132)] === magma_0x092594(129) && magma_0x04aeaa[magma_0x092594(128)] === magma_0x092594(125)) magma_0x026d00(magma_0x04aeaa);
+  new MutationObserver((magma_0xb30a9b) => {
+    const magma_0x25f351 = magma_0xac4c90;
+    for (const magma_0xf8a353 of magma_0xb30a9b) {
+      if (magma_0xf8a353[magma_0x25f351(347)] !== magma_0x25f351(340)) continue;
+      for (const magma_0x0a856a of magma_0xf8a353[magma_0x25f351(339)]) {
+        if (magma_0x0a856a[magma_0x25f351(344)] === magma_0x25f351(330) && magma_0x0a856a[magma_0x25f351(332)] === "modulepreload") magma_0xdb6544(magma_0x0a856a);
       }
     }
-  })[magma_0xe8c653(123)](document, { "childList": !![], "subtree": !![] });
-  function magma_0x306094(magma_0x2a6f50) {
-    const magma_0x674149 = magma_0xe8c653, magma_0x5717bf = {};
-    if (magma_0x2a6f50[magma_0x674149(121)]) magma_0x5717bf[magma_0x674149(121)] = magma_0x2a6f50[magma_0x674149(121)];
-    if (magma_0x2a6f50["referrerPolicy"]) magma_0x5717bf["referrerPolicy"] = magma_0x2a6f50[magma_0x674149(113)];
-    if (magma_0x2a6f50[magma_0x674149(124)] === magma_0x674149(127)) magma_0x5717bf[magma_0x674149(105)] = magma_0x674149(116);
+  })[magma_0xac4c90(323)](document, { "childList": !![], "subtree": !![] });
+  function magma_0xc411a3(magma_0x8c9f21) {
+    const magma_0x684561 = magma_0xac4c90, magma_0x0f8c79 = {};
+    if (magma_0x8c9f21[magma_0x684561(321)]) magma_0x0f8c79["integrity"] = magma_0x8c9f21[magma_0x684561(321)];
+    if (magma_0x8c9f21[magma_0x684561(331)]) magma_0x0f8c79[magma_0x684561(331)] = magma_0x8c9f21["referrerPolicy"];
+    if (magma_0x8c9f21[magma_0x684561(334)] === "use-credentials") magma_0x0f8c79[magma_0x684561(351)] = "include";
     else {
-      if (magma_0x2a6f50[magma_0x674149(124)] === magma_0x674149(122)) magma_0x5717bf[magma_0x674149(105)] = magma_0x674149(120);
-      else magma_0x5717bf["credentials"] = magma_0x674149(131);
+      if (magma_0x8c9f21[magma_0x684561(334)] === magma_0x684561(335)) magma_0x0f8c79[magma_0x684561(351)] = magma_0x684561(346);
+      else magma_0x0f8c79[magma_0x684561(351)] = magma_0x684561(319);
     }
-    return magma_0x5717bf;
+    return magma_0x0f8c79;
   }
-  function magma_0x026d00(magma_0xd0e398) {
-    const magma_0x6c3fac = magma_0xe8c653;
-    if (magma_0xd0e398["ep"]) return;
-    magma_0xd0e398["ep"] = !![];
-    const magma_0x86f8eb = magma_0x306094(magma_0xd0e398);
-    fetch(magma_0xd0e398[magma_0x6c3fac(107)], magma_0x86f8eb);
+  function magma_0xdb6544(magma_0xbbf6cb) {
+    const magma_0xf54fa2 = magma_0xac4c90;
+    if (magma_0xbbf6cb["ep"]) return;
+    magma_0xbbf6cb["ep"] = !![];
+    const magma_0xb28ab2 = magma_0xc411a3(magma_0xbbf6cb);
+    fetch(magma_0xbbf6cb[magma_0xf54fa2(327)], magma_0xb28ab2);
   }
 })();
-function magma_0xcd963b() {
-  const magma_0x3ce7e3 = ["178796vRZpZE", "5622894eDZSBl", "credentials", "21844280uQTRul", "href", 'link[rel="modulepreload"]', "addedNodes", "4533600jFkALn", "supports", "5120646SBSsBz", "referrerPolicy", "4231689jNvfSz", "type", "include", "querySelectorAll", "2xEzfQh", "link", "omit", "integrity", "anonymous", "observe", "crossOrigin", "modulepreload", "4496588LSrBEz", "use-credentials", "rel", "LINK", "childList", "same-origin", "tagName", "createElement"];
-  magma_0xcd963b = function() {
-    return magma_0x3ce7e3;
-  };
-  return magma_0xcd963b();
-}
 /**
 * @vue/shared v3.5.21
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -7488,37 +7488,16 @@ const _sfc_main$e = /* @__PURE__ */ defineComponent({
   },
   setup(__props) {
     const globalStore = useGlobalStore();
-    const props = __props;
-    const buttonText = computed(() => {
-      var _a, _b;
-      return ((_a = globalStore.widgets[props.index]) == null ? void 0 : _a.buttonText) || ((_b = globalStore.widgets[props.index]) == null ? void 0 : _b.title) || "";
-    });
-    const buttonStyle = computed(() => {
-      const widget = globalStore.widgets[props.index];
-      if (widget == null ? void 0 : widget.buttonBackgroundColor) {
-        const hex = widget.buttonBackgroundColor.replace("#", "");
-        const c_r = parseInt(hex.substring(0, 2), 16);
-        const c_g = parseInt(hex.substring(2, 4), 16);
-        const c_b = parseInt(hex.substring(4, 6), 16);
-        const brightness = (c_r * 299 + c_g * 587 + c_b * 114) / 1e3;
-        const textColor = brightness > 155 ? "#1C1F27" : "#FFFFFF";
-        return {
-          background: widget.buttonBackgroundColor,
-          color: textColor
-        };
-      }
-      return {};
-    });
     return (_ctx, _cache) => {
+      var _a;
       return openBlock(), createElementBlock("button", {
         class: "mgm-button",
-        style: normalizeStyle(buttonStyle.value),
         onClick: _cache[0] || (_cache[0] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
-      }, toDisplayString(buttonText.value), 5);
+      }, toDisplayString((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.title), 1);
     };
   }
 });
-const Button = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-b7ed2831"]]);
+const Button = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-7c722d60"]]);
 const _hoisted_1$6 = {
   key: 0,
   class: "mgm-card"
@@ -7660,7 +7639,6 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
   setup(__props) {
     const { setDefaultImage } = useDefaultImage();
     const { sendEvent } = useSendingEvent();
-    const globalStore = useGlobalStore();
     const props = __props;
     const innerWidth = ref(window.innerWidth);
     const helpers = computed(() => {
@@ -7670,10 +7648,6 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
     const helpersCount = computed(() => {
       var _a, _b, _c, _d;
       return ((_b = (_a = globalStore.widgets[props.index]) == null ? void 0 : _a.helpers) == null ? void 0 : _b.length) ? ((_d = (_c = globalStore.widgets[props.index]) == null ? void 0 : _c.helpers) == null ? void 0 : _d.length) - (innerWidth.value < 768 ? 2 : 3) : 5;
-    });
-    const bannerTitle = computed(() => {
-      var _a, _b;
-      return ((_a = globalStore.widgets[props.index]) == null ? void 0 : _a.buttonText) || ((_b = globalStore.widgets[props.index]) == null ? void 0 : _b.title) || "";
     });
     const handleClose = () => {
       var _a;
@@ -7694,7 +7668,9 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
         innerWidth.value = window.innerWidth;
       });
     });
+    const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
+      var _a;
       return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$5, [
         createBaseVNode("div", {
           class: "mgm-close",
@@ -7723,14 +7699,13 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
               style: { "z-index": "100" }
             }, null, -1)),
             (openBlock(true), createElementBlock(Fragment, null, renderList(helpers.value, (helper) => {
-              var _a;
               return openBlock(), createElementBlock("img", {
                 key: helper.firstname,
                 class: "mgm-avatar",
                 src: helper.profilePictureUrl,
                 width: "32",
                 height: "32",
-                style: normalizeStyle(`z-index: ${helpers.value && ((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.helpers) ? helpers.value.length - unref(globalStore).widgets[_ctx.index].helpers.indexOf(helper) : 0}`),
+                style: normalizeStyle(`z-index: ${helpers.value && helpers.value.length - unref(globalStore).widgets[_ctx.index].helpers.indexOf(helper)}`),
                 alt: "avatar",
                 onError: _cache[0] || (_cache[0] = //@ts-ignore
                 (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args))
@@ -7738,13 +7713,13 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
             }), 128)),
             createBaseVNode("div", _hoisted_4$2, "+" + toDisplayString(helpersCount.value), 1)
           ]),
-          createBaseVNode("span", _hoisted_5$2, toDisplayString(bannerTitle.value), 1)
+          createBaseVNode("span", _hoisted_5$2, toDisplayString((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.title), 1)
         ])
       ])) : createCommentVNode("", true);
     };
   }
 });
-const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-15e64a41"]]);
+const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-e541490b"]]);
 function useFixedElements(bannerTopOffset, index) {
   const fixedElements = ref([]);
   const moovedFixedElements = ref([]);
@@ -8534,15 +8509,14 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const { sendEvent } = useSendingEvent();
     const loading = ref(true);
     const blockAlreadyMounted = ref(false);
-    const computeIntegrationStyles = (brandBg, customBg) => {
-      const bgColor = customBg || brandBg;
-      const hex = bgColor.replace("#", "");
+    const computeIntegrationStyles = (brandBg) => {
+      const hex = brandBg.replace("#", "");
       const c_r = parseInt(hex.substring(0, 2), 16);
       const c_g = parseInt(hex.substring(2, 4), 16);
       const c_b = parseInt(hex.substring(4, 6), 16);
       const brightness = (c_r * 299 + c_g * 587 + c_b * 114) / 1e3;
       const brandColor = brightness > 155 ? "#1C1F27" : "#FFFFFF";
-      return `--brand-bg: ${bgColor}; --brand-color: ${brandColor}`;
+      return `--brand-bg: ${brandBg}; --brand-color: ${brandColor}`;
     };
     const mountBlockIntegration = (index) => {
       const blockElement = document.querySelector("#magma-app_block");
@@ -8617,13 +8591,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       fetchedWidgets.forEach((widget, index) => {
         var _a, _b;
         if (widget) {
-          const config = window.magma_app[index];
-          globalStore.addWidget({
-            ...widget,
-            autoPopup: config.autoPopup,
-            buttonBackgroundColor: config.buttonBackgroundColor,
-            buttonText: config.buttonText
-          });
+          globalStore.addWidget({ ...widget, autoPopup: window.magma_app[index].autoPopup });
           if (((_a = widget.integration) == null ? void 0 : _a.type) === "block" && blockAlreadyMounted.value)
             console.warn("You can only mount one block integration per page");
           if (((_b = widget.integration) == null ? void 0 : _b.type) === "block") {
@@ -8684,7 +8652,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
           var _a, _b, _c, _d, _e;
           return openBlock(), createElementBlock("div", {
             key: index,
-            style: normalizeStyle(computeIntegrationStyles(widget.primaryColor, widget.buttonBackgroundColor))
+            style: normalizeStyle(computeIntegrationStyles(widget.primaryColor))
           }, [
             !loading.value && ((_a = widget.integration) == null ? void 0 : _a.type) === "widget" ? (openBlock(), createBlock(_sfc_main$b, {
               key: 0,
