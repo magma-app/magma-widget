@@ -1,64 +1,65 @@
 (function() {
             'use strict';
-            function magma_0x868df1() {
-  const magma_0xd248ed = ["rel", "link", "LINK", 'link[rel="modulepreload"]', "observe", "2837LKFYFC", "2635038nxLmzW", "427415YKSXyr", "querySelectorAll", "164IQimRG", "include", "type", "integrity", "use-credentials", "34870mesoar", "credentials", "18ZrxCuh", "childList", "anonymous", "1172025gfvRMH", "6kZsfJl", "155372BhlWpW", "3141632GrqDYx", "modulepreload", "1639umBuVt", "referrerPolicy", "tagName", "supports", "createElement"];
-  magma_0x868df1 = function() {
-    return magma_0xd248ed;
-  };
-  return magma_0x868df1();
+            function magma_0xb71d81(magma_0x8eea9a2, magma_0x237e51) {
+  const magma_0x6e469f = magma_0x5d6885();
+  return magma_0xb71d81 = function(magma_0x8e5d5a, magma_0xf8ef28) {
+    magma_0x8e5d5a = magma_0x8e5d5a - 389;
+    let magma_0x62960d = magma_0x6e469f[magma_0x8e5d5a];
+    return magma_0x62960d;
+  }, magma_0xb71d81(magma_0x8eea9a2, magma_0x237e51);
 }
-function magma_0x4890cd(magma_0x5d789a2, magma_0xf5df43) {
-  const magma_0xd6146a = magma_0x868df1();
-  return magma_0x4890cd = function(magma_0x2f208d, magma_0xb4dcfd) {
-    magma_0x2f208d = magma_0x2f208d - 309;
-    let magma_0xa4b36d = magma_0xd6146a[magma_0x2f208d];
-    return magma_0xa4b36d;
-  }, magma_0x4890cd(magma_0x5d789a2, magma_0xf5df43);
-}
-(function(magma_0x6e7df1, magma_0xe6c0e7) {
-  const magma_0x7c52a3 = magma_0x4890cd, magma_0xe6df1f = magma_0x6e7df1();
+(function(magma_0x25b011, magma_0x9f42b1) {
+  const magma_0x12015a = magma_0xb71d81, magma_0x37222d = magma_0x25b011();
   while (!![]) {
     try {
-      const magma_0x9055c4 = parseInt(magma_0x7c52a3(316)) / 1 * (parseInt(magma_0x7c52a3(320)) / 2) + parseInt(magma_0x7c52a3(327)) / 3 * (-parseInt(magma_0x7c52a3(332)) / 4) + -parseInt(magma_0x7c52a3(318)) / 5 * (parseInt(magma_0x7c52a3(331)) / 6) + parseInt(magma_0x7c52a3(317)) / 7 + -parseInt(magma_0x7c52a3(333)) / 8 + -parseInt(magma_0x7c52a3(330)) / 9 + parseInt(magma_0x7c52a3(325)) / 10 * (parseInt(magma_0x7c52a3(335)) / 11);
-      if (magma_0x9055c4 === magma_0xe6c0e7) break;
-      else magma_0xe6df1f["push"](magma_0xe6df1f["shift"]());
-    } catch (magma_0x7e7b3c) {
-      magma_0xe6df1f["push"](magma_0xe6df1f["shift"]());
+      const magma_0x7e7e6c = -parseInt(magma_0x12015a(398)) / 1 * (parseInt(magma_0x12015a(395)) / 2) + parseInt(magma_0x12015a(416)) / 3 * (-parseInt(magma_0x12015a(393)) / 4) + parseInt(magma_0x12015a(392)) / 5 + -parseInt(magma_0x12015a(406)) / 6 + parseInt(magma_0x12015a(418)) / 7 + parseInt(magma_0x12015a(414)) / 8 * (parseInt(magma_0x12015a(401)) / 9) + -parseInt(magma_0x12015a(420)) / 10 * (-parseInt(magma_0x12015a(415)) / 11);
+      if (magma_0x7e7e6c === magma_0x9f42b1) break;
+      else magma_0x37222d["push"](magma_0x37222d["shift"]());
+    } catch (magma_0xcf302d) {
+      magma_0x37222d["push"](magma_0x37222d["shift"]());
     }
   }
-})(magma_0x868df1, 287161), (function magma_0x5d789a() {
-  const magma_0x663a0b = magma_0x4890cd, magma_0xf5df43 = document[magma_0x663a0b(310)](magma_0x663a0b(312))["relList"];
-  if (magma_0xf5df43 && magma_0xf5df43[magma_0x663a0b(309)] && magma_0xf5df43["supports"](magma_0x663a0b(334))) return;
-  for (const magma_0xb4dcfd of document[magma_0x663a0b(319)](magma_0x663a0b(314))) {
-    magma_0x2f208d(magma_0xb4dcfd);
+})(magma_0x5d6885, 851427), (function magma_0x8eea9a() {
+  const magma_0x089db4 = magma_0xb71d81, magma_0x237e51 = document[magma_0x089db4(412)](magma_0x089db4(419))[magma_0x089db4(396)];
+  if (magma_0x237e51 && magma_0x237e51["supports"] && magma_0x237e51[magma_0x089db4(404)](magma_0x089db4(399))) return;
+  for (const magma_0xf8ef28 of document["querySelectorAll"](magma_0x089db4(409))) {
+    magma_0x8e5d5a(magma_0xf8ef28);
   }
-  new MutationObserver((magma_0xa4b36d) => {
-    const magma_0xd1ed3a = magma_0x663a0b;
-    for (const magma_0x9162ce of magma_0xa4b36d) {
-      if (magma_0x9162ce[magma_0xd1ed3a(322)] !== magma_0xd1ed3a(328)) continue;
-      for (const magma_0xbe3acf of magma_0x9162ce["addedNodes"]) {
-        if (magma_0xbe3acf[magma_0xd1ed3a(337)] === magma_0xd1ed3a(313) && magma_0xbe3acf[magma_0xd1ed3a(311)] === "modulepreload") magma_0x2f208d(magma_0xbe3acf);
+  new MutationObserver((magma_0x62960d) => {
+    const magma_0xa64f16 = magma_0x089db4;
+    for (const magma_0x8a6c69 of magma_0x62960d) {
+      if (magma_0x8a6c69[magma_0xa64f16(403)] !== magma_0xa64f16(413)) continue;
+      for (const magma_0x130f68 of magma_0x8a6c69[magma_0xa64f16(397)]) {
+        if (magma_0x130f68[magma_0xa64f16(410)] === magma_0xa64f16(389) && magma_0x130f68[magma_0xa64f16(407)] === magma_0xa64f16(399)) magma_0x8e5d5a(magma_0x130f68);
       }
     }
-  })[magma_0x663a0b(315)](document, { "childList": !![], "subtree": !![] });
-  function magma_0xd6146a(magma_0x7c8446) {
-    const magma_0x772765 = magma_0x663a0b, magma_0x1bde1e = {};
-    if (magma_0x7c8446[magma_0x772765(323)]) magma_0x1bde1e[magma_0x772765(323)] = magma_0x7c8446[magma_0x772765(323)];
-    if (magma_0x7c8446[magma_0x772765(336)]) magma_0x1bde1e[magma_0x772765(336)] = magma_0x7c8446[magma_0x772765(336)];
-    if (magma_0x7c8446["crossOrigin"] === magma_0x772765(324)) magma_0x1bde1e[magma_0x772765(326)] = magma_0x772765(321);
+  })[magma_0x089db4(391)](document, { "childList": !![], "subtree": !![] });
+  function magma_0x6e469f(magma_0x507808) {
+    const magma_0x6b962d = magma_0x089db4, magma_0xbad285 = {};
+    if (magma_0x507808[magma_0x6b962d(400)]) magma_0xbad285[magma_0x6b962d(400)] = magma_0x507808[magma_0x6b962d(400)];
+    if (magma_0x507808[magma_0x6b962d(405)]) magma_0xbad285[magma_0x6b962d(405)] = magma_0x507808[magma_0x6b962d(405)];
+    if (magma_0x507808[magma_0x6b962d(390)] === "use-credentials") magma_0xbad285["credentials"] = magma_0x6b962d(417);
     else {
-      if (magma_0x7c8446["crossOrigin"] === magma_0x772765(329)) magma_0x1bde1e[magma_0x772765(326)] = "omit";
-      else magma_0x1bde1e[magma_0x772765(326)] = "same-origin";
+      if (magma_0x507808[magma_0x6b962d(390)] === magma_0x6b962d(394)) magma_0xbad285[magma_0x6b962d(408)] = magma_0x6b962d(421);
+      else magma_0xbad285[magma_0x6b962d(408)] = magma_0x6b962d(411);
     }
-    return magma_0x1bde1e;
+    return magma_0xbad285;
   }
-  function magma_0x2f208d(magma_0xb5febf) {
-    if (magma_0xb5febf["ep"]) return;
-    magma_0xb5febf["ep"] = !![];
-    const magma_0x267197 = magma_0xd6146a(magma_0xb5febf);
-    fetch(magma_0xb5febf["href"], magma_0x267197);
+  function magma_0x8e5d5a(magma_0xc76aeb) {
+    const magma_0xc2166e = magma_0x089db4;
+    if (magma_0xc76aeb["ep"]) return;
+    magma_0xc76aeb["ep"] = !![];
+    const magma_0x667e70 = magma_0x6e469f(magma_0xc76aeb);
+    fetch(magma_0xc76aeb[magma_0xc2166e(402)], magma_0x667e70);
   }
 })();
+function magma_0x5d6885() {
+  const magma_0x951e57 = ["9yYHgKw", "href", "type", "supports", "referrerPolicy", "9982188vJrRgQ", "rel", "credentials", 'link[rel="modulepreload"]', "tagName", "same-origin", "createElement", "childList", "13390184oODUoP", "187VxLNgx", "535083TImsLP", "include", "2798236FbWQvG", "link", "494310PZlfMM", "omit", "LINK", "crossOrigin", "observe", "870745aWHzup", "4sygAuS", "anonymous", "60694fXUsDG", "relList", "addedNodes", "13zsvBTh", "modulepreload", "integrity"];
+  magma_0x5d6885 = function() {
+    return magma_0x951e57;
+  };
+  return magma_0x5d6885();
+}
 /**
 * @vue/shared v3.5.21
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -2159,6 +2160,336 @@ function invokeDirectiveHook(vnode, prevVNode, instance, name) {
 }
 const TeleportEndKey = Symbol("_vte");
 const isTeleport = (type) => type.__isTeleport;
+const isTeleportDisabled = (props) => props && (props.disabled || props.disabled === "");
+const isTeleportDeferred = (props) => props && (props.defer || props.defer === "");
+const isTargetSVG = (target) => typeof SVGElement !== "undefined" && target instanceof SVGElement;
+const isTargetMathML = (target) => typeof MathMLElement === "function" && target instanceof MathMLElement;
+const resolveTarget = (props, select) => {
+  const targetSelector = props && props.to;
+  if (isString(targetSelector)) {
+    if (!select) {
+      return null;
+    } else {
+      const target = select(targetSelector);
+      return target;
+    }
+  } else {
+    return targetSelector;
+  }
+};
+const TeleportImpl = {
+  name: "Teleport",
+  __isTeleport: true,
+  process(n1, n2, container, anchor, parentComponent, parentSuspense, namespace, slotScopeIds, optimized, internals) {
+    const {
+      mc: mountChildren,
+      pc: patchChildren,
+      pbc: patchBlockChildren,
+      o: { insert, querySelector, createText, createComment }
+    } = internals;
+    const disabled = isTeleportDisabled(n2.props);
+    let { shapeFlag, children, dynamicChildren } = n2;
+    if (n1 == null) {
+      const placeholder = n2.el = createText("");
+      const mainAnchor = n2.anchor = createText("");
+      insert(placeholder, container, anchor);
+      insert(mainAnchor, container, anchor);
+      const mount = (container2, anchor2) => {
+        if (shapeFlag & 16) {
+          if (parentComponent && parentComponent.isCE) {
+            parentComponent.ce._teleportTarget = container2;
+          }
+          mountChildren(
+            children,
+            container2,
+            anchor2,
+            parentComponent,
+            parentSuspense,
+            namespace,
+            slotScopeIds,
+            optimized
+          );
+        }
+      };
+      const mountToTarget = () => {
+        const target = n2.target = resolveTarget(n2.props, querySelector);
+        const targetAnchor = prepareAnchor(target, n2, createText, insert);
+        if (target) {
+          if (namespace !== "svg" && isTargetSVG(target)) {
+            namespace = "svg";
+          } else if (namespace !== "mathml" && isTargetMathML(target)) {
+            namespace = "mathml";
+          }
+          if (!disabled) {
+            mount(target, targetAnchor);
+            updateCssVars(n2, false);
+          }
+        }
+      };
+      if (disabled) {
+        mount(container, mainAnchor);
+        updateCssVars(n2, true);
+      }
+      if (isTeleportDeferred(n2.props)) {
+        n2.el.__isMounted = false;
+        queuePostRenderEffect(() => {
+          mountToTarget();
+          delete n2.el.__isMounted;
+        }, parentSuspense);
+      } else {
+        mountToTarget();
+      }
+    } else {
+      if (isTeleportDeferred(n2.props) && n1.el.__isMounted === false) {
+        queuePostRenderEffect(() => {
+          TeleportImpl.process(
+            n1,
+            n2,
+            container,
+            anchor,
+            parentComponent,
+            parentSuspense,
+            namespace,
+            slotScopeIds,
+            optimized,
+            internals
+          );
+        }, parentSuspense);
+        return;
+      }
+      n2.el = n1.el;
+      n2.targetStart = n1.targetStart;
+      const mainAnchor = n2.anchor = n1.anchor;
+      const target = n2.target = n1.target;
+      const targetAnchor = n2.targetAnchor = n1.targetAnchor;
+      const wasDisabled = isTeleportDisabled(n1.props);
+      const currentContainer = wasDisabled ? container : target;
+      const currentAnchor = wasDisabled ? mainAnchor : targetAnchor;
+      if (namespace === "svg" || isTargetSVG(target)) {
+        namespace = "svg";
+      } else if (namespace === "mathml" || isTargetMathML(target)) {
+        namespace = "mathml";
+      }
+      if (dynamicChildren) {
+        patchBlockChildren(
+          n1.dynamicChildren,
+          dynamicChildren,
+          currentContainer,
+          parentComponent,
+          parentSuspense,
+          namespace,
+          slotScopeIds
+        );
+        traverseStaticChildren(n1, n2, true);
+      } else if (!optimized) {
+        patchChildren(
+          n1,
+          n2,
+          currentContainer,
+          currentAnchor,
+          parentComponent,
+          parentSuspense,
+          namespace,
+          slotScopeIds,
+          false
+        );
+      }
+      if (disabled) {
+        if (!wasDisabled) {
+          moveTeleport(
+            n2,
+            container,
+            mainAnchor,
+            internals,
+            1
+          );
+        } else {
+          if (n2.props && n1.props && n2.props.to !== n1.props.to) {
+            n2.props.to = n1.props.to;
+          }
+        }
+      } else {
+        if ((n2.props && n2.props.to) !== (n1.props && n1.props.to)) {
+          const nextTarget = n2.target = resolveTarget(
+            n2.props,
+            querySelector
+          );
+          if (nextTarget) {
+            moveTeleport(
+              n2,
+              nextTarget,
+              null,
+              internals,
+              0
+            );
+          }
+        } else if (wasDisabled) {
+          moveTeleport(
+            n2,
+            target,
+            targetAnchor,
+            internals,
+            1
+          );
+        }
+      }
+      updateCssVars(n2, disabled);
+    }
+  },
+  remove(vnode, parentComponent, parentSuspense, { um: unmount, o: { remove: hostRemove } }, doRemove) {
+    const {
+      shapeFlag,
+      children,
+      anchor,
+      targetStart,
+      targetAnchor,
+      target,
+      props
+    } = vnode;
+    if (target) {
+      hostRemove(targetStart);
+      hostRemove(targetAnchor);
+    }
+    doRemove && hostRemove(anchor);
+    if (shapeFlag & 16) {
+      const shouldRemove = doRemove || !isTeleportDisabled(props);
+      for (let i = 0; i < children.length; i++) {
+        const child = children[i];
+        unmount(
+          child,
+          parentComponent,
+          parentSuspense,
+          shouldRemove,
+          !!child.dynamicChildren
+        );
+      }
+    }
+  },
+  move: moveTeleport,
+  hydrate: hydrateTeleport
+};
+function moveTeleport(vnode, container, parentAnchor, { o: { insert }, m: move }, moveType = 2) {
+  if (moveType === 0) {
+    insert(vnode.targetAnchor, container, parentAnchor);
+  }
+  const { el, anchor, shapeFlag, children, props } = vnode;
+  const isReorder = moveType === 2;
+  if (isReorder) {
+    insert(el, container, parentAnchor);
+  }
+  if (!isReorder || isTeleportDisabled(props)) {
+    if (shapeFlag & 16) {
+      for (let i = 0; i < children.length; i++) {
+        move(
+          children[i],
+          container,
+          parentAnchor,
+          2
+        );
+      }
+    }
+  }
+  if (isReorder) {
+    insert(anchor, container, parentAnchor);
+  }
+}
+function hydrateTeleport(node, vnode, parentComponent, parentSuspense, slotScopeIds, optimized, {
+  o: { nextSibling, parentNode, querySelector, insert, createText }
+}, hydrateChildren) {
+  function hydrateDisabledTeleport(node2, vnode2, targetStart, targetAnchor) {
+    vnode2.anchor = hydrateChildren(
+      nextSibling(node2),
+      vnode2,
+      parentNode(node2),
+      parentComponent,
+      parentSuspense,
+      slotScopeIds,
+      optimized
+    );
+    vnode2.targetStart = targetStart;
+    vnode2.targetAnchor = targetAnchor;
+  }
+  const target = vnode.target = resolveTarget(
+    vnode.props,
+    querySelector
+  );
+  const disabled = isTeleportDisabled(vnode.props);
+  if (target) {
+    const targetNode = target._lpa || target.firstChild;
+    if (vnode.shapeFlag & 16) {
+      if (disabled) {
+        hydrateDisabledTeleport(
+          node,
+          vnode,
+          targetNode,
+          targetNode && nextSibling(targetNode)
+        );
+      } else {
+        vnode.anchor = nextSibling(node);
+        let targetAnchor = targetNode;
+        while (targetAnchor) {
+          if (targetAnchor && targetAnchor.nodeType === 8) {
+            if (targetAnchor.data === "teleport start anchor") {
+              vnode.targetStart = targetAnchor;
+            } else if (targetAnchor.data === "teleport anchor") {
+              vnode.targetAnchor = targetAnchor;
+              target._lpa = vnode.targetAnchor && nextSibling(vnode.targetAnchor);
+              break;
+            }
+          }
+          targetAnchor = nextSibling(targetAnchor);
+        }
+        if (!vnode.targetAnchor) {
+          prepareAnchor(target, vnode, createText, insert);
+        }
+        hydrateChildren(
+          targetNode && nextSibling(targetNode),
+          vnode,
+          target,
+          parentComponent,
+          parentSuspense,
+          slotScopeIds,
+          optimized
+        );
+      }
+    }
+    updateCssVars(vnode, disabled);
+  } else if (disabled) {
+    if (vnode.shapeFlag & 16) {
+      hydrateDisabledTeleport(node, vnode, node, nextSibling(node));
+    }
+  }
+  return vnode.anchor && nextSibling(vnode.anchor);
+}
+const Teleport = TeleportImpl;
+function updateCssVars(vnode, isDisabled) {
+  const ctx = vnode.ctx;
+  if (ctx && ctx.ut) {
+    let node, anchor;
+    if (isDisabled) {
+      node = vnode.el;
+      anchor = vnode.anchor;
+    } else {
+      node = vnode.targetStart;
+      anchor = vnode.targetAnchor;
+    }
+    while (node && node !== anchor) {
+      if (node.nodeType === 1) node.setAttribute("data-v-owner", ctx.uid);
+      node = node.nextSibling;
+    }
+    ctx.ut();
+  }
+}
+function prepareAnchor(target, vnode, createText, insert) {
+  const targetStart = vnode.targetStart = createText("");
+  const targetAnchor = vnode.targetAnchor = createText("");
+  targetStart[TeleportEndKey] = targetAnchor;
+  if (target) {
+    insert(targetStart, target);
+    insert(targetAnchor, target);
+  }
+  return targetAnchor;
+}
 const leaveCbKey = Symbol("_leaveCb");
 const enterCbKey = Symbol("_enterCb");
 function useTransitionState() {
@@ -6848,6 +7179,31 @@ function shouldSetAsProp(el, key, value, isSVG) {
   }
   return key in el;
 }
+const systemModifiers = ["ctrl", "shift", "alt", "meta"];
+const modifierGuards = {
+  stop: (e) => e.stopPropagation(),
+  prevent: (e) => e.preventDefault(),
+  self: (e) => e.target !== e.currentTarget,
+  ctrl: (e) => !e.ctrlKey,
+  shift: (e) => !e.shiftKey,
+  alt: (e) => !e.altKey,
+  meta: (e) => !e.metaKey,
+  left: (e) => "button" in e && e.button !== 0,
+  middle: (e) => "button" in e && e.button !== 1,
+  right: (e) => "button" in e && e.button !== 2,
+  exact: (e, modifiers) => systemModifiers.some((m) => e[`${m}Key`] && !modifiers.includes(m))
+};
+const withModifiers = (fn, modifiers) => {
+  const cache = fn._withMods || (fn._withMods = {});
+  const cacheKey = modifiers.join(".");
+  return cache[cacheKey] || (cache[cacheKey] = ((event, ...args) => {
+    for (let i = 0; i < modifiers.length; i++) {
+      const guard = modifierGuards[modifiers[i]];
+      if (guard && guard(event, modifiers)) return;
+    }
+    return fn(event, ...args);
+  }));
+};
 const rendererOptions = /* @__PURE__ */ extend({ patchProp }, nodeOps);
 let renderer;
 function ensureRenderer() {
@@ -6896,7 +7252,7 @@ function normalizeContainer(container) {
  * @license MIT
  */
 let activePinia;
-const setActivePinia = (pinia) => activePinia = pinia;
+const setActivePinia = (pinia2) => activePinia = pinia2;
 const piniaSymbol = (
   /* istanbul ignore next */
   Symbol()
@@ -6915,13 +7271,13 @@ function createPinia() {
   const state = scope.run(() => ref({}));
   let _p = [];
   let toBeInstalled = [];
-  const pinia = markRaw({
+  const pinia2 = markRaw({
     install(app2) {
-      setActivePinia(pinia);
+      setActivePinia(pinia2);
       {
-        pinia._a = app2;
-        app2.provide(piniaSymbol, pinia);
-        app2.config.globalProperties.$pinia = pinia;
+        pinia2._a = app2;
+        app2.provide(piniaSymbol, pinia2);
+        app2.config.globalProperties.$pinia = pinia2;
         toBeInstalled.forEach((plugin) => _p.push(plugin));
         toBeInstalled = [];
       }
@@ -6942,7 +7298,7 @@ function createPinia() {
     _s: /* @__PURE__ */ new Map(),
     state
   });
-  return pinia;
+  return pinia2;
 }
 const noop = () => {
 };
@@ -6998,30 +7354,30 @@ const { assign } = Object;
 function isComputed(o) {
   return !!(isRef(o) && o.effect);
 }
-function createOptionsStore(id, options, pinia, hot) {
+function createOptionsStore(id, options, pinia2, hot) {
   const { state, actions, getters } = options;
-  const initialState = pinia.state.value[id];
+  const initialState = pinia2.state.value[id];
   let store;
   function setup() {
     if (!initialState && true) {
       {
-        pinia.state.value[id] = state ? state() : {};
+        pinia2.state.value[id] = state ? state() : {};
       }
     }
-    const localState = toRefs(pinia.state.value[id]);
+    const localState = toRefs(pinia2.state.value[id]);
     return assign(localState, actions, Object.keys(getters || {}).reduce((computedGetters, name) => {
       computedGetters[name] = markRaw(computed(() => {
-        setActivePinia(pinia);
-        const store2 = pinia._s.get(id);
+        setActivePinia(pinia2);
+        const store2 = pinia2._s.get(id);
         return getters[name].call(store2, store2);
       }));
       return computedGetters;
     }, {}));
   }
-  store = createSetupStore(id, setup, options, pinia, hot, true);
+  store = createSetupStore(id, setup, options, pinia2, hot, true);
   return store;
 }
-function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) {
+function createSetupStore($id, setup, options = {}, pinia2, hot, isOptionsStore) {
   let scope;
   const optionsForPlugin = assign({ actions: {} }, options);
   const $subscribeOptions = { deep: true };
@@ -7030,10 +7386,10 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
   let subscriptions = [];
   let actionSubscriptions = [];
   let debuggerEvents;
-  const initialState = pinia.state.value[$id];
+  const initialState = pinia2.state.value[$id];
   if (!isOptionsStore && !initialState && true) {
     {
-      pinia.state.value[$id] = {};
+      pinia2.state.value[$id] = {};
     }
   }
   ref({});
@@ -7042,14 +7398,14 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     let subscriptionMutation;
     isListening = isSyncListening = false;
     if (typeof partialStateOrMutator === "function") {
-      partialStateOrMutator(pinia.state.value[$id]);
+      partialStateOrMutator(pinia2.state.value[$id]);
       subscriptionMutation = {
         type: MutationType.patchFunction,
         storeId: $id,
         events: debuggerEvents
       };
     } else {
-      mergeReactiveObjects(pinia.state.value[$id], partialStateOrMutator);
+      mergeReactiveObjects(pinia2.state.value[$id], partialStateOrMutator);
       subscriptionMutation = {
         type: MutationType.patchObject,
         payload: partialStateOrMutator,
@@ -7064,7 +7420,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
       }
     });
     isSyncListening = true;
-    triggerSubscriptions(subscriptions, subscriptionMutation, pinia.state.value[$id]);
+    triggerSubscriptions(subscriptions, subscriptionMutation, pinia2.state.value[$id]);
   }
   const $reset = isOptionsStore ? function $reset2() {
     const { state } = options;
@@ -7080,7 +7436,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     scope.stop();
     subscriptions = [];
     actionSubscriptions = [];
-    pinia._s.delete($id);
+    pinia2._s.delete($id);
   }
   const action = (fn, name = "") => {
     if (ACTION_MARKER in fn) {
@@ -7088,7 +7444,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
       return fn;
     }
     const wrappedAction = function() {
-      setActivePinia(pinia);
+      setActivePinia(pinia2);
       const args = Array.from(arguments);
       const afterCallbackList = [];
       const onErrorCallbackList = [];
@@ -7129,7 +7485,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     return wrappedAction;
   };
   const partialStore = {
-    _p: pinia,
+    _p: pinia2,
     // _s: scope,
     $id,
     $onAction: addSubscription.bind(null, actionSubscriptions),
@@ -7137,7 +7493,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     $reset,
     $subscribe(callback, options2 = {}) {
       const removeSubscription = addSubscription(subscriptions, callback, options2.detached, () => stopWatcher());
-      const stopWatcher = scope.run(() => watch(() => pinia.state.value[$id], (state) => {
+      const stopWatcher = scope.run(() => watch(() => pinia2.state.value[$id], (state) => {
         if (options2.flush === "sync" ? isSyncListening : isListening) {
           callback({
             storeId: $id,
@@ -7151,9 +7507,9 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     $dispose
   };
   const store = reactive(partialStore);
-  pinia._s.set($id, store);
-  const runWithContext = pinia._a && pinia._a.runWithContext || fallbackRunWithContext;
-  const setupStore = runWithContext(() => pinia._e.run(() => (scope = effectScope()).run(() => setup({ action }))));
+  pinia2._s.set($id, store);
+  const runWithContext = pinia2._a && pinia2._a.runWithContext || fallbackRunWithContext;
+  const setupStore = runWithContext(() => pinia2._e.run(() => (scope = effectScope()).run(() => setup({ action }))));
   for (const key in setupStore) {
     const prop = setupStore[key];
     if (isRef(prop) && !isComputed(prop) || isReactive(prop)) {
@@ -7166,7 +7522,7 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
           }
         }
         {
-          pinia.state.value[$id][key] = prop;
+          pinia2.state.value[$id][key] = prop;
         }
       }
     } else if (typeof prop === "function") {
@@ -7182,19 +7538,19 @@ function createSetupStore($id, setup, options = {}, pinia, hot, isOptionsStore) 
     assign(toRaw(store), setupStore);
   }
   Object.defineProperty(store, "$state", {
-    get: () => pinia.state.value[$id],
+    get: () => pinia2.state.value[$id],
     set: (state) => {
       $patch(($state) => {
         assign($state, state);
       });
     }
   });
-  pinia._p.forEach((extender) => {
+  pinia2._p.forEach((extender) => {
     {
       assign(store, scope.run(() => extender({
         store,
-        app: pinia._a,
-        pinia,
+        app: pinia2._a,
+        pinia: pinia2,
         options: optionsForPlugin
       })));
     }
@@ -7216,22 +7572,22 @@ function defineStore(idOrOptions, setup, setupOptions) {
     id = idOrOptions;
     options = isSetupStore ? setupOptions : setup;
   }
-  function useStore(pinia, hot) {
+  function useStore(pinia2, hot) {
     const hasContext = hasInjectionContext();
-    pinia = // in test mode, ignore the argument provided as we can always retrieve a
+    pinia2 = // in test mode, ignore the argument provided as we can always retrieve a
     // pinia instance with getActivePinia()
-    pinia || (hasContext ? inject(piniaSymbol, null) : null);
-    if (pinia)
-      setActivePinia(pinia);
-    pinia = activePinia;
-    if (!pinia._s.has(id)) {
+    pinia2 || (hasContext ? inject(piniaSymbol, null) : null);
+    if (pinia2)
+      setActivePinia(pinia2);
+    pinia2 = activePinia;
+    if (!pinia2._s.has(id)) {
       if (isSetupStore) {
-        createSetupStore(id, setup, options, pinia);
+        createSetupStore(id, setup, options, pinia2);
       } else {
-        createOptionsStore(id, options, pinia);
+        createOptionsStore(id, options, pinia2);
       }
     }
-    const store = pinia._s.get(id);
+    const store = pinia2._s.get(id);
     return store;
   }
   useStore.$id = id;
@@ -7306,10 +7662,10 @@ function useSendingEvent() {
     sendEvent
   };
 }
-const _hoisted_1$8 = { class: "mgm-avatar_container" };
-const _hoisted_2$8 = ["src"];
-const _hoisted_3$6 = { class: "mgm-text-badge" };
-const _sfc_main$g = /* @__PURE__ */ defineComponent({
+const _hoisted_1$b = { class: "mgm-avatar_container" };
+const _hoisted_2$b = ["src"];
+const _hoisted_3$9 = { class: "mgm-text-badge" };
+const _sfc_main$j = /* @__PURE__ */ defineComponent({
   __name: "WidgetView",
   props: {
     index: {}
@@ -7344,7 +7700,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
           class: normalizeClass(`mgm-badge ${((_b = unref(globalStore).widgets[_ctx.index].integration.position) == null ? void 0 : _b.toLowerCase().includes("left")) ? "mgm-left" : ""}`),
           style: { "z-index": "100" }
         }, null, 2),
-        createBaseVNode("div", _hoisted_1$8, [
+        createBaseVNode("div", _hoisted_1$b, [
           (openBlock(true), createElementBlock(Fragment, null, renderList((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.helpers.slice(0, 3), (helper) => {
             var _a2;
             return openBlock(), createElementBlock("img", {
@@ -7359,10 +7715,10 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
               onError: _cache[0] || (_cache[0] = //@ts-ignore
               (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args)),
               alt: "avatar"
-            }, null, 44, _hoisted_2$8);
+            }, null, 44, _hoisted_2$b);
           }), 128))
         ]),
-        createBaseVNode("div", _hoisted_3$6, toDisplayString((_d = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _d.helpersCount) + " " + toDisplayString(((_e = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _e.helpersCount) > 1 ? (_f = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _f.helperTitlePlural.toLocaleLowerCase() : (_g = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _g.helperTitleSingular.toLocaleLowerCase()), 1)
+        createBaseVNode("div", _hoisted_3$9, toDisplayString((_d = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _d.helpersCount) + " " + toDisplayString(((_e = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _e.helpersCount) > 1 ? (_f = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _f.helperTitlePlural.toLocaleLowerCase() : (_g = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _g.helperTitleSingular.toLocaleLowerCase()), 1)
       ], 4)) : createCommentVNode("", true);
     };
   }
@@ -7374,31 +7730,31 @@ const _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const WidgetView = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-56bb191d"]]);
-const _hoisted_1$7 = { class: "mgm-content" };
-const _hoisted_2$7 = {
+const WidgetView = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["__scopeId", "data-v-56bb191d"]]);
+const _hoisted_1$a = { class: "mgm-content" };
+const _hoisted_2$a = {
   key: 0,
   class: "mgm-ambassador"
 };
-const _hoisted_3$5 = ["src"];
-const _hoisted_4$3 = ["src"];
-const _hoisted_5$3 = {
+const _hoisted_3$8 = ["src"];
+const _hoisted_4$6 = ["src"];
+const _hoisted_5$5 = {
   key: 1,
   class: "mgm-helpers"
 };
-const _hoisted_6$2 = ["src"];
-const _hoisted_7$1 = ["src"];
-const _hoisted_8$1 = {
+const _hoisted_6$4 = ["src"];
+const _hoisted_7$3 = ["src"];
+const _hoisted_8$2 = {
   key: 2,
   class: "mgm-text"
 };
-const _hoisted_9 = { class: "mgm-firstname" };
+const _hoisted_9$1 = { class: "mgm-firstname" };
 const _hoisted_10 = { class: "mgm-title" };
 const _hoisted_11 = {
   key: 3,
   class: "mgm-text-helpers"
 };
-const _sfc_main$f = /* @__PURE__ */ defineComponent({
+const _sfc_main$i = /* @__PURE__ */ defineComponent({
   __name: "CardDisplay",
   props: {
     helpers: {
@@ -7427,9 +7783,9 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
         class: "mgm-display",
         onClick: _cache[3] || (_cache[3] = ($event) => unref(globalStore).setWidgetState(__props.index, 2))
       }, [
-        createBaseVNode("div", _hoisted_1$7, [
+        createBaseVNode("div", _hoisted_1$a, [
           createBaseVNode("div", null, [
-            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_2$7, [
+            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_2$a, [
               createBaseVNode("img", {
                 width: "48",
                 height: "48",
@@ -7438,15 +7794,15 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
                 alt: "avatar",
                 onError: _cache[0] || (_cache[0] = //@ts-ignore
                 (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args))
-              }, null, 40, _hoisted_3$5),
+              }, null, 40, _hoisted_3$8),
               createBaseVNode("img", {
                 width: "18",
                 height: "18",
                 src: __props.logo,
                 class: "mgm-logo",
                 alt: "logo"
-              }, null, 8, _hoisted_4$3)
-            ])) : (openBlock(), createElementBlock("div", _hoisted_5$3, [
+              }, null, 8, _hoisted_4$6)
+            ])) : (openBlock(), createElementBlock("div", _hoisted_5$5, [
               (openBlock(true), createElementBlock(Fragment, null, renderList(__props.helpers, (helper) => {
                 return openBlock(), createElementBlock("img", {
                   key: helper.firstname,
@@ -7457,7 +7813,7 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
                   onError: _cache[1] || (_cache[1] = //@ts-ignore
                   (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args)),
                   alt: "avatar"
-                }, null, 40, _hoisted_6$2);
+                }, null, 40, _hoisted_6$4);
               }), 128)),
               createBaseVNode("img", {
                 width: "18",
@@ -7467,10 +7823,10 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
                 onError: _cache[2] || (_cache[2] = //@ts-ignore
                 (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args)),
                 alt: "logo"
-              }, null, 40, _hoisted_7$1)
+              }, null, 40, _hoisted_7$3)
             ])),
-            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_8$1, [
-              createBaseVNode("span", _hoisted_9, toDisplayString(__props.helpers[0].firstname), 1),
+            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_8$2, [
+              createBaseVNode("span", _hoisted_9$1, toDisplayString(__props.helpers[0].firstname), 1),
               createBaseVNode("span", _hoisted_10, toDisplayString(__props.helpers[0].role), 1)
             ])) : (openBlock(), createElementBlock("span", _hoisted_11, "+" + toDisplayString(typeof __props.helpersCount === "number" && __props.helpersCount > 3 ? __props.helpersCount - 3 : 5) + " " + toDisplayString((_a = unref(globalStore).widgets[__props.index]) == null ? void 0 : _a.helperTitlePlural.toLocaleLowerCase()), 1))
           ])
@@ -7479,8 +7835,8 @@ const _sfc_main$f = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const CardDisplay = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["__scopeId", "data-v-b352ea8a"]]);
-const _sfc_main$e = /* @__PURE__ */ defineComponent({
+const CardDisplay = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["__scopeId", "data-v-b352ea8a"]]);
+const _sfc_main$h = /* @__PURE__ */ defineComponent({
   __name: "GlobalButton",
   props: {
     index: {}
@@ -7491,18 +7847,18 @@ const _sfc_main$e = /* @__PURE__ */ defineComponent({
       var _a, _b, _c;
       return openBlock(), createElementBlock("button", {
         class: "mgm-button",
-        onClick: _cache[0] || (_cache[0] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
+        onClick: _cache[0] || (_cache[0] = withModifiers(($event) => unref(globalStore).setWidgetState(_ctx.index, 2), ["stop"]))
       }, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1);
     };
   }
 });
-const Button = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["__scopeId", "data-v-a64608d0"]]);
-const _hoisted_1$6 = {
+const Button = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-e0a51b88"]]);
+const _hoisted_1$9 = {
   key: 0,
   class: "mgm-card"
 };
-const _hoisted_2$6 = { class: "mgm-display" };
-const _sfc_main$d = /* @__PURE__ */ defineComponent({
+const _hoisted_2$9 = { class: "mgm-display" };
+const _sfc_main$g = /* @__PURE__ */ defineComponent({
   __name: "GlobalCard",
   props: {
     index: {}
@@ -7510,8 +7866,8 @@ const _sfc_main$d = /* @__PURE__ */ defineComponent({
   setup(__props) {
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
-      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$6, [
-        createBaseVNode("div", _hoisted_2$6, [
+      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$9, [
+        createBaseVNode("div", _hoisted_2$9, [
           createVNode(CardDisplay, {
             helpers: unref(globalStore).widgets[_ctx.index].helpers.slice(0, 1),
             logo: unref(globalStore).widgets[_ctx.index].logoUrl,
@@ -7534,8 +7890,8 @@ const _sfc_main$d = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const Card = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-ed81f2ca"]]);
-const _sfc_main$c = /* @__PURE__ */ defineComponent({
+const Card = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-ed81f2ca"]]);
+const _sfc_main$f = /* @__PURE__ */ defineComponent({
   __name: "ModalCard",
   props: {
     index: {}
@@ -7543,11 +7899,11 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
   setup(__props) {
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
-      var _a, _b, _c;
+      var _a, _b, _c, _d, _e, _f;
       return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", {
         key: 0,
         class: "mgm-modal-card",
-        style: normalizeStyle(`align-items: ${((_a = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _a.position.toLowerCase().includes("right")) ? "flex-end" : "flex-start"}; flex-direction: ${((_b = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _b.position.toLowerCase().includes("top")) ? "column-reverse" : "column"}`)
+        style: normalizeStyle(`align-items: ${((_b = (_a = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _a.position) == null ? void 0 : _b.toLowerCase().includes("right")) ? "flex-end" : "flex-start"}; flex-direction: ${((_d = (_c = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _c.position) == null ? void 0 : _d.toLowerCase().includes("top")) ? "column-reverse" : "column"}`)
       }, [
         createVNode(Card, {
           class: "mgm-card",
@@ -7567,7 +7923,7 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
             "stroke-width": "2",
             "stroke-linecap": "round",
             "stroke-linejoin": "round",
-            style: normalizeStyle(`transform: ${((_c = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _c.position.toLowerCase().includes("top")) ? "rotate(180deg)" : "none"};`)
+            style: normalizeStyle(`transform: ${((_f = (_e = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _e.position) == null ? void 0 : _f.toLowerCase().includes("top")) ? "rotate(180deg)" : "none"};`)
           }, [..._cache[1] || (_cache[1] = [
             createBaseVNode("polyline", { points: "6 9 12 15 18 9" }, null, -1)
           ])], 4))
@@ -7576,8 +7932,8 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ModalCard = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-e8922f7e"]]);
-const _sfc_main$b = /* @__PURE__ */ defineComponent({
+const ModalCard = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["__scopeId", "data-v-de6b7442"]]);
+const _sfc_main$e = /* @__PURE__ */ defineComponent({
   __name: "WidgetIntegration",
   props: {
     index: {}
@@ -7601,18 +7957,18 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
       return openBlock(), createElementBlock("div", null, [
         unref(globalStore).widgets[_ctx.index] ? (openBlock(), createBlock(Transition, { key: 0 }, {
           default: withCtx(() => {
-            var _a, _b, _c, _d;
+            var _a, _b, _c, _d, _e, _f, _g, _h;
             return [
               unref(globalStore).widgets[_ctx.index].state !== 1 ? (openBlock(), createBlock(WidgetView, {
                 key: 0,
                 index: _ctx.index,
-                class: normalizeClass(`${((_a = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _a.position.toLowerCase().includes("right")) ? "mgm-right" : "mgm-left"} 
-        ${((_b = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _b.position.toLowerCase().includes("top")) ? "mgm-top" : "mgm-bottom"}`)
+                class: normalizeClass(`${((_b = (_a = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _a.position) == null ? void 0 : _b.toLowerCase().includes("right")) ? "mgm-right" : "mgm-left"} 
+        ${((_d = (_c = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _c.position) == null ? void 0 : _d.toLowerCase().includes("top")) ? "mgm-top" : "mgm-bottom"}`)
               }, null, 8, ["index", "class"])) : unref(globalStore).widgets[_ctx.index].state === 1 ? (openBlock(), createBlock(ModalCard, {
                 key: 1,
                 index: _ctx.index,
-                class: normalizeClass(`${((_c = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _c.position.toLowerCase().includes("right")) ? "mgm-right" : "mgm-left"} 
-        ${((_d = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _d.position.toLowerCase().includes("top")) ? "mgm-top" : "mgm-bottom"}`)
+                class: normalizeClass(`${((_f = (_e = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _e.position) == null ? void 0 : _f.toLowerCase().includes("right")) ? "mgm-right" : "mgm-left"} 
+        ${((_h = (_g = unref(globalStore).widgets[_ctx.index].integration) == null ? void 0 : _g.position) == null ? void 0 : _h.toLowerCase().includes("top")) ? "mgm-top" : "mgm-bottom"}`)
               }, null, 8, ["index", "class"])) : createCommentVNode("", true)
             ];
           }),
@@ -7622,15 +7978,15 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const _hoisted_1$5 = {
+const _hoisted_1$8 = {
   key: 0,
   class: "mgm-banner"
 };
-const _hoisted_2$5 = { class: "mgm-avatar_container" };
-const _hoisted_3$4 = ["src"];
-const _hoisted_4$2 = { class: "mgm-count" };
-const _hoisted_5$2 = { class: "mgm-title" };
-const _sfc_main$a = /* @__PURE__ */ defineComponent({
+const _hoisted_2$8 = { class: "mgm-avatar_container" };
+const _hoisted_3$7 = ["src"];
+const _hoisted_4$5 = { class: "mgm-count" };
+const _hoisted_5$4 = { class: "mgm-title" };
+const _sfc_main$d = /* @__PURE__ */ defineComponent({
   __name: "BannerContent",
   props: {
     index: {}
@@ -7670,7 +8026,7 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
       var _a, _b, _c;
-      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$5, [
+      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$8, [
         createBaseVNode("div", {
           class: "mgm-close",
           onClick: handleClose
@@ -7692,7 +8048,7 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
           class: "mgm-content",
           onClick: _cache[1] || (_cache[1] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
         }, [
-          createBaseVNode("div", _hoisted_2$5, [
+          createBaseVNode("div", _hoisted_2$8, [
             _cache[3] || (_cache[3] = createBaseVNode("div", {
               class: "mgm-badge",
               style: { "z-index": "100" }
@@ -7708,17 +8064,17 @@ const _sfc_main$a = /* @__PURE__ */ defineComponent({
                 alt: "avatar",
                 onError: _cache[0] || (_cache[0] = //@ts-ignore
                 (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args))
-              }, null, 44, _hoisted_3$4);
+              }, null, 44, _hoisted_3$7);
             }), 128)),
-            createBaseVNode("div", _hoisted_4$2, "+" + toDisplayString(helpersCount.value), 1)
+            createBaseVNode("div", _hoisted_4$5, "+" + toDisplayString(helpersCount.value), 1)
           ]),
-          createBaseVNode("span", _hoisted_5$2, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1)
+          createBaseVNode("span", _hoisted_5$4, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1)
         ])
       ])) : createCommentVNode("", true);
     };
   }
 });
-const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-f2457d5a"]]);
+const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-f2457d5a"]]);
 function useFixedElements(bannerTopOffset, index) {
   const fixedElements = ref([]);
   const moovedFixedElements = ref([]);
@@ -7804,7 +8160,7 @@ function useFixedElements(bannerTopOffset, index) {
   );
   return { fixedElements, resetElementTop, updateElementTop, updateFixedElements };
 }
-const _sfc_main$9 = /* @__PURE__ */ defineComponent({
+const _sfc_main$c = /* @__PURE__ */ defineComponent({
   __name: "BannerTop",
   props: {
     index: {}
@@ -7848,8 +8204,8 @@ const _sfc_main$9 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const BannerTop = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-4c0151a0"]]);
-const _sfc_main$8 = /* @__PURE__ */ defineComponent({
+const BannerTop = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-4c0151a0"]]);
+const _sfc_main$b = /* @__PURE__ */ defineComponent({
   __name: "BannerBottom",
   props: {
     index: {}
@@ -7889,14 +8245,14 @@ const _sfc_main$8 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const BannerBottom = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["__scopeId", "data-v-1856bb1f"]]);
-const _hoisted_1$4 = { class: "mgm-helper_container" };
-const _hoisted_2$4 = ["src"];
-const _hoisted_3$3 = ["src"];
-const _hoisted_4$1 = { class: "mgm-text_container" };
-const _hoisted_5$1 = { class: "mgm-title" };
-const _hoisted_6$1 = { class: "mgm-sub" };
-const _sfc_main$7 = /* @__PURE__ */ defineComponent({
+const BannerBottom = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-1856bb1f"]]);
+const _hoisted_1$7 = { class: "mgm-helper_container" };
+const _hoisted_2$7 = ["src"];
+const _hoisted_3$6 = ["src"];
+const _hoisted_4$4 = { class: "mgm-text_container" };
+const _hoisted_5$3 = { class: "mgm-title" };
+const _hoisted_6$3 = { class: "mgm-sub" };
+const _sfc_main$a = /* @__PURE__ */ defineComponent({
   __name: "CardDesktop",
   props: {
     helper: {},
@@ -7911,14 +8267,14 @@ const _sfc_main$7 = /* @__PURE__ */ defineComponent({
         class: "mgm-card-desktop",
         onClick: _cache[1] || (_cache[1] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
       }, [
-        createBaseVNode("div", _hoisted_1$4, [
+        createBaseVNode("div", _hoisted_1$7, [
           createBaseVNode("img", {
             width: "48",
             height: "48",
             class: "mgm-avatar",
             src: _ctx.helper.profilePictureUrl,
             alt: "avatar"
-          }, null, 8, _hoisted_2$4),
+          }, null, 8, _hoisted_2$7),
           createBaseVNode("img", {
             width: "18",
             height: "18",
@@ -7927,23 +8283,23 @@ const _sfc_main$7 = /* @__PURE__ */ defineComponent({
             onError: _cache[0] || (_cache[0] = //@ts-ignore
             (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args)),
             alt: "logo"
-          }, null, 40, _hoisted_3$3)
+          }, null, 40, _hoisted_3$6)
         ]),
-        createBaseVNode("div", _hoisted_4$1, [
-          createBaseVNode("span", _hoisted_5$1, toDisplayString(_ctx.helper.firstname), 1),
-          createBaseVNode("span", _hoisted_6$1, toDisplayString(_ctx.helper.role), 1)
+        createBaseVNode("div", _hoisted_4$4, [
+          createBaseVNode("span", _hoisted_5$3, toDisplayString(_ctx.helper.firstname), 1),
+          createBaseVNode("span", _hoisted_6$3, toDisplayString(_ctx.helper.role), 1)
         ])
       ]);
     };
   }
 });
-const CardDesktop = /* @__PURE__ */ _export_sfc(_sfc_main$7, [["__scopeId", "data-v-6025b1e8"]]);
-const _hoisted_1$3 = {
+const CardDesktop = /* @__PURE__ */ _export_sfc(_sfc_main$a, [["__scopeId", "data-v-6025b1e8"]]);
+const _hoisted_1$6 = {
   key: 0,
   class: "mgm-block-desktop"
 };
-const _hoisted_2$3 = { class: "mgm-helpers" };
-const _sfc_main$6 = /* @__PURE__ */ defineComponent({
+const _hoisted_2$6 = { class: "mgm-helpers" };
+const _sfc_main$9 = /* @__PURE__ */ defineComponent({
   __name: "BlockDesktop",
   props: {
     index: {}
@@ -7952,8 +8308,8 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     const globalStore = useGlobalStore();
     return (_ctx, _cache) => {
       var _a;
-      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$3, [
-        createBaseVNode("div", _hoisted_2$3, [
+      return unref(globalStore).widgets[_ctx.index] ? (openBlock(), createElementBlock("div", _hoisted_1$6, [
+        createBaseVNode("div", _hoisted_2$6, [
           (openBlock(true), createElementBlock(Fragment, null, renderList((_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.helpers.slice(0, 3), (helper) => {
             return openBlock(), createBlock(CardDesktop, {
               index: _ctx.index,
@@ -7969,8 +8325,8 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const BlockDesktop = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-a7e50c1b"]]);
-const _sfc_main$5 = /* @__PURE__ */ defineComponent({
+const BlockDesktop = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-a7e50c1b"]]);
+const _sfc_main$8 = /* @__PURE__ */ defineComponent({
   __name: "BlockMobile",
   props: {
     index: {}
@@ -7981,7 +8337,7 @@ const _sfc_main$5 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const _sfc_main$4 = /* @__PURE__ */ defineComponent({
+const _sfc_main$7 = /* @__PURE__ */ defineComponent({
   __name: "BlockIntegration",
   props: {
     index: {}
@@ -8055,7 +8411,7 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
             !isMobile.value ? (openBlock(), createBlock(BlockDesktop, {
               key: 0,
               index: _ctx.index
-            }, null, 8, ["index"])) : (openBlock(), createBlock(_sfc_main$5, {
+            }, null, 8, ["index"])) : (openBlock(), createBlock(_sfc_main$8, {
               key: 1,
               index: _ctx.index
             }, null, 8, ["index"]))
@@ -8066,10 +8422,10 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const _hoisted_1$2 = { class: "mgm-modal" };
-const _hoisted_2$2 = { class: "mgm-modal-content" };
-const _hoisted_3$2 = ["src"];
-const _sfc_main$3 = /* @__PURE__ */ defineComponent({
+const _hoisted_1$5 = { class: "mgm-modal" };
+const _hoisted_2$5 = { class: "mgm-modal-content" };
+const _hoisted_3$5 = ["src"];
+const _sfc_main$6 = /* @__PURE__ */ defineComponent({
   __name: "ModalForm",
   props: {
     index: {
@@ -8131,20 +8487,20 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
         ref_key: "modalBackdrop",
         ref: modalBackdrop
       }, [
-        createBaseVNode("div", _hoisted_1$2, [
-          createBaseVNode("div", _hoisted_2$2, [
+        createBaseVNode("div", _hoisted_1$5, [
+          createBaseVNode("div", _hoisted_2$5, [
             _cache[0] || (_cache[0] = createBaseVNode("button", { class: "mgm-close-button" }, "×", -1)),
             createBaseVNode("iframe", {
               src: src.value,
               loading: "lazy"
-            }, null, 8, _hoisted_3$2)
+            }, null, 8, _hoisted_3$5)
           ])
         ])
       ], 2);
     };
   }
 });
-const ModalForm = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-4f66c4b0"]]);
+const ModalForm = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-4f66c4b0"]]);
 function u(t, o) {
   let e;
   return (...i) => {
@@ -8311,21 +8667,21 @@ const T = ["data-index"], z = /* @__PURE__ */ defineComponent({
     s.component("MasonryWall", l);
   }, l;
 })();
-const _hoisted_1$1 = { class: "mgm-review-item" };
-const _hoisted_2$1 = { class: "mgm-review-item__user" };
-const _hoisted_3$1 = ["src", "alt"];
-const _hoisted_4 = { key: 0 };
-const _hoisted_5 = { class: "mgm-review-item__stars" };
-const _hoisted_6 = { class: "mgm-stars-grey" };
-const _hoisted_7 = {
+const _hoisted_1$4 = { class: "mgm-review-item" };
+const _hoisted_2$4 = { class: "mgm-review-item__user" };
+const _hoisted_3$4 = ["src", "alt"];
+const _hoisted_4$3 = { key: 0 };
+const _hoisted_5$2 = { class: "mgm-review-item__stars" };
+const _hoisted_6$2 = { class: "mgm-stars-grey" };
+const _hoisted_7$2 = {
   key: 0,
   class: "mgm-review-item__comment"
 };
-const _hoisted_8 = {
+const _hoisted_8$1 = {
   key: 0,
   class: "mgm-reviews-wall-powered"
 };
-const _sfc_main$2 = /* @__PURE__ */ defineComponent({
+const _sfc_main$5 = /* @__PURE__ */ defineComponent({
   __name: "WallIntegration",
   props: {
     index: {}
@@ -8351,18 +8707,18 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
           gap: 16
         }, {
           default: withCtx(({ item }) => [
-            createBaseVNode("div", _hoisted_1$1, [
-              createBaseVNode("div", _hoisted_2$1, [
+            createBaseVNode("div", _hoisted_1$4, [
+              createBaseVNode("div", _hoisted_2$4, [
                 createBaseVNode("img", {
                   src: item.user.profilePictureUrl,
                   alt: `${item.user.firstname} ${item.user.lastname}`
-                }, null, 8, _hoisted_3$1),
+                }, null, 8, _hoisted_3$4),
                 createBaseVNode("div", null, [
                   createBaseVNode("h3", null, toDisplayString(item.user.firstname) + " " + toDisplayString(item.user.lastname), 1),
-                  item.user.position ? (openBlock(), createElementBlock("h4", _hoisted_4, toDisplayString(item.user.position), 1)) : createCommentVNode("", true)
+                  item.user.position ? (openBlock(), createElementBlock("h4", _hoisted_4$3, toDisplayString(item.user.position), 1)) : createCommentVNode("", true)
                 ])
               ]),
-              createBaseVNode("div", _hoisted_5, [
+              createBaseVNode("div", _hoisted_5$2, [
                 createBaseVNode("div", {
                   class: "mgm-stars-yellow",
                   style: normalizeStyle({ width: item.rating * 100 / 5 + "%" })
@@ -8385,7 +8741,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
                     }), 64))
                   ])
                 ], 4),
-                createBaseVNode("div", _hoisted_6, [
+                createBaseVNode("div", _hoisted_6$2, [
                   createBaseVNode("div", null, [
                     (openBlock(), createElementBlock(Fragment, null, renderList(5, (i) => {
                       return createBaseVNode("svg", {
@@ -8405,12 +8761,12 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
                   ])
                 ])
               ]),
-              item.comment ? (openBlock(), createElementBlock("p", _hoisted_7, toDisplayString(item.comment), 1)) : createCommentVNode("", true)
+              item.comment ? (openBlock(), createElementBlock("p", _hoisted_7$2, toDisplayString(item.comment), 1)) : createCommentVNode("", true)
             ])
           ]),
           _: 1
         }, 8, ["items"]),
-        integration.value.hasMagmaBadge ? (openBlock(), createElementBlock("div", _hoisted_8, [..._cache[2] || (_cache[2] = [
+        integration.value.hasMagmaBadge ? (openBlock(), createElementBlock("div", _hoisted_8$1, [..._cache[2] || (_cache[2] = [
           createBaseVNode("a", { href: "https://magma.app" }, [
             createBaseVNode("p", null, "Propulsé par"),
             createBaseVNode("img", {
@@ -8423,11 +8779,11 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const WallIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-db433e45"]]);
-const _hoisted_1 = { class: "rating-badge" };
-const _hoisted_2 = { class: "review-item__stars" };
-const _hoisted_3 = { class: "stars-grey" };
-const _sfc_main$1 = /* @__PURE__ */ defineComponent({
+const WallIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-db433e45"]]);
+const _hoisted_1$3 = { class: "rating-badge" };
+const _hoisted_2$3 = { class: "review-item__stars" };
+const _hoisted_3$3 = { class: "stars-grey" };
+const _sfc_main$4 = /* @__PURE__ */ defineComponent({
   __name: "RatingIntegration",
   props: {
     index: {}
@@ -8441,13 +8797,13 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       loading.value = false;
     });
     return (_ctx, _cache) => {
-      return openBlock(), createElementBlock("div", _hoisted_1, [
+      return openBlock(), createElementBlock("div", _hoisted_1$3, [
         createBaseVNode("p", {
           class: normalizeClass(`rating`),
           style: normalizeStyle(`color: ${rating.value.fontColor === "white" ? "#fff" : "rgb(28 31 39)"}`)
         }, toDisplayString(rating.value.rating), 5),
         createBaseVNode("div", null, [
-          createBaseVNode("div", _hoisted_2, [
+          createBaseVNode("div", _hoisted_2$3, [
             rating.value.rating ? (openBlock(), createElementBlock("div", {
               key: 0,
               class: "stars-yellow",
@@ -8471,7 +8827,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
                 }), 64))
               ])
             ], 4)) : createCommentVNode("", true),
-            createBaseVNode("div", _hoisted_3, [
+            createBaseVNode("div", _hoisted_3$3, [
               createBaseVNode("div", null, [
                 (openBlock(), createElementBlock(Fragment, null, renderList(5, (i) => {
                   return createBaseVNode("svg", {
@@ -8500,14 +8856,343 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const RatingIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-79d12e0d"]]);
+const RatingIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-79d12e0d"]]);
+const _hoisted_1$2 = { class: "mgm-gallery-content" };
+const _hoisted_2$2 = { class: "mgm-ambassador-profile" };
+const _hoisted_3$2 = ["src", "alt"];
+const _hoisted_4$2 = { class: "mgm-ambassador-content" };
+const _hoisted_5$1 = { class: "mgm-title" };
+const _hoisted_6$1 = {
+  key: 0,
+  class: "mgm-ambassador-touchpoints"
+};
+const _hoisted_7$1 = ["src", "alt"];
+const _hoisted_8 = {
+  key: 0,
+  class: "mgm-plus"
+};
+const _hoisted_9 = {
+  key: 0,
+  class: "mgm-position"
+};
+const _sfc_main$3 = /* @__PURE__ */ defineComponent({
+  __name: "GalleryCard",
+  props: {
+    helper: {},
+    index: {}
+  },
+  setup(__props) {
+    const props = __props;
+    const globalStore = useGlobalStore();
+    const { setDefaultImage } = useDefaultImage();
+    const touchpointIcons = {
+      phone: "https://magma-assets.s3.eu-west-3.amazonaws.com/phone.png",
+      email: "https://magma-assets.s3.eu-west-3.amazonaws.com/mail.png",
+      instagram: "https://magma-assets.s3.eu-west-3.amazonaws.com/instagram.png",
+      whatsapp: "https://magma-assets.s3.eu-west-3.amazonaws.com/whatsapp.png",
+      linkedin: "https://magma-assets.s3.eu-west-3.amazonaws.com/linkedin.png",
+      messenger: "https://magma-assets.s3.eu-west-3.amazonaws.com/messenger.png",
+      twitter: "https://magma-assets.s3.eu-west-3.amazonaws.com/twitter.png",
+      sms: "https://magma-assets.s3.eu-west-3.amazonaws.com/sms.png"
+    };
+    const visibleTouchpoints = computed(() => {
+      const touchpoints = props.helper.touchPoints || [];
+      return touchpoints.slice(0, 4);
+    });
+    const remainingTouchpointsCount = computed(() => {
+      const touchpoints = props.helper.touchPoints || [];
+      return Math.max(0, touchpoints.length - 4);
+    });
+    const getTouchpointIcon = (touchpoint) => {
+      return touchpointIcons[touchpoint.toLowerCase()] || touchpointIcons.email;
+    };
+    return (_ctx, _cache) => {
+      var _a;
+      return openBlock(), createElementBlock("div", {
+        class: "mgm-gallery-card",
+        onClick: _cache[1] || (_cache[1] = ($event) => unref(globalStore).setWidgetState(_ctx.index, 2))
+      }, [
+        createBaseVNode("div", _hoisted_1$2, [
+          createBaseVNode("div", _hoisted_2$2, [
+            createBaseVNode("img", {
+              width: "64",
+              height: "64",
+              class: "mgm-avatar",
+              src: _ctx.helper.profilePictureUrl,
+              alt: _ctx.helper.firstname,
+              onError: _cache[0] || (_cache[0] = //@ts-ignore
+              (...args) => unref(setDefaultImage) && unref(setDefaultImage)(...args))
+            }, null, 40, _hoisted_3$2),
+            createBaseVNode("div", _hoisted_4$2, [
+              createBaseVNode("p", _hoisted_5$1, toDisplayString(_ctx.helper.firstname), 1),
+              ((_a = _ctx.helper.touchPoints) == null ? void 0 : _a.length) ? (openBlock(), createElementBlock("div", _hoisted_6$1, [
+                (openBlock(true), createElementBlock(Fragment, null, renderList(visibleTouchpoints.value, (touchpoint) => {
+                  return openBlock(), createElementBlock("img", {
+                    key: touchpoint,
+                    src: getTouchpointIcon(touchpoint),
+                    alt: touchpoint
+                  }, null, 8, _hoisted_7$1);
+                }), 128)),
+                remainingTouchpointsCount.value > 0 ? (openBlock(), createElementBlock("div", _hoisted_8, [
+                  createBaseVNode("span", null, "+" + toDisplayString(remainingTouchpointsCount.value), 1)
+                ])) : createCommentVNode("", true)
+              ])) : createCommentVNode("", true)
+            ])
+          ]),
+          _ctx.helper.position ? (openBlock(), createElementBlock("p", _hoisted_9, toDisplayString(_ctx.helper.position), 1)) : createCommentVNode("", true)
+        ]),
+        createVNode(Button, { index: _ctx.index }, null, 8, ["index"])
+      ]);
+    };
+  }
+});
+const GalleryCard = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-6a95158e"]]);
+const _hoisted_1$1 = { class: "mgm-select" };
+const _hoisted_2$1 = ["for"];
+const _hoisted_3$1 = ["name", "id", "value"];
+const _hoisted_4$1 = ["value"];
+const _sfc_main$2 = /* @__PURE__ */ defineComponent({
+  __name: "GlobalSelect",
+  props: {
+    label: {
+      type: String,
+      default: "Filter label"
+    },
+    options: {
+      type: Array,
+      required: true
+    },
+    modelValue: {
+      type: String,
+      default: ""
+    }
+  },
+  emits: ["update:modelValue"],
+  setup(__props, { emit: __emit }) {
+    const emit2 = __emit;
+    const onChange = (event) => {
+      const target = event.target;
+      emit2("update:modelValue", target.value);
+    };
+    return (_ctx, _cache) => {
+      return openBlock(), createElementBlock("div", _hoisted_1$1, [
+        createBaseVNode("label", {
+          for: `filter-${__props.label}`
+        }, toDisplayString(__props.label), 9, _hoisted_2$1),
+        createBaseVNode("select", {
+          name: __props.label,
+          id: `filter-${__props.label}`,
+          value: __props.modelValue,
+          onChange
+        }, [
+          (openBlock(true), createElementBlock(Fragment, null, renderList(__props.options, (option) => {
+            return openBlock(), createElementBlock("option", {
+              key: option.value,
+              value: option.value
+            }, toDisplayString(option.label), 9, _hoisted_4$1);
+          }), 128))
+        ], 40, _hoisted_3$1)
+      ]);
+    };
+  }
+});
+const GlobalSelect = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-9abc514a"]]);
+const _hoisted_1 = { class: "mgm-ambassadors-gallery" };
+const _hoisted_2 = { class: "mgm-headline" };
+const _hoisted_3 = { class: "mgm-filters" };
+const _hoisted_4 = { class: "mgm-reviews-wall-powered" };
+const _hoisted_5 = {
+  href: "https://magma.app",
+  target: "_blank"
+};
+const _hoisted_6 = {
+  key: 0,
+  class: "mgm-ambassadors"
+};
+const _hoisted_7 = {
+  key: 1,
+  class: "mgm-action-more"
+};
+const _sfc_main$1 = /* @__PURE__ */ defineComponent({
+  __name: "GalleryIntegration",
+  props: {
+    index: {}
+  },
+  setup(__props) {
+    const globalStore = useGlobalStore();
+    const props = __props;
+    const selectedCampaign = ref("none");
+    const selectedCriteria = ref("none");
+    const displayCount = ref(20);
+    const widget = computed(() => globalStore.widgets[props.index]);
+    const campaigns = computed(() => {
+      var _a;
+      return ((_a = widget.value) == null ? void 0 : _a.campaigns) || [];
+    });
+    const hasSingleCampaign = computed(() => campaigns.value.length === 1);
+    const hasMultipleCampaigns = computed(() => campaigns.value.length > 1);
+    const language = computed(() => {
+      var _a;
+      return ((_a = widget.value) == null ? void 0 : _a.language) || "fr";
+    });
+    watch(campaigns, (newCampaigns) => {
+      if (newCampaigns.length === 1 && selectedCampaign.value === "none") {
+        selectedCampaign.value = newCampaigns[0].uuid;
+      }
+    }, { immediate: true });
+    const translations = {
+      fr: {
+        campaign: "Campagne",
+        criteria: "Critère",
+        noFilter: "Sans filtre",
+        poweredBy: "Propulsé par",
+        seeMore: "Voir plus",
+        defaultHelperTitle: "d'ambassadeurs"
+      },
+      en: {
+        campaign: "Campaign",
+        criteria: "Criteria",
+        noFilter: "No filter",
+        poweredBy: "Powered by",
+        seeMore: "See more",
+        defaultHelperTitle: "ambassadors"
+      }
+    };
+    const t = computed(() => translations[language.value] || translations.fr);
+    const campaignOptions = computed(() => {
+      const options = [{ label: t.value.noFilter, value: "none" }];
+      campaigns.value.forEach((campaign) => {
+        options.push({ label: campaign.name, value: campaign.uuid });
+      });
+      return options;
+    });
+    const availableCriteria = computed(() => {
+      var _a;
+      const campaignUuid = hasSingleCampaign.value ? (_a = campaigns.value[0]) == null ? void 0 : _a.uuid : selectedCampaign.value;
+      if (!campaignUuid || campaignUuid === "none") {
+        return [];
+      }
+      const campaign = campaigns.value.find((c) => c.uuid === campaignUuid);
+      return (campaign == null ? void 0 : campaign.strongCriteria) || [];
+    });
+    const criteriaOptions = computed(() => {
+      const options = [{ label: t.value.noFilter, value: "none" }];
+      availableCriteria.value.forEach((criteria) => {
+        var _a;
+        (_a = criteria.options) == null ? void 0 : _a.forEach((option) => {
+          options.push({ label: option.label, value: String(option.id) });
+        });
+      });
+      return options;
+    });
+    const hasCriteria = computed(() => {
+      if (hasSingleCampaign.value) {
+        return criteriaOptions.value.length > 1;
+      }
+      return selectedCampaign.value !== "none" && criteriaOptions.value.length > 1;
+    });
+    const effectiveCampaignUuid = computed(() => {
+      var _a;
+      if (hasSingleCampaign.value) {
+        return (_a = campaigns.value[0]) == null ? void 0 : _a.uuid;
+      }
+      return selectedCampaign.value !== "none" ? selectedCampaign.value : null;
+    });
+    const filteredHelpers = computed(() => {
+      var _a;
+      let helpers = ((_a = widget.value) == null ? void 0 : _a.helpers) || [];
+      if (effectiveCampaignUuid.value) {
+        helpers = helpers.filter(
+          (helper) => {
+            var _a2;
+            return (_a2 = helper.campaigns) == null ? void 0 : _a2.some((c) => c.uuid === effectiveCampaignUuid.value);
+          }
+        );
+      }
+      if (selectedCriteria.value !== "none" && effectiveCampaignUuid.value) {
+        const criteriaOptionId = parseInt(selectedCriteria.value, 10);
+        helpers = helpers.filter(
+          (helper) => {
+            var _a2;
+            return (_a2 = helper.campaigns) == null ? void 0 : _a2.some(
+              (c) => c.uuid === effectiveCampaignUuid.value && c.criteriaOptionId === criteriaOptionId
+            );
+          }
+        );
+      }
+      return helpers;
+    });
+    const displayedHelpers = computed(() => {
+      return filteredHelpers.value.slice(0, displayCount.value);
+    });
+    const hasMoreHelpers = computed(() => filteredHelpers.value.length > displayCount.value);
+    const showMoreHelpers = () => {
+      displayCount.value += 20;
+    };
+    const onCampaignChange = (value) => {
+      selectedCampaign.value = value;
+      selectedCriteria.value = "none";
+      displayCount.value = 20;
+    };
+    const onCriteriaChange = (value) => {
+      selectedCriteria.value = value;
+      displayCount.value = 20;
+    };
+    return (_ctx, _cache) => {
+      var _a, _b, _c, _d;
+      return openBlock(), createElementBlock("div", _hoisted_1, [
+        createBaseVNode("div", _hoisted_2, [
+          createBaseVNode("div", _hoisted_3, [
+            hasMultipleCampaigns.value ? (openBlock(), createBlock(GlobalSelect, {
+              key: 0,
+              label: t.value.campaign,
+              options: campaignOptions.value,
+              modelValue: selectedCampaign.value,
+              "onUpdate:modelValue": onCampaignChange
+            }, null, 8, ["label", "options", "modelValue"])) : createCommentVNode("", true),
+            hasCriteria.value ? (openBlock(), createBlock(GlobalSelect, {
+              key: 1,
+              label: t.value.criteria,
+              options: criteriaOptions.value,
+              modelValue: selectedCriteria.value,
+              "onUpdate:modelValue": onCriteriaChange
+            }, null, 8, ["label", "options", "modelValue"])) : createCommentVNode("", true)
+          ]),
+          createBaseVNode("div", _hoisted_4, [
+            createBaseVNode("a", _hoisted_5, [
+              createBaseVNode("p", null, toDisplayString(t.value.poweredBy), 1),
+              _cache[0] || (_cache[0] = createBaseVNode("img", {
+                src: "https://dashboard.magma.app/img/logo_magma_full_bw.svg",
+                alt: "Logo Magma App"
+              }, null, -1))
+            ])
+          ])
+        ]),
+        widget.value ? (openBlock(), createElementBlock("div", _hoisted_6, [
+          (openBlock(true), createElementBlock(Fragment, null, renderList(displayedHelpers.value, (helper, i) => {
+            return openBlock(), createBlock(GalleryCard, {
+              index: _ctx.index,
+              helper,
+              key: helper.firstname + "-" + i
+            }, null, 8, ["index", "helper"]);
+          }), 128))
+        ])) : createCommentVNode("", true),
+        hasMoreHelpers.value ? (openBlock(), createElementBlock("div", _hoisted_7, [
+          createBaseVNode("button", { onClick: showMoreHelpers }, toDisplayString(((_b = (_a = widget.value) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || `${t.value.seeMore} ${((_d = (_c = widget.value) == null ? void 0 : _c.helperTitlePlural) == null ? void 0 : _d.toLowerCase()) || t.value.defaultHelperTitle}`), 1)
+        ])) : createCommentVNode("", true)
+      ]);
+    };
+  }
+});
+const GalleryIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-b5c0cc46"]]);
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "App",
   setup(__props) {
     const globalStore = useGlobalStore();
     const { sendEvent } = useSendingEvent();
     const loading = ref(true);
-    const blockAlreadyMounted = ref(false);
+    const hasGalleryMount = computed(() => !!document.querySelector("#magma-app_gallery"));
+    const hasBlockMount = computed(() => !!document.querySelector("#magma-app_block"));
     const computeIntegrationStyles = (widget) => {
       var _a, _b;
       const brandBg = ((_a = widget.customStyles) == null ? void 0 : _a.brandBg) || widget.primaryColor;
@@ -8519,16 +9204,6 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       const autoColor = brightness > 155 ? "#1C1F27" : "#FFFFFF";
       const brandColor = ((_b = widget.customStyles) == null ? void 0 : _b.brandColor) || autoColor;
       return `--brand-bg: ${brandBg}; --brand-color: ${brandColor}`;
-    };
-    const mountBlockIntegration = (index) => {
-      const blockElement = document.querySelector("#magma-app_block");
-      if (blockElement) {
-        const blockApp = createApp(_sfc_main$4, {
-          index
-        });
-        blockApp.mount(blockElement);
-      }
-      blockAlreadyMounted.value = true;
     };
     const mountWallIntegration = (index) => {
       const wallElement = document.querySelector("#magma-review_wall");
@@ -8591,18 +9266,12 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       );
       const fetchedWidgets = await Promise.all(fetchPromises);
       fetchedWidgets.forEach((widget, index) => {
-        var _a, _b;
         if (widget) {
           globalStore.addWidget({
             ...widget,
             autoPopup: window.magma_app[index].autoPopup,
             customStyles: window.magma_app[index].customStyles
           });
-          if (((_a = widget.integration) == null ? void 0 : _a.type) === "block" && blockAlreadyMounted.value)
-            console.warn("You can only mount one block integration per page");
-          if (((_b = widget.integration) == null ? void 0 : _b.type) === "block") {
-            mountBlockIntegration(index);
-          }
         }
       });
       loading.value = false;
@@ -8655,22 +9324,42 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("main", null, [
         (openBlock(true), createElementBlock(Fragment, null, renderList(unref(globalStore).widgets, (widget, index) => {
-          var _a, _b, _c, _d, _e;
+          var _a, _b, _c, _d, _e, _f, _g, _h, _i;
           return openBlock(), createElementBlock("div", {
             key: index,
             style: normalizeStyle(computeIntegrationStyles(widget))
           }, [
-            !loading.value && ((_a = widget.integration) == null ? void 0 : _a.type) === "widget" ? (openBlock(), createBlock(_sfc_main$b, {
+            !loading.value && ((_a = widget.integration) == null ? void 0 : _a.type) === "widget" ? (openBlock(), createBlock(_sfc_main$e, {
               key: 0,
               index
             }, null, 8, ["index"])) : createCommentVNode("", true),
-            !loading.value && ((_b = widget.integration) == null ? void 0 : _b.type) === "banner" && ((_c = unref(globalStore).widgets[index].integration) == null ? void 0 : _c.position.includes("top")) ? (openBlock(), createBlock(BannerTop, {
+            !loading.value && ((_b = widget.integration) == null ? void 0 : _b.type) === "banner" && ((_d = (_c = widget.integration) == null ? void 0 : _c.position) == null ? void 0 : _d.includes("top")) ? (openBlock(), createBlock(BannerTop, {
               key: 1,
               index
-            }, null, 8, ["index"])) : !loading.value && ((_d = widget.integration) == null ? void 0 : _d.type) === "banner" && ((_e = unref(globalStore).widgets[index].integration) == null ? void 0 : _e.position.includes("bottom")) ? (openBlock(), createBlock(BannerBottom, {
+            }, null, 8, ["index"])) : !loading.value && ((_e = widget.integration) == null ? void 0 : _e.type) === "banner" && ((_g = (_f = widget.integration) == null ? void 0 : _f.position) == null ? void 0 : _g.includes("bottom")) ? (openBlock(), createBlock(BannerBottom, {
               key: 2,
               index
             }, null, 8, ["index"])) : createCommentVNode("", true),
+            !loading.value && ((_h = widget.integration) == null ? void 0 : _h.type) === "gallery" && hasGalleryMount.value ? (openBlock(), createBlock(Teleport, {
+              key: 3,
+              to: "#magma-app_gallery"
+            }, [
+              createBaseVNode("div", {
+                style: normalizeStyle(computeIntegrationStyles(widget))
+              }, [
+                createVNode(GalleryIntegration, { index }, null, 8, ["index"])
+              ], 4)
+            ])) : createCommentVNode("", true),
+            !loading.value && ((_i = widget.integration) == null ? void 0 : _i.type) === "block" && hasBlockMount.value ? (openBlock(), createBlock(Teleport, {
+              key: 4,
+              to: "#magma-app_block"
+            }, [
+              createBaseVNode("div", {
+                style: normalizeStyle(computeIntegrationStyles(widget))
+              }, [
+                createVNode(_sfc_main$7, { index }, null, 8, ["index"])
+              ], 4)
+            ])) : createCommentVNode("", true),
             createVNode(ModalForm, { index }, null, 8, ["index"])
           ], 4);
         }), 128))
@@ -8678,9 +9367,13 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
+const pinia = createPinia();
+const mainAppContainer = document.createElement("div");
+mainAppContainer.id = "magma-app";
+document.body.appendChild(mainAppContainer);
 const app = createApp(_sfc_main);
-app.use(createPinia());
+app.use(pinia);
 app.use(F);
-app.mount("#magma-app");
+app.mount(mainAppContainer);
 
-          })();/* Version: v4.0.18 */
+          })();/* Version: v4.0.19 */
