@@ -1,64 +1,65 @@
 (function() {
             'use strict';
-            function magma_0xb6b2ee(magma_0x9016612, magma_0x9e6859) {
-  const magma_0xf03e37 = magma_0xd75312();
-  return magma_0xb6b2ee = function(magma_0x8532b8, magma_0x395c86) {
-    magma_0x8532b8 = magma_0x8532b8 - 328;
-    let magma_0x47dbec = magma_0xf03e37[magma_0x8532b8];
-    return magma_0x47dbec;
-  }, magma_0xb6b2ee(magma_0x9016612, magma_0x9e6859);
-}
-function magma_0xd75312() {
-  const magma_0x4404c7 = ["omit", "21884240SJakbR", "1050488RAJGFV", "link", "modulepreload", "credentials", 'link[rel="modulepreload"]', "5uaKPAv", "supports", "same-origin", "75AUkZtX", "childList", "referrerPolicy", "crossOrigin", "anonymous", "querySelectorAll", "use-credentials", "219496LjhcGG", "integrity", "2267097cIdDyP", "5366562hszrWz", "observe", "56828ASWKWF", "LINK", "36ZNWQBE", "type", "addedNodes", "812726yflOqX"];
-  magma_0xd75312 = function() {
-    return magma_0x4404c7;
-  };
-  return magma_0xd75312();
-}
-(function(magma_0xd1770a, magma_0x58d08c) {
-  const magma_0xab1c52 = magma_0xb6b2ee, magma_0x01616c = magma_0xd1770a();
+            (function(magma_0x7b504b, magma_0x6693dd) {
+  const magma_0x2d9f77 = magma_0x2d3375, magma_0xbf6b0b = magma_0x7b504b();
   while (!![]) {
     try {
-      const magma_0xa6125c = parseInt(magma_0xab1c52(339)) / 1 + -parseInt(magma_0xab1c52(334)) / 2 * (-parseInt(magma_0xab1c52(350)) / 3) + parseInt(magma_0xab1c52(329)) / 4 * (parseInt(magma_0xab1c52(347)) / 5) + parseInt(magma_0xab1c52(332)) / 6 + -parseInt(magma_0xab1c52(331)) / 7 + -parseInt(magma_0xab1c52(342)) / 8 * (-parseInt(magma_0xab1c52(336)) / 9) + -parseInt(magma_0xab1c52(341)) / 10;
-      if (magma_0xa6125c === magma_0x58d08c) break;
-      else magma_0x01616c["push"](magma_0x01616c["shift"]());
-    } catch (magma_0x6a43a4) {
-      magma_0x01616c["push"](magma_0x01616c["shift"]());
+      const magma_0xa6878a = -parseInt(magma_0x2d9f77(409)) / 1 * (parseInt(magma_0x2d9f77(426)) / 2) + -parseInt(magma_0x2d9f77(428)) / 3 + parseInt(magma_0x2d9f77(427)) / 4 + parseInt(magma_0x2d9f77(425)) / 5 * (-parseInt(magma_0x2d9f77(418)) / 6) + parseInt(magma_0x2d9f77(408)) / 7 + parseInt(magma_0x2d9f77(431)) / 8 + -parseInt(magma_0x2d9f77(429)) / 9;
+      if (magma_0xa6878a === magma_0x6693dd) break;
+      else magma_0xbf6b0b["push"](magma_0xbf6b0b["shift"]());
+    } catch (magma_0x5de070) {
+      magma_0xbf6b0b["push"](magma_0xbf6b0b["shift"]());
     }
   }
-})(magma_0xd75312, 485326), (function magma_0x901661() {
-  const magma_0x8e821e = magma_0xb6b2ee, magma_0x9e6859 = document["createElement"](magma_0x8e821e(343))["relList"];
-  if (magma_0x9e6859 && magma_0x9e6859[magma_0x8e821e(348)] && magma_0x9e6859[magma_0x8e821e(348)](magma_0x8e821e(344))) return;
-  for (const magma_0x395c86 of document[magma_0x8e821e(355)](magma_0x8e821e(346))) {
-    magma_0x8532b8(magma_0x395c86);
+})(magma_0xec47ed, 957897), (function magma_0x7f5a8d() {
+  const magma_0x5c5f12 = magma_0x2d3375, magma_0xfb53fd = document[magma_0x5c5f12(416)](magma_0x5c5f12(413))[magma_0x5c5f12(412)];
+  if (magma_0xfb53fd && magma_0xfb53fd[magma_0x5c5f12(420)] && magma_0xfb53fd["supports"](magma_0x5c5f12(407))) return;
+  for (const magma_0x3ad8e0 of document[magma_0x5c5f12(423)]('link[rel="modulepreload"]')) {
+    magma_0xfc84f4(magma_0x3ad8e0);
   }
-  new MutationObserver((magma_0x47dbec) => {
-    const magma_0x0233d2 = magma_0x8e821e;
-    for (const magma_0x4c0859 of magma_0x47dbec) {
-      if (magma_0x4c0859[magma_0x0233d2(337)] !== magma_0x0233d2(351)) continue;
-      for (const magma_0xce0278 of magma_0x4c0859[magma_0x0233d2(338)]) {
-        if (magma_0xce0278["tagName"] === magma_0x0233d2(335) && magma_0xce0278["rel"] === magma_0x0233d2(344)) magma_0x8532b8(magma_0xce0278);
+  new MutationObserver((magma_0x6c5fed) => {
+    const magma_0x1df655 = magma_0x5c5f12;
+    for (const magma_0xf6c06c of magma_0x6c5fed) {
+      if (magma_0xf6c06c["type"] !== magma_0x1df655(411)) continue;
+      for (const magma_0xfde2f4 of magma_0xf6c06c["addedNodes"]) {
+        if (magma_0xfde2f4[magma_0x1df655(417)] === magma_0x1df655(433) && magma_0xfde2f4[magma_0x1df655(414)] === "modulepreload") magma_0xfc84f4(magma_0xfde2f4);
       }
     }
-  })[magma_0x8e821e(333)](document, { "childList": !![], "subtree": !![] });
-  function magma_0xf03e37(magma_0x8b04aa) {
-    const magma_0xfeace9 = magma_0x8e821e, magma_0x96a2b8 = {};
-    if (magma_0x8b04aa[magma_0xfeace9(330)]) magma_0x96a2b8[magma_0xfeace9(330)] = magma_0x8b04aa[magma_0xfeace9(330)];
-    if (magma_0x8b04aa[magma_0xfeace9(352)]) magma_0x96a2b8[magma_0xfeace9(352)] = magma_0x8b04aa[magma_0xfeace9(352)];
-    if (magma_0x8b04aa[magma_0xfeace9(353)] === magma_0xfeace9(328)) magma_0x96a2b8[magma_0xfeace9(345)] = "include";
+  })["observe"](document, { "childList": !![], "subtree": !![] });
+  function magma_0x1b3cd2(magma_0x76770d) {
+    const magma_0x1450b3 = magma_0x5c5f12, magma_0xffec6c = {};
+    if (magma_0x76770d[magma_0x1450b3(434)]) magma_0xffec6c["integrity"] = magma_0x76770d[magma_0x1450b3(434)];
+    if (magma_0x76770d[magma_0x1450b3(421)]) magma_0xffec6c[magma_0x1450b3(421)] = magma_0x76770d[magma_0x1450b3(421)];
+    if (magma_0x76770d[magma_0x1450b3(430)] === "use-credentials") magma_0xffec6c[magma_0x1450b3(422)] = magma_0x1450b3(419);
     else {
-      if (magma_0x8b04aa[magma_0xfeace9(353)] === magma_0xfeace9(354)) magma_0x96a2b8[magma_0xfeace9(345)] = magma_0xfeace9(340);
-      else magma_0x96a2b8[magma_0xfeace9(345)] = magma_0xfeace9(349);
+      if (magma_0x76770d[magma_0x1450b3(430)] === magma_0x1450b3(415)) magma_0xffec6c["credentials"] = magma_0x1450b3(432);
+      else magma_0xffec6c[magma_0x1450b3(422)] = magma_0x1450b3(424);
     }
-    return magma_0x96a2b8;
+    return magma_0xffec6c;
   }
-  function magma_0x8532b8(magma_0xe6496b) {
-    if (magma_0xe6496b["ep"]) return;
-    magma_0xe6496b["ep"] = !![];
-    const magma_0x9585fb = magma_0xf03e37(magma_0xe6496b);
-    fetch(magma_0xe6496b["href"], magma_0x9585fb);
+  function magma_0xfc84f4(magma_0x66393e) {
+    const magma_0xf4fd54 = magma_0x5c5f12;
+    if (magma_0x66393e["ep"]) return;
+    magma_0x66393e["ep"] = !![];
+    const magma_0x6bc158 = magma_0x1b3cd2(magma_0x66393e);
+    fetch(magma_0x66393e[magma_0xf4fd54(410)], magma_0x6bc158);
   }
 })();
+function magma_0x2d3375(magma_0x7f5a8d2, magma_0xfb53fd) {
+  const magma_0x1b3cd2 = magma_0xec47ed();
+  return magma_0x2d3375 = function(magma_0xfc84f4, magma_0x3ad8e0) {
+    magma_0xfc84f4 = magma_0xfc84f4 - 407;
+    let magma_0x6c5fed = magma_0x1b3cd2[magma_0xfc84f4];
+    return magma_0x6c5fed;
+  }, magma_0x2d3375(magma_0x7f5a8d2, magma_0xfb53fd);
+}
+function magma_0xec47ed() {
+  const magma_0x55e445 = ["supports", "referrerPolicy", "credentials", "querySelectorAll", "same-origin", "1991095IOLfXU", "559654lDRxTo", "5398388WWKiqx", "313629htNJaL", "296595nktDRr", "crossOrigin", "5582704cxHbaB", "omit", "LINK", "integrity", "modulepreload", "6444641XIMYhN", "1mNjOil", "href", "childList", "relList", "link", "rel", "anonymous", "createElement", "tagName", "24IVtpyh", "include"];
+  magma_0xec47ed = function() {
+    return magma_0x55e445;
+  };
+  return magma_0xec47ed();
+}
 /**
 * @vue/shared v3.5.21
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -8076,85 +8077,38 @@ const _sfc_main$d = /* @__PURE__ */ defineComponent({
 const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-f2457d5a"]]);
 function useFixedElements(bannerTopOffset, index) {
   const fixedElements = ref([]);
-  const moovedFixedElements = ref([]);
-  const bodyInitialStyle = ref({});
+  const bodyInitialPaddingTop = ref("");
   const globalStore = useGlobalStore();
-  const updateFixedElements = () => {
-    if (bannerTopOffset.value === 0) return;
-    const exclusionParent = document.querySelector("#magma-app");
-    fixedElements.value = Array.from(document.querySelectorAll("body *")).filter((el) => {
-      if (exclusionParent && exclusionParent.contains(el)) {
-        return false;
-      }
-      const style = getComputedStyle(el);
-      return (style.position === "fixed" || style.position === "sticky") && parseFloat(style.top) === 0;
-    }).map((el) => {
-      const top = parseFloat(getComputedStyle(el).top);
-      return { element: el, top };
-    });
-    updateElementTop();
-  };
-  const observer = new MutationObserver(() => {
-    updateFixedElements();
-  });
-  onMounted(() => {
-    bodyInitialStyle.value = {
-      position: document.body.style.position || "relative",
-      paddingTop: document.body.style.paddingTop || "0px"
-    };
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-      attributes: true,
-      attributeFilter: ["style", "class"]
-    });
-    window.addEventListener("resize", () => {
-      resetElementTop();
-      updateFixedElements();
-      updateElementTop();
-    });
-  });
-  onUnmounted(() => {
-    observer.disconnect();
-    window.removeEventListener("resize", updateFixedElements);
-  });
   const updateElementTop = () => {
     var _a;
     if (bannerTopOffset.value === 0) return;
-    if (globalStore.widgets[index].state === 1) return;
-    if (fixedElements.value.length === 0) {
-      document.body.style.position = "relative";
-      document.body.style.paddingTop = `${bannerTopOffset.value}px`;
-    }
-    moovedFixedElements.value = ((_a = fixedElements.value) == null ? void 0 : _a.length) > 0 ? [...fixedElements.value] : moovedFixedElements.value;
-    fixedElements.value.forEach(({ element, top }) => {
-      element.style.top = `${top + bannerTopOffset.value}px`;
-    });
+    if (((_a = globalStore.widgets[index]) == null ? void 0 : _a.state) === 1) return;
+    const currentPadding = parseFloat(bodyInitialPaddingTop.value) || 0;
+    document.body.style.paddingTop = `${currentPadding + bannerTopOffset.value}px`;
   };
   const resetElementTop = () => {
-    if (bodyInitialStyle.value.position && bodyInitialStyle.value.paddingTop) {
-      document.body.style.position = bodyInitialStyle.value.position;
-      document.body.style.paddingTop = bodyInitialStyle.value.paddingTop;
-    }
-    moovedFixedElements.value.forEach(({ element }) => {
-      element.style.top = `0`;
-    });
-    moovedFixedElements.value = [];
+    document.body.style.paddingTop = bodyInitialPaddingTop.value;
   };
-  const paddingElementScrollbar = () => {
-    fixedElements.value.forEach(({ element }) => {
-      element.style.marginRight = `${globalStore.scrollbarWidth}px`;
-    });
+  const updateFixedElements = () => {
+    updateElementTop();
   };
-  const resetPaddingElementScrollbar = () => {
-    fixedElements.value.forEach(({ element }) => {
-      element.style.marginRight = "";
-    });
-  };
+  onMounted(() => {
+    bodyInitialPaddingTop.value = getComputedStyle(document.body).paddingTop || "0px";
+  });
+  onUnmounted(() => {
+    resetElementTop();
+  });
   watch(
-    () => globalStore.widgets[index].state,
+    () => {
+      var _a;
+      return (_a = globalStore.widgets[index]) == null ? void 0 : _a.state;
+    },
     (state) => {
-      return state === 2 ? paddingElementScrollbar() : resetPaddingElementScrollbar();
+      if (state === 1) {
+        resetElementTop();
+      } else {
+        updateElementTop();
+      }
     }
   );
   return { fixedElements, resetElementTop, updateElementTop, updateFixedElements };
@@ -8203,7 +8157,7 @@ const _sfc_main$c = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const BannerTop = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-e22c365c"]]);
+const BannerTop = /* @__PURE__ */ _export_sfc(_sfc_main$c, [["__scopeId", "data-v-e674c2f3"]]);
 const _sfc_main$b = /* @__PURE__ */ defineComponent({
   __name: "BannerBottom",
   props: {
@@ -8244,7 +8198,7 @@ const _sfc_main$b = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const BannerBottom = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-1856bb1f"]]);
+const BannerBottom = /* @__PURE__ */ _export_sfc(_sfc_main$b, [["__scopeId", "data-v-8518f1a3"]]);
 const _hoisted_1$7 = { class: "mgm-helper_container" };
 const _hoisted_2$7 = ["src"];
 const _hoisted_3$6 = ["src"];
@@ -9379,4 +9333,4 @@ app.use(pinia);
 app.use(F);
 app.mount(mainAppContainer);
 
-          })();/* Version: v4.0.21 */
+          })();/* Version: v4.0.22 */
