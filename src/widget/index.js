@@ -1,64 +1,64 @@
 (function() {
             'use strict';
-            (function(magma_0x7b504b, magma_0x6693dd) {
-  const magma_0x2d9f77 = magma_0x2d3375, magma_0xbf6b0b = magma_0x7b504b();
+            (function(magma_0x05f02b, magma_0xa33b4f) {
+  const magma_0x2bcf8d = magma_0x3fa36b, magma_0xd132e4 = magma_0x05f02b();
   while (!![]) {
     try {
-      const magma_0xa6878a = -parseInt(magma_0x2d9f77(409)) / 1 * (parseInt(magma_0x2d9f77(426)) / 2) + -parseInt(magma_0x2d9f77(428)) / 3 + parseInt(magma_0x2d9f77(427)) / 4 + parseInt(magma_0x2d9f77(425)) / 5 * (-parseInt(magma_0x2d9f77(418)) / 6) + parseInt(magma_0x2d9f77(408)) / 7 + parseInt(magma_0x2d9f77(431)) / 8 + -parseInt(magma_0x2d9f77(429)) / 9;
-      if (magma_0xa6878a === magma_0x6693dd) break;
-      else magma_0xbf6b0b["push"](magma_0xbf6b0b["shift"]());
-    } catch (magma_0x5de070) {
-      magma_0xbf6b0b["push"](magma_0xbf6b0b["shift"]());
+      const magma_0x2479d0 = -parseInt(magma_0x2bcf8d(507)) / 1 * (-parseInt(magma_0x2bcf8d(517)) / 2) + -parseInt(magma_0x2bcf8d(515)) / 3 + parseInt(magma_0x2bcf8d(516)) / 4 * (-parseInt(magma_0x2bcf8d(499)) / 5) + -parseInt(magma_0x2bcf8d(511)) / 6 * (parseInt(magma_0x2bcf8d(504)) / 7) + -parseInt(magma_0x2bcf8d(498)) / 8 * (parseInt(magma_0x2bcf8d(509)) / 9) + parseInt(magma_0x2bcf8d(521)) / 10 * (-parseInt(magma_0x2bcf8d(500)) / 11) + parseInt(magma_0x2bcf8d(522)) / 12;
+      if (magma_0x2479d0 === magma_0xa33b4f) break;
+      else magma_0xd132e4["push"](magma_0xd132e4["shift"]());
+    } catch (magma_0x40d036) {
+      magma_0xd132e4["push"](magma_0xd132e4["shift"]());
     }
   }
-})(magma_0xec47ed, 957897), (function magma_0x7f5a8d() {
-  const magma_0x5c5f12 = magma_0x2d3375, magma_0xfb53fd = document[magma_0x5c5f12(416)](magma_0x5c5f12(413))[magma_0x5c5f12(412)];
-  if (magma_0xfb53fd && magma_0xfb53fd[magma_0x5c5f12(420)] && magma_0xfb53fd["supports"](magma_0x5c5f12(407))) return;
-  for (const magma_0x3ad8e0 of document[magma_0x5c5f12(423)]('link[rel="modulepreload"]')) {
-    magma_0xfc84f4(magma_0x3ad8e0);
+})(magma_0x131a5a, 150333), (function magma_0x62ee48() {
+  const magma_0xd45fbe = magma_0x3fa36b, magma_0xe92629 = document[magma_0xd45fbe(505)]("link")[magma_0xd45fbe(501)];
+  if (magma_0xe92629 && magma_0xe92629["supports"] && magma_0xe92629[magma_0xd45fbe(506)]("modulepreload")) return;
+  for (const magma_0x42d996 of document["querySelectorAll"](magma_0xd45fbe(496))) {
+    magma_0xe60568(magma_0x42d996);
   }
-  new MutationObserver((magma_0x6c5fed) => {
-    const magma_0x1df655 = magma_0x5c5f12;
-    for (const magma_0xf6c06c of magma_0x6c5fed) {
-      if (magma_0xf6c06c["type"] !== magma_0x1df655(411)) continue;
-      for (const magma_0xfde2f4 of magma_0xf6c06c["addedNodes"]) {
-        if (magma_0xfde2f4[magma_0x1df655(417)] === magma_0x1df655(433) && magma_0xfde2f4[magma_0x1df655(414)] === "modulepreload") magma_0xfc84f4(magma_0xfde2f4);
+  new MutationObserver((magma_0x8de01b) => {
+    const magma_0x079c70 = magma_0xd45fbe;
+    for (const magma_0xcbc501 of magma_0x8de01b) {
+      if (magma_0xcbc501[magma_0x079c70(520)] !== magma_0x079c70(502)) continue;
+      for (const magma_0xbbbbfe of magma_0xcbc501[magma_0x079c70(523)]) {
+        if (magma_0xbbbbfe[magma_0x079c70(508)] === magma_0x079c70(514) && magma_0xbbbbfe["rel"] === "modulepreload") magma_0xe60568(magma_0xbbbbfe);
       }
     }
-  })["observe"](document, { "childList": !![], "subtree": !![] });
-  function magma_0x1b3cd2(magma_0x76770d) {
-    const magma_0x1450b3 = magma_0x5c5f12, magma_0xffec6c = {};
-    if (magma_0x76770d[magma_0x1450b3(434)]) magma_0xffec6c["integrity"] = magma_0x76770d[magma_0x1450b3(434)];
-    if (magma_0x76770d[magma_0x1450b3(421)]) magma_0xffec6c[magma_0x1450b3(421)] = magma_0x76770d[magma_0x1450b3(421)];
-    if (magma_0x76770d[magma_0x1450b3(430)] === "use-credentials") magma_0xffec6c[magma_0x1450b3(422)] = magma_0x1450b3(419);
+  })[magma_0xd45fbe(510)](document, { "childList": !![], "subtree": !![] });
+  function magma_0xde5d5b(magma_0xc2125d) {
+    const magma_0x228b9e = magma_0xd45fbe, magma_0xfdfe63 = {};
+    if (magma_0xc2125d["integrity"]) magma_0xfdfe63["integrity"] = magma_0xc2125d[magma_0x228b9e(503)];
+    if (magma_0xc2125d["referrerPolicy"]) magma_0xfdfe63[magma_0x228b9e(518)] = magma_0xc2125d[magma_0x228b9e(518)];
+    if (magma_0xc2125d["crossOrigin"] === magma_0x228b9e(497)) magma_0xfdfe63[magma_0x228b9e(519)] = "include";
     else {
-      if (magma_0x76770d[magma_0x1450b3(430)] === magma_0x1450b3(415)) magma_0xffec6c["credentials"] = magma_0x1450b3(432);
-      else magma_0xffec6c[magma_0x1450b3(422)] = magma_0x1450b3(424);
+      if (magma_0xc2125d[magma_0x228b9e(512)] === "anonymous") magma_0xfdfe63[magma_0x228b9e(519)] = "omit";
+      else magma_0xfdfe63["credentials"] = magma_0x228b9e(495);
     }
-    return magma_0xffec6c;
+    return magma_0xfdfe63;
   }
-  function magma_0xfc84f4(magma_0x66393e) {
-    const magma_0xf4fd54 = magma_0x5c5f12;
-    if (magma_0x66393e["ep"]) return;
-    magma_0x66393e["ep"] = !![];
-    const magma_0x6bc158 = magma_0x1b3cd2(magma_0x66393e);
-    fetch(magma_0x66393e[magma_0xf4fd54(410)], magma_0x6bc158);
+  function magma_0xe60568(magma_0xd35ed8) {
+    const magma_0x11a85b = magma_0xd45fbe;
+    if (magma_0xd35ed8["ep"]) return;
+    magma_0xd35ed8["ep"] = !![];
+    const magma_0xb0d0eb = magma_0xde5d5b(magma_0xd35ed8);
+    fetch(magma_0xd35ed8[magma_0x11a85b(513)], magma_0xb0d0eb);
   }
 })();
-function magma_0x2d3375(magma_0x7f5a8d2, magma_0xfb53fd) {
-  const magma_0x1b3cd2 = magma_0xec47ed();
-  return magma_0x2d3375 = function(magma_0xfc84f4, magma_0x3ad8e0) {
-    magma_0xfc84f4 = magma_0xfc84f4 - 407;
-    let magma_0x6c5fed = magma_0x1b3cd2[magma_0xfc84f4];
-    return magma_0x6c5fed;
-  }, magma_0x2d3375(magma_0x7f5a8d2, magma_0xfb53fd);
+function magma_0x3fa36b(magma_0x62ee482, magma_0xe92629) {
+  const magma_0xde5d5b = magma_0x131a5a();
+  return magma_0x3fa36b = function(magma_0xe60568, magma_0x42d996) {
+    magma_0xe60568 = magma_0xe60568 - 495;
+    let magma_0x8de01b = magma_0xde5d5b[magma_0xe60568];
+    return magma_0x8de01b;
+  }, magma_0x3fa36b(magma_0x62ee482, magma_0xe92629);
 }
-function magma_0xec47ed() {
-  const magma_0x55e445 = ["supports", "referrerPolicy", "credentials", "querySelectorAll", "same-origin", "1991095IOLfXU", "559654lDRxTo", "5398388WWKiqx", "313629htNJaL", "296595nktDRr", "crossOrigin", "5582704cxHbaB", "omit", "LINK", "integrity", "modulepreload", "6444641XIMYhN", "1mNjOil", "href", "childList", "relList", "link", "rel", "anonymous", "createElement", "tagName", "24IVtpyh", "include"];
-  magma_0xec47ed = function() {
-    return magma_0x55e445;
+function magma_0x131a5a() {
+  const magma_0xfe1e0e = ["credentials", "type", "370PXYVtV", "7830948EnBPaT", "addedNodes", "same-origin", 'link[rel="modulepreload"]', "use-credentials", "2000axtKfz", "131710PvwpDn", "27577hKfkpe", "relList", "childList", "integrity", "637973iAEOKH", "createElement", "supports", "210lFYukW", "tagName", "6219UpgCvu", "observe", "6TfsegH", "crossOrigin", "href", "LINK", "147582wYYWgW", "28RgJxbo", "838kfJwtl", "referrerPolicy"];
+  magma_0x131a5a = function() {
+    return magma_0xfe1e0e;
   };
-  return magma_0xec47ed();
+  return magma_0x131a5a();
 }
 /**
 * @vue/shared v3.5.21
@@ -8077,20 +8077,43 @@ const _sfc_main$d = /* @__PURE__ */ defineComponent({
 const BannerContent = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-f2457d5a"]]);
 function useFixedElements(bannerTopOffset, index) {
   const fixedElements = ref([]);
-  const bodyInitialPaddingTop = ref("");
+  const bodyInitialPaddingTop = ref("0px");
   const globalStore = useGlobalStore();
+  const findFixedElements = () => {
+    const exclusionParent = document.querySelector("#magma-app");
+    fixedElements.value = Array.from(document.querySelectorAll("body *")).filter((el) => {
+      if (exclusionParent && exclusionParent.contains(el)) {
+        return false;
+      }
+      const style = getComputedStyle(el);
+      const isFixedOrSticky = style.position === "fixed" || style.position === "sticky";
+      const isAtTop = parseFloat(style.top) >= 0 && parseFloat(style.top) < bannerTopOffset.value;
+      return isFixedOrSticky && isAtTop;
+    }).map((el) => {
+      const top = parseFloat(getComputedStyle(el).top);
+      return { element: el, top };
+    });
+  };
+  const updateFixedElements = () => {
+    if (bannerTopOffset.value === 0) return;
+    findFixedElements();
+    updateElementTop();
+  };
   const updateElementTop = () => {
     var _a;
     if (bannerTopOffset.value === 0) return;
     if (((_a = globalStore.widgets[index]) == null ? void 0 : _a.state) === 1) return;
     const currentPadding = parseFloat(bodyInitialPaddingTop.value) || 0;
     document.body.style.paddingTop = `${currentPadding + bannerTopOffset.value}px`;
+    fixedElements.value.forEach(({ element, top }) => {
+      element.style.top = `${top + bannerTopOffset.value}px`;
+    });
   };
   const resetElementTop = () => {
     document.body.style.paddingTop = bodyInitialPaddingTop.value;
-  };
-  const updateFixedElements = () => {
-    updateElementTop();
+    fixedElements.value.forEach(({ element, top }) => {
+      element.style.top = `${top}px`;
+    });
   };
   onMounted(() => {
     bodyInitialPaddingTop.value = getComputedStyle(document.body).paddingTop || "0px";
@@ -9333,4 +9356,4 @@ app.use(pinia);
 app.use(F);
 app.mount(mainAppContainer);
 
-          })();/* Version: v4.0.22 */
+          })();/* Version: v4.0.23 */
