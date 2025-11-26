@@ -377,10 +377,10 @@
 }
 }
 
-.mgm-banner-top[data-v-4c0151a0] {
+.mgm-banner-top[data-v-e22c365c] {
   position: fixed;
   width: 100%;
-  top: 0;
+  top: 0 !important;
 }
 
 .mgm-banner-bottom[data-v-1856bb1f] {
