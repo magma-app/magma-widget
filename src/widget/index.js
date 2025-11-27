@@ -1,62 +1,63 @@
 (function() {
             'use strict';
-            function magma_0xabdb39() {
-  const magma_0xc1b056 = ["childList", "integrity", "rel", "LINK", "referrerPolicy", 'link[rel="modulepreload"]', "addedNodes", "175ktuELK", "credentials", "use-credentials", "same-origin", "3112866mJlyBF", "supports", "21povxZr", "9611330hpVDIW", "createElement", "189556gOfuoA", "modulepreload", "querySelectorAll", "16dSjbCW", "371946iFUSzM", "crossOrigin", "include", "observe", "3051944PYhZOj", "122431bNsyNf", "link", "5381073OxZesP"];
-  magma_0xabdb39 = function() {
-    return magma_0xc1b056;
+            function magma_0xb5a282() {
+  const magma_0x295d94 = ["createElement", "integrity", "81LQYIbx", "3364448zgLZPh", "omit", "href", "type", "supports", "addedNodes", "link", "include", "1512906mvWgbq", "referrerPolicy", "500205NzmBkg", "observe", "credentials", "relList", 'link[rel="modulepreload"]', "crossOrigin", "733376wcjAVC", "1284394BwRPLI", "LINK", "3LtKMlv", "same-origin", "querySelectorAll", "childList", "anonymous", "7FIABnJ", "modulepreload", "use-credentials", "2404945Qbghrv", "rel", "1007390uuqPnw"];
+  magma_0xb5a282 = function() {
+    return magma_0x295d94;
   };
-  return magma_0xabdb39();
+  return magma_0xb5a282();
 }
-function magma_0x10c9f3(magma_0x690eb82, magma_0xe0a168) {
-  const magma_0xa3ee2c = magma_0xabdb39();
-  return magma_0x10c9f3 = function(magma_0x03e349, magma_0xb32fc8) {
-    magma_0x03e349 = magma_0x03e349 - 442;
-    let magma_0x3c6e25 = magma_0xa3ee2c[magma_0x03e349];
-    return magma_0x3c6e25;
-  }, magma_0x10c9f3(magma_0x690eb82, magma_0xe0a168);
+function magma_0x08a5e6(magma_0xbef3002, magma_0x9c3e85) {
+  const magma_0x543331 = magma_0xb5a282();
+  return magma_0x08a5e6 = function(magma_0xef0ed8, magma_0x671a0f) {
+    magma_0xef0ed8 = magma_0xef0ed8 - 277;
+    let magma_0x8e8da3 = magma_0x543331[magma_0xef0ed8];
+    return magma_0x8e8da3;
+  }, magma_0x08a5e6(magma_0xbef3002, magma_0x9c3e85);
 }
-(function(magma_0xcda2aa, magma_0x7d754a) {
-  const magma_0xb50053 = magma_0x10c9f3, magma_0xa92f41 = magma_0xcda2aa();
+(function(magma_0x48e648, magma_0x9347e4) {
+  const magma_0x9002ee = magma_0x08a5e6, magma_0xe1e2a7 = magma_0x48e648();
   while (!![]) {
     try {
-      const magma_0xfeb6b7 = parseInt(magma_0xb50053(461)) / 1 + parseInt(magma_0xb50053(455)) / 2 * (-parseInt(magma_0xb50053(456)) / 3) + parseInt(magma_0xb50053(452)) / 4 * (parseInt(magma_0xb50053(443)) / 5) + parseInt(magma_0xb50053(447)) / 6 + parseInt(magma_0xb50053(449)) / 7 * (parseInt(magma_0xb50053(460)) / 8) + -parseInt(magma_0xb50053(463)) / 9 + -parseInt(magma_0xb50053(450)) / 10;
-      if (magma_0xfeb6b7 === magma_0x7d754a) break;
-      else magma_0xa92f41["push"](magma_0xa92f41["shift"]());
-    } catch (magma_0xafe1b4) {
-      magma_0xa92f41["push"](magma_0xa92f41["shift"]());
+      const magma_0x1ea533 = parseInt(magma_0x9002ee(295)) / 1 + -parseInt(magma_0x9002ee(302)) / 2 + -parseInt(magma_0x9002ee(304)) / 3 * (parseInt(magma_0x9002ee(301)) / 4) + parseInt(magma_0x9002ee(279)) / 5 + -parseInt(magma_0x9002ee(293)) / 6 * (parseInt(magma_0x9002ee(309)) / 7) + -parseInt(magma_0x9002ee(285)) / 8 + -parseInt(magma_0x9002ee(284)) / 9 * (-parseInt(magma_0x9002ee(281)) / 10);
+      if (magma_0x1ea533 === magma_0x9347e4) break;
+      else magma_0xe1e2a7["push"](magma_0xe1e2a7["shift"]());
+    } catch (magma_0xef2e7a) {
+      magma_0xe1e2a7["push"](magma_0xe1e2a7["shift"]());
     }
   }
-})(magma_0xabdb39, 893450), (function magma_0x690eb8() {
-  const magma_0xc77d5b = magma_0x10c9f3, magma_0xe0a168 = document[magma_0xc77d5b(451)](magma_0xc77d5b(462))["relList"];
-  if (magma_0xe0a168 && magma_0xe0a168[magma_0xc77d5b(448)] && magma_0xe0a168[magma_0xc77d5b(448)](magma_0xc77d5b(453))) return;
-  for (const magma_0xb32fc8 of document[magma_0xc77d5b(454)](magma_0xc77d5b(469))) {
-    magma_0x03e349(magma_0xb32fc8);
+})(magma_0xb5a282, 389597), (function magma_0xbef300() {
+  const magma_0xb522f5 = magma_0x08a5e6, magma_0x9c3e85 = document[magma_0xb522f5(282)](magma_0xb522f5(291))[magma_0xb522f5(298)];
+  if (magma_0x9c3e85 && magma_0x9c3e85[magma_0xb522f5(289)] && magma_0x9c3e85[magma_0xb522f5(289)]("modulepreload")) return;
+  for (const magma_0x671a0f of document[magma_0xb522f5(306)](magma_0xb522f5(299))) {
+    magma_0xef0ed8(magma_0x671a0f);
   }
-  new MutationObserver((magma_0x3c6e25) => {
-    const magma_0xb72fb6 = magma_0xc77d5b;
-    for (const magma_0xecf49f of magma_0x3c6e25) {
-      if (magma_0xecf49f["type"] !== magma_0xb72fb6(464)) continue;
-      for (const magma_0xfb7bd1 of magma_0xecf49f[magma_0xb72fb6(442)]) {
-        if (magma_0xfb7bd1["tagName"] === magma_0xb72fb6(467) && magma_0xfb7bd1[magma_0xb72fb6(466)] === magma_0xb72fb6(453)) magma_0x03e349(magma_0xfb7bd1);
+  new MutationObserver((magma_0x8e8da3) => {
+    const magma_0x3b53ad = magma_0xb522f5;
+    for (const magma_0x4ad1aa of magma_0x8e8da3) {
+      if (magma_0x4ad1aa[magma_0x3b53ad(288)] !== magma_0x3b53ad(307)) continue;
+      for (const magma_0x918723 of magma_0x4ad1aa[magma_0x3b53ad(290)]) {
+        if (magma_0x918723["tagName"] === magma_0x3b53ad(303) && magma_0x918723[magma_0x3b53ad(280)] === magma_0x3b53ad(277)) magma_0xef0ed8(magma_0x918723);
       }
     }
-  })[magma_0xc77d5b(459)](document, { "childList": !![], "subtree": !![] });
-  function magma_0xa3ee2c(magma_0x8cf67e) {
-    const magma_0x8b9b3d = magma_0xc77d5b, magma_0xf59172 = {};
-    if (magma_0x8cf67e[magma_0x8b9b3d(465)]) magma_0xf59172["integrity"] = magma_0x8cf67e[magma_0x8b9b3d(465)];
-    if (magma_0x8cf67e[magma_0x8b9b3d(468)]) magma_0xf59172[magma_0x8b9b3d(468)] = magma_0x8cf67e[magma_0x8b9b3d(468)];
-    if (magma_0x8cf67e[magma_0x8b9b3d(457)] === magma_0x8b9b3d(445)) magma_0xf59172[magma_0x8b9b3d(444)] = magma_0x8b9b3d(458);
+  })[magma_0xb522f5(296)](document, { "childList": !![], "subtree": !![] });
+  function magma_0x543331(magma_0xbbbe7a) {
+    const magma_0xf8e9a0 = magma_0xb522f5, magma_0xd4fc47 = {};
+    if (magma_0xbbbe7a["integrity"]) magma_0xd4fc47["integrity"] = magma_0xbbbe7a[magma_0xf8e9a0(283)];
+    if (magma_0xbbbe7a["referrerPolicy"]) magma_0xd4fc47[magma_0xf8e9a0(294)] = magma_0xbbbe7a[magma_0xf8e9a0(294)];
+    if (magma_0xbbbe7a["crossOrigin"] === magma_0xf8e9a0(278)) magma_0xd4fc47["credentials"] = magma_0xf8e9a0(292);
     else {
-      if (magma_0x8cf67e[magma_0x8b9b3d(457)] === "anonymous") magma_0xf59172[magma_0x8b9b3d(444)] = "omit";
-      else magma_0xf59172["credentials"] = magma_0x8b9b3d(446);
+      if (magma_0xbbbe7a[magma_0xf8e9a0(300)] === magma_0xf8e9a0(308)) magma_0xd4fc47[magma_0xf8e9a0(297)] = magma_0xf8e9a0(286);
+      else magma_0xd4fc47[magma_0xf8e9a0(297)] = magma_0xf8e9a0(305);
     }
-    return magma_0xf59172;
+    return magma_0xd4fc47;
   }
-  function magma_0x03e349(magma_0x794c67) {
-    if (magma_0x794c67["ep"]) return;
-    magma_0x794c67["ep"] = !![];
-    const magma_0xb6780c = magma_0xa3ee2c(magma_0x794c67);
-    fetch(magma_0x794c67["href"], magma_0xb6780c);
+  function magma_0xef0ed8(magma_0x4b0011) {
+    const magma_0x1e1fcb = magma_0xb522f5;
+    if (magma_0x4b0011["ep"]) return;
+    magma_0x4b0011["ep"] = !![];
+    const magma_0xa1522a = magma_0x543331(magma_0x4b0011);
+    fetch(magma_0x4b0011[magma_0x1e1fcb(287)], magma_0xa1522a);
   }
 })();
 /**
@@ -7743,7 +7744,7 @@ const _hoisted_5$5 = {
 };
 const _hoisted_6$4 = ["src"];
 const _hoisted_7$3 = ["src"];
-const _hoisted_8$2 = {
+const _hoisted_8$3 = {
   key: 2,
   class: "mgm-text"
 };
@@ -7824,7 +7825,7 @@ const _sfc_main$i = /* @__PURE__ */ defineComponent({
                 alt: "logo"
               }, null, 40, _hoisted_7$3)
             ])),
-            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_8$2, [
+            __props.helpers.length === 1 ? (openBlock(), createElementBlock("div", _hoisted_8$3, [
               createBaseVNode("span", _hoisted_9$1, toDisplayString(__props.helpers[0].firstname), 1),
               createBaseVNode("span", _hoisted_10, toDisplayString(__props.helpers[0].role), 1)
             ])) : (openBlock(), createElementBlock("span", _hoisted_11, "+" + toDisplayString(typeof __props.helpersCount === "number" && __props.helpersCount > 3 ? __props.helpersCount - 3 : 5) + " " + toDisplayString((_a = unref(globalStore).widgets[__props.index]) == null ? void 0 : _a.helperTitlePlural.toLocaleLowerCase()), 1))
@@ -7838,7 +7839,8 @@ const CardDisplay = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["__scopeId", "dat
 const _sfc_main$h = /* @__PURE__ */ defineComponent({
   __name: "GlobalButton",
   props: {
-    index: {}
+    index: {},
+    text: {}
   },
   setup(__props) {
     const globalStore = useGlobalStore();
@@ -7847,11 +7849,11 @@ const _sfc_main$h = /* @__PURE__ */ defineComponent({
       return openBlock(), createElementBlock("button", {
         class: "mgm-button",
         onClick: _cache[0] || (_cache[0] = withModifiers(($event) => unref(globalStore).setWidgetState(_ctx.index, 2), ["stop"]))
-      }, toDisplayString(((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1);
+      }, toDisplayString(_ctx.text || ((_b = (_a = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || ((_c = unref(globalStore).widgets[_ctx.index]) == null ? void 0 : _c.title)), 1);
     };
   }
 });
-const Button = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-e0a51b88"]]);
+const GlobalButton = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["__scopeId", "data-v-89396026"]]);
 const _hoisted_1$9 = {
   key: 0,
   class: "mgm-card"
@@ -7884,7 +7886,7 @@ const _sfc_main$g = /* @__PURE__ */ defineComponent({
             index: _ctx.index
           }, null, 8, ["helpers", "helpersCount", "logo", "index"])
         ]),
-        createVNode(Button, { index: _ctx.index }, null, 8, ["index"])
+        createVNode(GlobalButton, { index: _ctx.index }, null, 8, ["index"])
       ])) : createCommentVNode("", true);
     };
   }
@@ -8294,7 +8296,7 @@ const _sfc_main$9 = /* @__PURE__ */ defineComponent({
           }), 128))
         ]),
         createBaseVNode("div", null, [
-          createVNode(Button, { index: _ctx.index }, null, 8, ["index"])
+          createVNode(GlobalButton, { index: _ctx.index }, null, 8, ["index"])
         ])
       ])) : createCommentVNode("", true);
     };
@@ -8656,7 +8658,7 @@ const _hoisted_7$2 = {
   key: 0,
   class: "mgm-review-item__comment"
 };
-const _hoisted_8$1 = {
+const _hoisted_8$2 = {
   key: 0,
   class: "mgm-reviews-wall-powered"
 };
@@ -8745,7 +8747,7 @@ const _sfc_main$5 = /* @__PURE__ */ defineComponent({
           ]),
           _: 1
         }, 8, ["items"]),
-        integration.value.hasMagmaBadge ? (openBlock(), createElementBlock("div", _hoisted_8$1, [..._cache[2] || (_cache[2] = [
+        integration.value.hasMagmaBadge ? (openBlock(), createElementBlock("div", _hoisted_8$2, [..._cache[2] || (_cache[2] = [
           createBaseVNode("a", { href: "https://magma.app" }, [
             createBaseVNode("p", null, "Propulsé par"),
             createBaseVNode("img", {
@@ -8846,7 +8848,7 @@ const _hoisted_6$1 = {
   class: "mgm-ambassador-touchpoints"
 };
 const _hoisted_7$1 = ["src", "alt"];
-const _hoisted_8 = {
+const _hoisted_8$1 = {
   key: 0,
   class: "mgm-plus"
 };
@@ -8912,7 +8914,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
                     alt: touchpoint
                   }, null, 8, _hoisted_7$1);
                 }), 128)),
-                remainingTouchpointsCount.value > 0 ? (openBlock(), createElementBlock("div", _hoisted_8, [
+                remainingTouchpointsCount.value > 0 ? (openBlock(), createElementBlock("div", _hoisted_8$1, [
                   createBaseVNode("span", null, "+" + toDisplayString(remainingTouchpointsCount.value), 1)
                 ])) : createCommentVNode("", true)
               ])) : createCommentVNode("", true)
@@ -8920,7 +8922,7 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
           ]),
           _ctx.helper.position ? (openBlock(), createElementBlock("p", _hoisted_9, toDisplayString(_ctx.helper.position), 1)) : createCommentVNode("", true)
         ]),
-        createVNode(Button, { index: _ctx.index }, null, 8, ["index"])
+        createVNode(GlobalButton, { index: _ctx.index }, null, 8, ["index"])
       ]);
     };
   }
@@ -8992,6 +8994,10 @@ const _hoisted_7 = {
   key: 1,
   class: "mgm-action-more"
 };
+const _hoisted_8 = {
+  key: 2,
+  class: "mgm-empty-state"
+};
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "GalleryIntegration",
   props: {
@@ -9026,7 +9032,9 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         noFilter: "Sans filtre",
         poweredBy: "Propulsé par",
         seeMore: "Voir plus",
-        defaultHelperTitle: "d'ambassadeurs"
+        defaultHelperTitle: "d'ambassadeurs",
+        emptyState: "Il n'y a pas d'ambassadeurs disponibles",
+        meetAmbassador: "Rencontrer un ambassadeur"
       },
       en: {
         campaign: "Campaign",
@@ -9034,7 +9042,9 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         noFilter: "No filter",
         poweredBy: "Powered by",
         seeMore: "See more",
-        defaultHelperTitle: "ambassadors"
+        defaultHelperTitle: "ambassadors",
+        emptyState: "No ambassadors available",
+        meetAmbassador: "Meet an ambassador"
       }
     };
     const t = computed(() => translations[language.value] || translations.fr);
@@ -9118,7 +9128,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       displayCount.value = 20;
     };
     return (_ctx, _cache) => {
-      var _a, _b, _c, _d;
+      var _a, _b, _c, _d, _e;
       return openBlock(), createElementBlock("div", _hoisted_1, [
         createBaseVNode("div", _hoisted_2, [
           createBaseVNode("div", _hoisted_3, [
@@ -9158,12 +9168,19 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         ])) : createCommentVNode("", true),
         hasMoreHelpers.value ? (openBlock(), createElementBlock("div", _hoisted_7, [
           createBaseVNode("button", { onClick: showMoreHelpers }, toDisplayString(((_b = (_a = widget.value) == null ? void 0 : _a.customStyles) == null ? void 0 : _b.buttonText) || `${t.value.seeMore} ${((_d = (_c = widget.value) == null ? void 0 : _c.helperTitlePlural) == null ? void 0 : _d.toLowerCase()) || t.value.defaultHelperTitle}`), 1)
+        ])) : createCommentVNode("", true),
+        displayedHelpers.value.length === 0 ? (openBlock(), createElementBlock("div", _hoisted_8, [
+          createBaseVNode("p", null, toDisplayString(t.value.emptyState), 1),
+          createVNode(GlobalButton, {
+            index: _ctx.index,
+            text: ((_e = widget.value) == null ? void 0 : _e.title) || t.value.meetAmbassador
+          }, null, 8, ["index", "text"])
         ])) : createCommentVNode("", true)
       ]);
     };
   }
 });
-const GalleryIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-2b6bd565"]]);
+const GalleryIntegration = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-d0bc9d36"]]);
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "App",
   setup(__props) {
@@ -9355,4 +9372,4 @@ app.use(pinia);
 app.use(F);
 app.mount(mainAppContainer);
 
-          })();/* Version: v4.0.24 */
+          })();/* Version: v4.0.25 */
