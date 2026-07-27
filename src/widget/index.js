@@ -1,63 +1,64 @@
 (function() {
             'use strict';
-            function magma_0x95e092(magma_0x9b04aa2, magma_0xa08b39) {
-  const magma_0xfb3a38 = magma_0x19abb2();
-  return magma_0x95e092 = function(magma_0x37a464, magma_0xfc4234) {
-    magma_0x37a464 = magma_0x37a464 - 167;
-    let magma_0xe00ad5 = magma_0xfb3a38[magma_0x37a464];
-    return magma_0xe00ad5;
-  }, magma_0x95e092(magma_0x9b04aa2, magma_0xa08b39);
+            function magma_0xccf6ec(magma_0x1516092, magma_0xc19df8) {
+  const magma_0x1fdf16 = magma_0xde775e();
+  return magma_0xccf6ec = function(magma_0xbbf300, magma_0x46610f) {
+    magma_0xbbf300 = magma_0xbbf300 - 379;
+    let magma_0x70b3e3 = magma_0x1fdf16[magma_0xbbf300];
+    return magma_0x70b3e3;
+  }, magma_0xccf6ec(magma_0x1516092, magma_0xc19df8);
 }
-(function(magma_0xbe6f49, magma_0x4782cf) {
-  const magma_0x779231 = magma_0x95e092, magma_0x0fc3f4 = magma_0xbe6f49();
+(function(magma_0xa1b04e, magma_0xb265a0) {
+  const magma_0xff1146 = magma_0xccf6ec, magma_0x28d73b = magma_0xa1b04e();
   while (!![]) {
     try {
-      const magma_0xb0b4eb = -parseInt(magma_0x779231(193)) / 1 + parseInt(magma_0x779231(191)) / 2 + -parseInt(magma_0x779231(185)) / 3 * (parseInt(magma_0x779231(190)) / 4) + parseInt(magma_0x779231(168)) / 5 + parseInt(magma_0x779231(174)) / 6 + -parseInt(magma_0x779231(171)) / 7 + parseInt(magma_0x779231(169)) / 8;
-      if (magma_0xb0b4eb === magma_0x4782cf) break;
-      else magma_0x0fc3f4["push"](magma_0x0fc3f4["shift"]());
-    } catch (magma_0x1f4b78) {
-      magma_0x0fc3f4["push"](magma_0x0fc3f4["shift"]());
+      const magma_0xe0ef5e = parseInt(magma_0xff1146(398)) / 1 * (-parseInt(magma_0xff1146(408)) / 2) + parseInt(magma_0xff1146(384)) / 3 + parseInt(magma_0xff1146(407)) / 4 * (-parseInt(magma_0xff1146(379)) / 5) + parseInt(magma_0xff1146(385)) / 6 + -parseInt(magma_0xff1146(390)) / 7 + -parseInt(magma_0xff1146(381)) / 8 * (-parseInt(magma_0xff1146(389)) / 9) + parseInt(magma_0xff1146(388)) / 10;
+      if (magma_0xe0ef5e === magma_0xb265a0) break;
+      else magma_0x28d73b["push"](magma_0x28d73b["shift"]());
+    } catch (magma_0xed21e7) {
+      magma_0x28d73b["push"](magma_0x28d73b["shift"]());
     }
   }
-})(magma_0x19abb2, 955487), (function magma_0x9b04aa() {
-  const magma_0xb57927 = magma_0x95e092, magma_0xa08b39 = document[magma_0xb57927(183)](magma_0xb57927(176))[magma_0xb57927(173)];
-  if (magma_0xa08b39 && magma_0xa08b39[magma_0xb57927(167)] && magma_0xa08b39[magma_0xb57927(167)](magma_0xb57927(194))) return;
-  for (const magma_0xfc4234 of document[magma_0xb57927(184)](magma_0xb57927(187))) {
-    magma_0x37a464(magma_0xfc4234);
+})(magma_0xde775e, 180045), (function magma_0x151609() {
+  const magma_0x15e1cf = magma_0xccf6ec, magma_0xc19df8 = document["createElement"]("link")[magma_0x15e1cf(382)];
+  if (magma_0xc19df8 && magma_0xc19df8[magma_0x15e1cf(391)] && magma_0xc19df8[magma_0x15e1cf(391)](magma_0x15e1cf(405))) return;
+  for (const magma_0x46610f of document[magma_0x15e1cf(394)](magma_0x15e1cf(404))) {
+    magma_0xbbf300(magma_0x46610f);
   }
-  new MutationObserver((magma_0xe00ad5) => {
-    const magma_0xb97317 = magma_0xb57927;
-    for (const magma_0x0e5f42 of magma_0xe00ad5) {
-      if (magma_0x0e5f42[magma_0xb97317(178)] !== magma_0xb97317(188)) continue;
-      for (const magma_0xd74334 of magma_0x0e5f42[magma_0xb97317(189)]) {
-        if (magma_0xd74334[magma_0xb97317(181)] === "LINK" && magma_0xd74334[magma_0xb97317(192)] === magma_0xb97317(194)) magma_0x37a464(magma_0xd74334);
+  new MutationObserver((magma_0x70b3e3) => {
+    const magma_0x496900 = magma_0x15e1cf;
+    for (const magma_0xa7eaf6 of magma_0x70b3e3) {
+      if (magma_0xa7eaf6[magma_0x496900(401)] !== magma_0x496900(380)) continue;
+      for (const magma_0x374a44 of magma_0xa7eaf6[magma_0x496900(396)]) {
+        if (magma_0x374a44["tagName"] === magma_0x496900(395) && magma_0x374a44[magma_0x496900(386)] === magma_0x496900(405)) magma_0xbbf300(magma_0x374a44);
       }
     }
-  })["observe"](document, { "childList": !![], "subtree": !![] });
-  function magma_0xfb3a38(magma_0x3ed605) {
-    const magma_0x4e210e = magma_0xb57927, magma_0x3ff086 = {};
-    if (magma_0x3ed605[magma_0x4e210e(182)]) magma_0x3ff086["integrity"] = magma_0x3ed605["integrity"];
-    if (magma_0x3ed605[magma_0x4e210e(177)]) magma_0x3ff086[magma_0x4e210e(177)] = magma_0x3ed605[magma_0x4e210e(177)];
-    if (magma_0x3ed605[magma_0x4e210e(175)] === "use-credentials") magma_0x3ff086[magma_0x4e210e(170)] = magma_0x4e210e(172);
+  })[magma_0x15e1cf(392)](document, { "childList": !![], "subtree": !![] });
+  function magma_0x1fdf16(magma_0x0c0140) {
+    const magma_0xc2b880 = magma_0x15e1cf, magma_0x96fa30 = {};
+    if (magma_0x0c0140[magma_0xc2b880(383)]) magma_0x96fa30[magma_0xc2b880(383)] = magma_0x0c0140[magma_0xc2b880(383)];
+    if (magma_0x0c0140[magma_0xc2b880(399)]) magma_0x96fa30[magma_0xc2b880(399)] = magma_0x0c0140[magma_0xc2b880(399)];
+    if (magma_0x0c0140[magma_0xc2b880(402)] === "use-credentials") magma_0x96fa30[magma_0xc2b880(393)] = magma_0xc2b880(400);
     else {
-      if (magma_0x3ed605[magma_0x4e210e(175)] === magma_0x4e210e(179)) magma_0x3ff086[magma_0x4e210e(170)] = magma_0x4e210e(180);
-      else magma_0x3ff086[magma_0x4e210e(170)] = magma_0x4e210e(186);
+      if (magma_0x0c0140[magma_0xc2b880(402)] === magma_0xc2b880(397)) magma_0x96fa30["credentials"] = magma_0xc2b880(406);
+      else magma_0x96fa30["credentials"] = magma_0xc2b880(403);
     }
-    return magma_0x3ff086;
+    return magma_0x96fa30;
   }
-  function magma_0x37a464(magma_0xead88e) {
-    if (magma_0xead88e["ep"]) return;
-    magma_0xead88e["ep"] = !![];
-    const magma_0xe1af96 = magma_0xfb3a38(magma_0xead88e);
-    fetch(magma_0xead88e["href"], magma_0xe1af96);
+  function magma_0xbbf300(magma_0x70768a) {
+    const magma_0x581102 = magma_0x15e1cf;
+    if (magma_0x70768a["ep"]) return;
+    magma_0x70768a["ep"] = !![];
+    const magma_0x1a7eb5 = magma_0x1fdf16(magma_0x70768a);
+    fetch(magma_0x70768a[magma_0x581102(387)], magma_0x1a7eb5);
   }
 })();
-function magma_0x19abb2() {
-  const magma_0xbea138 = ["integrity", "createElement", "querySelectorAll", "132747SoaDgj", "same-origin", 'link[rel="modulepreload"]', "childList", "addedNodes", "128UTJnXH", "3041846euVZwI", "rel", "296063AuKCeq", "modulepreload", "supports", "2485040wPnFEI", "3015576fVjYjv", "credentials", "5274381haLRua", "include", "relList", "6156738ECVtar", "crossOrigin", "link", "referrerPolicy", "type", "anonymous", "omit", "tagName"];
-  magma_0x19abb2 = function() {
-    return magma_0xbea138;
+function magma_0xde775e() {
+  const magma_0xc7ec43 = ["rel", "href", "1635430uIfZyD", "9mgfpGn", "320859PBIjqg", "supports", "observe", "credentials", "querySelectorAll", "LINK", "addedNodes", "anonymous", "547zUPvfS", "referrerPolicy", "include", "type", "crossOrigin", "same-origin", 'link[rel="modulepreload"]', "modulepreload", "omit", "4HaPrcZ", "232WIxdjf", "612385Jmqkwd", "childList", "115448TyQnAY", "relList", "integrity", "371424DChvYm", "660174rCoMtf"];
+  magma_0xde775e = function() {
+    return magma_0xc7ec43;
   };
-  return magma_0x19abb2();
+  return magma_0xde775e();
 }
 /**
 * @vue/shared v3.5.21
@@ -102,7 +103,7 @@ const toTypeString = (value) => objectToString.call(value);
 const toRawType = (value) => {
   return toTypeString(value).slice(8, -1);
 };
-const isPlainObject$1 = (val) => toTypeString(val) === "[object Object]";
+const isPlainObject$2 = (val) => toTypeString(val) === "[object Object]";
 const isIntegerKey = (key) => isString(key) && key !== "NaN" && key[0] !== "-" && "" + parseInt(key, 10) === key;
 const isReservedProp = /* @__PURE__ */ makeMap(
   // the leading comma is intentional so empty string "" is also included
@@ -240,7 +241,7 @@ const replacer = (_key, val) => {
     };
   } else if (isSymbol(val)) {
     return stringifySymbol(val);
-  } else if (isObject(val) && !isArray(val) && !isPlainObject$1(val)) {
+  } else if (isObject(val) && !isArray(val) && !isPlainObject$2(val)) {
     return String(val);
   }
   return val;
@@ -1780,7 +1781,7 @@ function traverse(value, depth = Infinity, seen) {
     value.forEach((v) => {
       traverse(v, depth, seen);
     });
-  } else if (isPlainObject$1(value)) {
+  } else if (isPlainObject$2(value)) {
     for (const key in value) {
       traverse(value[key], depth, seen);
     }
@@ -7256,7 +7257,7 @@ const piniaSymbol = (
   /* istanbul ignore next */
   Symbol()
 );
-function isPlainObject(o) {
+function isPlainObject$1(o) {
   return o && typeof o === "object" && Object.prototype.toString.call(o) === "[object Object]" && typeof o.toJSON !== "function";
 }
 var MutationType;
@@ -7334,7 +7335,7 @@ function mergeReactiveObjects(target, patchToApply) {
       continue;
     const subPatch = patchToApply[key];
     const targetValue = target[key];
-    if (isPlainObject(targetValue) && isPlainObject(subPatch) && target.hasOwnProperty(key) && !isRef(subPatch) && !isReactive(subPatch)) {
+    if (isPlainObject$1(targetValue) && isPlainObject$1(subPatch) && target.hasOwnProperty(key) && !isRef(subPatch) && !isReactive(subPatch)) {
       target[key] = mergeReactiveObjects(targetValue, subPatch);
     } else {
       target[key] = subPatch;
@@ -7347,7 +7348,7 @@ const skipHydrateSymbol = (
   Symbol()
 );
 function shouldHydrate(obj) {
-  return !isPlainObject(obj) || !obj.hasOwnProperty(skipHydrateSymbol);
+  return !isPlainObject$1(obj) || !obj.hasOwnProperty(skipHydrateSymbol);
 }
 const { assign } = Object;
 function isComputed(o) {
@@ -7619,6 +7620,115 @@ const useGlobalStore = /* @__PURE__ */ defineStore("global", {
     }
   }
 });
+const MAX_JSON_BYTES = 1536;
+const MAX_KEYS = 30;
+const MAX_DEPTH = 3;
+const MAX_KEY_LENGTH = 128;
+const MAX_VALUE_LENGTH = 512;
+const MAX_ARRAY_LENGTH = 20;
+const DENIED_KEYS = ["__proto__", "constructor", "prototype"];
+const isPlainObject = (value) => typeof value === "object" && value !== null && !Array.isArray(value);
+const cleanString = (value, maxLength) => {
+  const truncated = value.replace(/\0/g, "").slice(0, maxLength);
+  return new TextDecoder().decode(new TextEncoder().encode(truncated));
+};
+const cleanKey = (key) => {
+  const cleaned = cleanString(key, MAX_KEY_LENGTH).trim();
+  if (!cleaned) return null;
+  if (DENIED_KEYS.indexOf(cleaned) !== -1) return null;
+  return cleaned;
+};
+const cleanValue = (value, depth) => {
+  if (value === null) return null;
+  const type = typeof value;
+  if (type === "string") return cleanString(value, MAX_VALUE_LENGTH);
+  if (type === "boolean") return value;
+  if (type === "number") return isFinite(value) ? value : void 0;
+  if (type !== "object") return void 0;
+  if (depth >= MAX_DEPTH) return void 0;
+  if (Array.isArray(value)) {
+    const items = [];
+    value.slice(0, MAX_ARRAY_LENGTH).forEach((item) => {
+      const cleaned = cleanValue(item, depth + 1);
+      if (cleaned !== void 0) items.push(cleaned);
+    });
+    return items;
+  }
+  const nested = {};
+  Object.keys(value).forEach((key) => {
+    const cleanedKey = cleanKey(key);
+    if (cleanedKey === null) return;
+    const cleaned = cleanValue(value[key], depth + 1);
+    if (cleaned === void 0) return;
+    nested[cleanedKey] = cleaned;
+  });
+  return nested;
+};
+const sanitizeTracking = (input) => {
+  try {
+    if (input === void 0 || input === null) return void 0;
+    if (!isPlainObject(input)) {
+      console.warn("[magma] window.magma_app[].tracking must be a plain object — ignoring it.");
+      return void 0;
+    }
+    const cleaned = {};
+    const dropped = [];
+    Object.keys(input).forEach((key) => {
+      const cleanedKey = cleanKey(key);
+      if (cleanedKey === null) {
+        dropped.push(key);
+        return;
+      }
+      if (Object.keys(cleaned).length >= MAX_KEYS) {
+        dropped.push(cleanedKey);
+        return;
+      }
+      const value = cleanValue(input[key], 1);
+      if (value === void 0) {
+        dropped.push(cleanedKey);
+        return;
+      }
+      cleaned[cleanedKey] = value;
+    });
+    if (dropped.length > 0) {
+      console.warn(
+        `[magma] tracking: dropped unsupported or over-limit keys: ${dropped.join(", ")}`
+      );
+    }
+    return Object.keys(cleaned).length > 0 ? cleaned : void 0;
+  } catch (e) {
+    return void 0;
+  }
+};
+const toBase64Url = (bytes) => {
+  let binary = "";
+  for (let i = 0; i < bytes.length; i += 1) binary += String.fromCharCode(bytes[i]);
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+};
+const encodeTracking = (tracking) => {
+  try {
+    if (!tracking || Object.keys(tracking).length === 0) return "";
+    const trimmed = { ...tracking };
+    const keys = Object.keys(trimmed);
+    let bytes = new TextEncoder().encode(JSON.stringify(trimmed));
+    const droppedForSize = [];
+    while (keys.length > 0 && bytes.length > MAX_JSON_BYTES) {
+      const key = keys.pop();
+      delete trimmed[key];
+      droppedForSize.push(key);
+      bytes = new TextEncoder().encode(JSON.stringify(trimmed));
+    }
+    if (droppedForSize.length > 0) {
+      console.warn(
+        `[magma] tracking exceeded ${MAX_JSON_BYTES} bytes — dropped: ${droppedForSize.join(", ")}`
+      );
+    }
+    if (keys.length === 0) return "";
+    return toBase64Url(bytes);
+  } catch (e) {
+    return "";
+  }
+};
 function useDefaultImage() {
   const defaultImageUrl = "https://magma-assets.s3.eu-west-3.amazonaws.com/camille.webp";
   const setDefaultImage = (e) => {
@@ -8424,10 +8534,11 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     const { sendEvent } = useSendingEvent();
     const modalBackdrop = ref(null);
     const src = computed(() => {
-      var _a, _b;
+      var _a, _b, _c;
       const currentPage = getCurrentPageUrl();
       const acquisitionSourceValue = getSource() || getUtmSource() || getUtmMedium() || getUtmCampaign() || getReferrer() || "direct";
-      return `${"https://v3.magma.app/"}${((_a = globalStore.widgets[props.index]) == null ? void 0 : _a.type) === "campaignUuid" ? "helpee-signup" : "helpee-campaigns"}/${(_b = globalStore.widgets[props.index]) == null ? void 0 : _b.uuid}?widget=true${`&source=${encodeURIComponent(acquisitionSourceValue)}&current_page=${encodeURIComponent(currentPage)}`}`;
+      const trackingValue = encodeTracking((_a = globalStore.widgets[props.index]) == null ? void 0 : _a.tracking);
+      return `${"https://v3.magma.app/"}${((_b = globalStore.widgets[props.index]) == null ? void 0 : _b.type) === "campaignUuid" ? "helpee-signup" : "helpee-campaigns"}/${(_c = globalStore.widgets[props.index]) == null ? void 0 : _c.uuid}?widget=true${`&source=${encodeURIComponent(acquisitionSourceValue)}&current_page=${encodeURIComponent(currentPage)}`}${trackingValue ? `&tracking=${trackingValue}` : ""}`;
     });
     const globalStore = useGlobalStore();
     const handleClose = () => {
@@ -8482,7 +8593,7 @@ const _sfc_main$6 = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const ModalForm = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-7dd99004"]]);
+const ModalForm = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-36a52786"]]);
 function u(t, o) {
   let e;
   return (...i) => {
@@ -9267,7 +9378,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
           globalStore.addWidget({
             ...widget,
             autoPopup: window.magma_app[index].autoPopup,
-            customStyles: window.magma_app[index].customStyles
+            customStyles: window.magma_app[index].customStyles,
+            tracking: sanitizeTracking(window.magma_app[index].tracking)
           });
         }
       });
@@ -9373,4 +9485,4 @@ app.use(pinia);
 app.use(F);
 app.mount(mainAppContainer);
 
-          })();/* Version: v4.0.30 */
+          })();/* Version: v4.0.31 */
